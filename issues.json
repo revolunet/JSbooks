@@ -10,8 +10,8 @@
         "level": "beginner",
         "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
         "id": "106",
-        "url": "http://js.books.revolunet.com/apps/106.zip",
-        "cover": "http://js.books.revolunet.com/apps/106.png"
+        "url": "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
+        "cover": "img/cover_jsenlight.png"
     },
     {
         "type": "html",
@@ -21,11 +21,11 @@
         "date": "03/02/2011",
         "price": 0,
         "currency": "€",
-        "level": "beginner",
+        "level": "intermediate",
         "info": "Eloquent JavaScript is a book providing an introduction to the JavaScript language and programming in general.",
         "id": "102",
-        "url": "http://js.books.revolunet.com/apps/102.zip",
-        "cover": "http://js.books.revolunet.com/apps/102.png"
+        "url": "http://eloquentjavascript.net/contents.html",
+        "cover": "img/cover_eloquentjs.png"
     },
     {
         "type": "pdf",
@@ -38,8 +38,8 @@
         "level": "advanced",
         "info": "best Of Let’s Make a Framework articles.",
         "id": "101",
-        "url": "http://js.books.revolunet.com/apps/101.zip",
-        "cover": "http://js.books.revolunet.com/apps/101.png"
+        "url": "http://dailyjs.com/files/build-a-javascript-framework.pdf",
+        "cover": "img/cover_buildingjsframework.png"
     },
     {
         "type": "pdf",
@@ -52,8 +52,8 @@
         "level": "advanced",
         "info": "O. In Mastering Node we will discover how to write high concurrency web servers, utilizing the CommonJS module system...",
         "id": "104",
-        "url": "http://js.books.revolunet.com/apps/104.zip",
-        "cover": "http://js.books.revolunet.com/apps/104.png"
+        "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
+        "cover": "img/cover_masteringnode.png"
     },
     {
         "type": "pdf",
@@ -66,8 +66,8 @@
         "level": "intermediate",
         "info": "An introduction to CoffeeScript programming with an emphasis on clarity, abstraction and verification.",
         "id": "103",
-        "url": "http://js.books.revolunet.com/apps/103.zip",
-        "cover": "http://js.books.revolunet.com/apps/103.png"
+        "url": "http://autotelicum.github.com/Smooth-CoffeeScript/interactive/interactive-coffeescript.html",
+        "cover": "img/cover_smoothcoffeescript.png"
     },
     {
         "type": "html",
@@ -80,8 +80,8 @@
         "level": "intermediate",
         "info": "The aim of the book is to get you started with developing applications with Node.js, teaching you everything you need to know about 'advanced' JavaScript along the way.",
         "id": "105",
-        "url": "http://js.books.revolunet.com/apps/105.zip",
-        "cover": "http://js.books.revolunet.com/apps/105.png"
+        "url": "http://www.nodebeginner.org/#about",
+        "cover": "img/cover_nodebeginnerbook.png"
     },
     {
         "type": "html",
@@ -94,7 +94,7 @@
         "level": "beginner",
         "info": "Community driven Javascript and jQuery book and <a target='_blank' href='http://creativecommons.org/licenses/by-sa/3.0/us/'>CC3 licensed</a>",
         "id": "100",
-        "url": "http://js.books.revolunet.com/apps/100.zip",
-        "cover": "http://js.books.revolunet.com/apps/100.png"
+        "url": "http://jqfundamentals.com/",
+        "cover": "img/cover_jqueryfund.png"
     }
 ]}
