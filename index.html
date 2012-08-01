@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>JSMag</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-    <meta name="description" content="JSMag est une ressource des meilleures ebooks gratuits concernant le Javascript. Retrouvez en un seul point les meilleures publications sans sortir le moindre centimes de votre porte-monnaie !">
+    <meta name="description" content="JSMag is a showcase of the bests free ebooks about Javascript. Find here the best publications about your favourite programming langage without spending any bucks !">
     <meta name="author" content="Revolunet">
 
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
@@ -58,9 +58,8 @@
           </p>  
           <p>Follow us out there : </p>
            <ul>
-            <li> <a href="https://twitter.com/revolunet"> <img src="img/social_twitter.png" width="24" height="24" alt=""> </a> </li>
-            <li> <a href="https://plus.google.com/u/0/104431976057744198388/"> <img src="img/social_gplus.png" width="24" height="24" alt=""> </a> </li>
-            <li> <a href="callto:revolunet"> <img src="img/social_skype.png" width="24" height="24" alt=""> </a> </li>
+            <li> <a href="https://twitter.com/revolunet"> <img src="img/social_twitter.png" target="_blank" width="24" height="24" alt=""> </a> </li>
+            <li> <a href="callto:revolunet"> <img src="img/social_skype.png" target="_blank" width="24" height="24" alt=""> </a> </li>
           </ul>
         </div>
       </div>
@@ -96,7 +95,7 @@
     <script id="booktpl" type="text/template">
         {{#books}} 
          <div class="span4 booksection">
-          <div id="cover" style="background:url('{{cover}}') no-repeat center;">
+          <div id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain;">
             <div id="{{level}}"></div>
           </div>
           <h2>{{title}}</h2>

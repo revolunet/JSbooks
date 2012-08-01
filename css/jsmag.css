@@ -1213,9 +1213,6 @@ footer {
   height: 184px;
   margin-right: 20px;
   outline: 3px solid white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
 }
 .booksection #cover #beginner,
 .booksection #cover #intermediate,
