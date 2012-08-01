@@ -88,7 +88,7 @@
         "info": "JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.",
         "url": "https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview",
         "cover": "img/cover_jsguidemozilla.png"
-    }
+    },
     {
         "title": "The little Book on CoffeeScript",
         "author": "Alex MacCaw",
