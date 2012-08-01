@@ -80,6 +80,26 @@
         "cover": "img/cover_jspatterns.png"
     },
     {
+        "title": "Developing Backbone.js Applications",
+        "author": "Addy Osmani",
+        "authorUrl": "https://twitter.com/addyosmani",
+        "date": "2012",
+        "level": "intermediate",
+        "info": "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
+        "url": "http://addyosmani.github.com/backbone-fundamentals",
+        "cover": "img/cover_backbonefundamentals.png"
+    },
+    {
+        "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
+        "author": "Addy Osmani",
+        "authorUrl": "https://twitter.com/addyosmani",
+        "date": "2011",
+        "level": "advanced",
+        "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
+        "url": "http://addyosmani.com/writing-modular-js",
+        "cover": "img/cover_modularjavascript.png"
+    },
+    {
         "title": "Javascript Guide",
         "author": "Mozilla Developer Network",
         "authorUrl": "https://developer.mozilla.org",
