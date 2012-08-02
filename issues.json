@@ -4,7 +4,7 @@
         "author": "Cody Lindley",
         "authorUrl": "http://www.javascriptenlightenment.com",
         "date": "12/01/2011",
-        "level": "beginner",
+        "level": "Beginner",
         "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
         "url": "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
         "cover": "img/cover_jsenlight.png"
@@ -14,7 +14,7 @@
         "author": "Marijn Haverbeke",
         "authorUrl": "http://eloquentjavascript.net",
         "date": "03/02/2011",
-        "level": "intermediate",
+        "level": "Intermediate",
         "info": "Eloquent JavaScript is a book providing an introduction to the JavaScript language and programming in general.",
         "url": "http://eloquentjavascript.net/contents.html",
         "cover": "img/cover_eloquentjs.png"
@@ -24,7 +24,7 @@
         "author": "Alex Young",
         "authorUrl": "http://dailyjs.com",
         "date": "02/12/2010",
-        "level": "advanced",
+        "level": "Advanced",
         "info": "best Of Let’s Make a Framework articles.",
         "url": "http://dailyjs.com/files/build-a-javascript-framework.pdf",
         "cover": "img/cover_buildingjsframework.png"
@@ -34,7 +34,7 @@
         "author": "TJ Holowaychuk",
         "authorUrl": "http://visionmedia.github.com/masteringnode",
         "date": "06/07/2011",
-        "level": "advanced",
+        "level": "Advanced",
         "info": "O. In Mastering Node we will discover how to write high concurrency web servers, utilizing the CommonJS module system...",
         "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
         "cover": "img/cover_masteringnode.png"
@@ -44,7 +44,7 @@
         "author": "E. Hoigaard",
         "authorUrl": "http://autotelicum.github.com/Smooth-CoffeeScript",
         "date": "15/01/2012",
-        "level": "intermediate",
+        "level": "Intermediate",
         "info": "An introduction to CoffeeScript programming with an emphasis on clarity, abstraction and verification.",
         "url": "http://autotelicum.github.com/Smooth-CoffeeScript/interactive/interactive-coffeescript.html",
         "cover": "img/cover_smoothcoffeescript.png"
@@ -54,8 +54,8 @@
         "author": "Manuel Kiessling",
         "authorUrl": "http://www.nodebeginner.org",
         "date": "15/05/2012",
-        "level": "intermediate",
-        "info": "The aim of the book is to get you started with developing applications with Node.js, teaching you everything you need to know about 'advanced' JavaScript along the way.",
+        "level": "Intermediate",
+        "info": "The aim of the book is to get you started with developing applications with Node.js, teaching you everything you need to know about 'Advanced' JavaScript along the way.",
         "url": "http://www.nodebeginner.org/#about",
         "cover": "img/cover_nodebeginnerbook.png"
     },
@@ -65,7 +65,7 @@
         "authorUrl": "http://jqfundamentals.com",
         "date": "16/12/2011",
         "level": "beginner",
-        "info": "Community driven Javascript and jQuery book and <a target='_blank' href='http://creativecommons.org/licenses/by-sa/3.0/us/'>CC3 licensed</a>",
+        "info": "Community driven Javascript and jQuery book.",
         "url": "http://jqfundamentals.com/",
         "cover": "img/cover_jqueryfund.png"
     },
@@ -84,7 +84,7 @@
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
         "date": "2012",
-        "level": "intermediate",
+        "level": "Intermediate",
         "info": "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
         "url": "http://addyosmani.github.com/backbone-fundamentals",
         "cover": "img/cover_backbonefundamentals.png"
@@ -94,7 +94,7 @@
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
         "date": "2011",
-        "level": "advanced",
+        "level": "Advanced",
         "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
         "url": "http://addyosmani.com/writing-modular-js",
         "cover": "img/cover_modularjavascript.png"

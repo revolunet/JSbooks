@@ -1214,30 +1214,6 @@ footer {
   margin-right: 20px;
   outline: 3px solid white;
 }
-.booksection #cover #beginner,
-.booksection #cover #intermediate,
-.booksection #cover #advanced {
-  position: absolute;
-  display: block;
-  height: 12px;
-  top: 5px;
-  left: 5px;
-  background: url('../img/level.png') no-repeat top left;
-}
-.booksection #cover #beginner {
-  width: 13px;
-}
-.booksection #cover #intermediate {
-  width: 26px;
-}
-.booksection #cover #advanced {
-  width: 39px;
-}
-.booksection p.description {
-  height: 70px;
-  padding-bottom: 18px;
-  overflow: hidden;
-}
 h1 {
   font: normal 18px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color: #2f2e2d;
@@ -1296,6 +1272,9 @@ a#infos:hover {
   border-radius: 4px;
   margin-bottom: 50px;
   box-shadow: 0 0 4px white;
+}
+p.level {
+  color: grey;
 }
 #jsinfos h4 {
   margin-bottom: 4px;
