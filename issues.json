@@ -4,7 +4,7 @@
         "author": "Cody Lindley",
         "authorUrl": "http://www.javascriptenlightenment.com",
         "date": "12/01/2011",
-        "level": "beginner",
+        "level": "intermediate",
         "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
         "url": "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
         "cover": "img/cover_jsenlight.png"
@@ -14,7 +14,7 @@
         "author": "Marijn Haverbeke",
         "authorUrl": "http://eloquentjavascript.net",
         "date": "03/02/2011",
-        "level": "intermediate",
+        "level": "beginned",
         "info": "Eloquent JavaScript is a book providing an introduction to the JavaScript language and programming in general.",
         "url": "http://eloquentjavascript.net/contents.html",
         "cover": "img/cover_eloquentjs.png"
@@ -114,7 +114,7 @@
         "author": "Alex MacCaw",
         "authorUrl": "http://arcturo.github.com/",
         "date": "2012",
-        "level": "beginner",
+        "level": "intermediate",
         "info": "This book is designed to help you learn CoffeeScript, understand best practices and start building awesome client side applications.",
         "url": "http://arcturo.github.com/library/coffeescript/01_introduction.html",
         "cover": "img/cover_littlecoffeescript.png"
