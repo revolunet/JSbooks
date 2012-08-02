@@ -15,7 +15,7 @@
         "authorUrl": "http://eloquentjavascript.net",
         "date": "03/02/2011",
         "level": "Beginner",
-        "info": "Eloquent JavaScript is a book providing an introduction to the JavaScript language and programming in general.",
+        "info": "A book providing an introduction to the JavaScript language and programming in general.",
         "url": "http://eloquentjavascript.net/contents.html",
         "cover": "img/cover_eloquentjs.png"
     },
@@ -35,7 +35,7 @@
         "authorUrl": "http://visionmedia.github.com/masteringnode",
         "date": "06/07/2011",
         "level": "Advanced",
-        "info": "O. In Mastering Node we will discover how to write high concurrency web servers, utilizing the CommonJS module system...",
+        "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
         "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
         "cover": "img/cover_masteringnode.png"
     },

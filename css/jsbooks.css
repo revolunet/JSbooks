@@ -1214,6 +1214,15 @@ footer {
   margin-right: 20px;
   outline: 3px solid white;
 }
+.booksection p.description {
+  height: 70px;
+  padding-bottom: 18px;
+  overflow: hidden;
+}
+.booksection p.level {
+  color: grey;
+}
+
 h1 {
   font: normal 18px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color: #2f2e2d;
@@ -1272,9 +1281,6 @@ a#infos:hover {
   border-radius: 4px;
   margin-bottom: 50px;
   box-shadow: 0 0 4px white;
-}
-p.level {
-  color: grey;
 }
 #jsinfos h4 {
   margin-bottom: 4px;
