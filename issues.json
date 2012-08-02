@@ -90,16 +90,6 @@
         "cover": "img/cover_backbonefundamentals.png"
     },
     {
-        "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
-        "author": "Addy Osmani",
-        "authorUrl": "https://twitter.com/addyosmani",
-        "date": "2011",
-        "level": "Advanced",
-        "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
-        "url": "http://addyosmani.com/writing-modular-js",
-        "cover": "img/cover_modularjavascript.png"
-    },
-    {
         "title": "Javascript Guide",
         "author": "Mozilla Developer Network",
         "authorUrl": "https://developer.mozilla.org",
