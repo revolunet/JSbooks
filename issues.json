@@ -3,7 +3,6 @@
         "title": "Javascript Enlightenment",
         "author": "Cody Lindley",
         "authorUrl": "http://www.javascriptenlightenment.com",
-        "date": "12/01/2011",
         "level": "Intermediate",
         "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
         "url": "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
@@ -13,7 +12,6 @@
         "title": "Eloquent Javascript",
         "author": "Marijn Haverbeke",
         "authorUrl": "http://eloquentjavascript.net",
-        "date": "03/02/2011",
         "level": "Beginner",
         "info": "A book providing an introduction to the JavaScript language and programming in general.",
         "url": "http://eloquentjavascript.net/contents.html",
@@ -23,7 +21,6 @@
         "title": "Building A JavaScript Framework",
         "author": "Alex Young",
         "authorUrl": "http://dailyjs.com",
-        "date": "02/12/2010",
         "level": "Advanced",
         "info": "best Of Let’s Make a Framework articles.",
         "url": "http://dailyjs.com/files/build-a-javascript-framework.pdf",
@@ -33,7 +30,6 @@
         "title": "Mastering NodeJS",
         "author": "TJ Holowaychuk",
         "authorUrl": "http://visionmedia.github.com/masteringnode",
-        "date": "06/07/2011",
         "level": "Advanced",
         "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
         "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
@@ -43,7 +39,6 @@
         "title": "Smooth CoffeeScript",
         "author": "E. Hoigaard",
         "authorUrl": "http://autotelicum.github.com/Smooth-CoffeeScript",
-        "date": "15/01/2012",
         "level": "Intermediate",
         "info": "An introduction to CoffeeScript programming with an emphasis on clarity, abstraction and verification.",
         "url": "http://autotelicum.github.com/Smooth-CoffeeScript/interactive/interactive-coffeescript.html",
@@ -53,7 +48,6 @@
         "title": "Node Beginner",
         "author": "Manuel Kiessling",
         "authorUrl": "http://www.nodebeginner.org",
-        "date": "15/05/2012",
         "level": "Intermediate",
         "info": "The aim of the book is to get you started with developing applications with Node.js, teaching you everything you need to know about 'Advanced' JavaScript along the way.",
         "url": "http://www.nodebeginner.org/#about",
@@ -63,60 +57,90 @@
         "title": "jQuery Fundamentals",
         "author": "Rebecca Murphey",
         "authorUrl": "http://jqfundamentals.com",
-        "date": "16/12/2011",
         "level": "beginner",
         "info": "Community driven Javascript and jQuery book.",
         "url": "http://jqfundamentals.com/",
         "cover": "img/cover_jqueryfund.png"
     },
     {
-        "title": "Learning Javascript Design Patterns",
-        "author": "Addy Osmani",
-        "authorUrl": "https://twitter.com/addyosmani",
-        "date": "2012",
-        "level": "beginner",
-        "info": "In this book we will explore applying both classical and modern design patterns to the JavaScript programming language",
-        "url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
-        "cover": "img/cover_jspatterns.png"
-    },
-    {
         "title": "Developing Backbone.js Applications",
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
-        "date": "2012",
         "level": "Intermediate",
         "info": "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
         "url": "http://addyosmani.github.com/backbone-fundamentals",
         "cover": "img/cover_backbonefundamentals.png"
     },
     {
-        "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
-        "author": "Addy Osmani",
-        "authorUrl": "https://twitter.com/addyosmani",
-        "date": "2011",
-        "level": "Advanced",
-        "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
-        "url": "http://addyosmani.com/writing-modular-js",
-        "cover": "img/cover_modularjavascript.png"
-    },
-    {
         "title": "Javascript Guide",
         "author": "Mozilla Developer Network",
         "authorUrl": "https://developer.mozilla.org",
-        "date": "unknown",
         "level": "beginner",
         "info": "JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.",
         "url": "https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview",
         "cover": "img/cover_jsguidemozilla.png"
     },
     {
+        "title": "Learning Javascript Design Patterns",
+        "author": "Addy Osmani",
+        "authorUrl": "https://twitter.com/addyosmani",
+        "level": "beginner",
+        "info": "In this book we will explore applying both classical and modern design patterns to the JavaScript programming language",
+        "url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
+        "cover": "img/cover_jspatterns.png"
+    },
+    {
+        "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
+        "author": "Addy Osmani",
+        "authorUrl": "https://twitter.com/addyosmani",
+        "level": "Advanced",
+        "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
+        "url": "http://addyosmani.com/writing-modular-js",
+        "cover": "img/cover_modularjavascript.png"
+    },
+    {
         "title": "The little Book on CoffeeScript",
         "author": "Alex MacCaw",
         "authorUrl": "http://arcturo.github.com/",
-        "date": "2012",
         "level": "intermediate",
         "info": "This book is designed to help you learn CoffeeScript, understand best practices and start building awesome client side applications.",
         "url": "http://arcturo.github.com/library/coffeescript/01_introduction.html",
         "cover": "img/cover_littlecoffeescript.png"
+    },
+    {
+        "title": "Master Space and time with JavaScript - The Basics",
+        "author": "Noel Rappin",
+        "authorUrl": "http://www.noelrappin.com/",
+        "level": "Intermediate",
+        "info": "[NOTE : Free registration needed]. A four book series aimed at developers who have a basic knowledge of JavaScript but who need to learn about newer tools and practices.",
+        "url": "https://noelrappin.dpdcart.com/cart/view?referer=http%3A%2F%2Fwww.noelrappin.com%2F&__dpd_cart=855b4551-7a1f-4b2c-850f-f9206746a4da",
+        "cover": "img/cover_masterspacetime.png"
+    },
+    {
+        "title": "HTML Canvas Deep Dive",
+        "author": "Josh Marinacci",
+        "authorUrl": "http://joshondesign.com/",
+        "level": "Advanced",
+        "info": "For those who allready know JavaScript basics and wants to learn HTML Canvas.",
+        "url": "http://hudson.joshy.org:9001/job/canvas-book/ws/out/toc.html",
+        "cover": "img/cover_htmlcanvas.png"
+    },
+    {
+        "title": "Dynamisez vos sites web avec JavaScript !",
+        "author": "Le Site du Zero",
+        "authorUrl": "http://http://www.siteduzero.com/",
+        "level": "Beginner",
+        "info": "[IN FRENCH] Le tutorial référence en francais pour apprendre le JavaScript. Culte !",
+        "url": "http://www.siteduzero.com/tutoriel-3-309961-dynamisez-vos-sites-web-avec-javascript.html#part_309955",
+        "cover": "img/cover_sitezero.png"
+    },
+    {
+        "title": "Testing with CoffeeScript",
+        "author": "Jack Franklin",
+        "authorUrl": "http://jackfranklin.co.uk/",
+        "level": "Intermediate",
+        "info": "[NOTE : Download needed]. You will be guided through the creation of a shopping cart system. You’ll learn about using and testing jQuery code, writing more idiomatic CoffeeScript and building a well thought out and structured, complex JavaScript application.",
+        "url": "https://efendibooks.com/minibooks/testing-with-coffeescript",
+        "cover": "img/cover_testingcf.png"
     }
 ]}
