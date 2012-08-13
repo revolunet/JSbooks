@@ -142,5 +142,14 @@
         "info": "[NOTE : Download needed]. You will be guided through the creation of a shopping cart system. You’ll learn about using and testing jQuery code, writing more idiomatic CoffeeScript and building a well thought out and structured, complex JavaScript application.",
         "url": "https://efendibooks.com/minibooks/testing-with-coffeescript",
         "cover": "img/cover_testingcf.png"
+    },
+    {
+        "title": "The Past, Present, and Future of JavaScript",
+        "author": "Axel Rauschmayer",
+        "authorUrl": "http://www.rauschma.de/",
+        "level": "Intermediate",
+        "info": "Historical JavaScript milestones and an overview of ECMAScript.next, the next version of JavaScript. Free, but O’Reilly wants a name and an email.",
+        "url": "http://oreillynet.com/oreilly/javascript/radarreports/past-present-future-javascript.csp",
+        "cover": "img/cover_pastpresentfuturejs.png"
     }
 ]}
