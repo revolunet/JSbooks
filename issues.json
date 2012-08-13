@@ -148,7 +148,7 @@
         "author": "Axel Rauschmayer",
         "authorUrl": "http://www.rauschma.de/",
         "level": "Intermediate",
-        "info": "[NOTE : Free registration needed] Historical JavaScript milestones and an overview of ECMAScript.next, the next version of JavaScript. Free, but O’Reilly wants a name and an email.",
+        "info": "[NOTE : Free registration needed] Historical JavaScript milestones and an overview of ECMAScript.next, the next version of JavaScript.",
         "url": "http://oreillynet.com/oreilly/javascript/radarreports/past-present-future-javascript.csp",
         "cover": "img/cover_pastpresentfuturejs.png"
     }
