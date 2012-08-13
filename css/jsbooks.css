@@ -1177,7 +1177,7 @@ select:focus:required:invalid:focus {
 
 body {
   padding-top: 150px;
-  background: url('/img/pattern.png') repeat;
+  background: url('../img/pattern.png') repeat;
   background-attachment: fixed;
   color: white;
 }
