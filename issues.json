@@ -81,6 +81,15 @@
         "cover": "img/cover_jsguidemozilla.png"
     },
     {
+        "title": "JavaScript For Cats",
+        "author": "Max Ogden",
+        "authorUrl": "http://github.com/maxogden",
+        "level": "beginner",
+        "info": "An in-browser interactive introductory programming text designed for cats. Humans are probably also capable of following along.",
+        "url": "http://jsforcats.com",
+        "cover": "img/cover_jsforcats.png"
+    },
+    {
         "title": "Learning Javascript Design Patterns",
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
