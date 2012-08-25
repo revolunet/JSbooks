@@ -160,5 +160,14 @@
         "info": "[NOTE : Free registration needed] Historical JavaScript milestones and an overview of ECMAScript.next, the next version of JavaScript.",
         "url": "http://oreillynet.com/oreilly/javascript/radarreports/past-present-future-javascript.csp",
         "cover": "img/cover_pastpresentfuturejs.png"
+    },
+    {
+        "title": "Dive into HTML 5",
+        "author": "Mark Pilgrim",
+        "authorUrl": "http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)",
+        "level": "Intermediate",
+        "info": "A community ebook to discover HTML5 best practices and experiment with Javascript.",
+        "url": "http://diveintohtml5.info/index.html",
+        "cover": "img/cover_diveintohtml5.png"
     }
 ]}
