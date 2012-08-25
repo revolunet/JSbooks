@@ -33,7 +33,7 @@ Thanks Apple to give us this opportunity :)
 
 ## Licence
 
-The JSBooks website is licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+The JSbooks website is licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
 Each book has his own licence, see book homepage.
 
