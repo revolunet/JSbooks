@@ -90,7 +90,7 @@
         "cover": "img/cover_jsforcats.png"
     },
     {
-        "title": "Learning Javascript Design Patterns",
+        "title": "Javascript Design Patterns",
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
         "level": "beginner",
@@ -196,5 +196,16 @@
         "info": "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
         "url": "http://ofps.oreilly.com/titles/9781449398583/index.html",
         "cover": "img/cover_upandrunningnode.png"
+    },
+    {
+        "title": "Mixu's Node book",
+        "author": "Mikito Takada",
+        "authorUrl": "http://blog.mixu.net/",
+        "level": "Advanced",
+        "info": "A comprehensive and interesting NodeJS overview covering many aspects in details.",
+        "url": "http://book.mixu.net/",
+        "cover": "img/cover_nodemixu.png"
     }
+
+
 ]}
