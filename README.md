@@ -9,7 +9,7 @@ Find here the best publications about your favourite programming langage without
 
 If you find a nice ebook about Javascript, feel free to fork JSBooks and add it in a few steps :
 
-- Paste the informations onto the JSON file.
+- Paste the informations into the JSON file.
 - Please include a .png file for the cover : less than 100Ko.
 - Make a pull request.
 
