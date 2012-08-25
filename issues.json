@@ -169,5 +169,14 @@
         "info": "A community ebook to discover HTML5 best practices and experiment with Javascript.",
         "url": "http://diveintohtml5.info/index.html",
         "cover": "img/cover_diveintohtml5.png"
+    },
+    {
+        "title": "Javascript Garden",
+        "author": "Ivo Wetzel",
+        "authorUrl": "https://github.com/BonsaiDen",
+        "level": "Advanced",
+        "info": "A collection of documentation about the most quirky parts of JavaScript.",
+        "url": "http://bonsaiden.github.com/JavaScript-Garden",
+        "cover": "img/cover_javascriptgarden.png"
     }
 ]}
