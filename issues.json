@@ -200,12 +200,19 @@
     {
         "title": "Mixu's Node book",
         "author": "Mikito Takada",
-        "authorUrl": "http://blog.mixu.net/",
+        "authorUrl": "http://mixu.net/",
         "level": "Advanced",
         "info": "A comprehensive and interesting NodeJS overview covering many aspects in details.",
         "url": "http://book.mixu.net/",
         "cover": "img/cover_nodemixu.png"
+    },
+    {
+        "title": "Single page apps in depth",
+        "author": "Mikito Takada",
+        "authorUrl": "http://mixu.net/",
+        "level": "Advanced",
+        "info": "Learn the best practices for implementing single page web apps.",
+        "url": "http://singlepageappbook.com/",
+        "cover": "img/cover_singlepagewebapps.png"
     }
-
-
 ]}
