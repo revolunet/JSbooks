@@ -84,7 +84,7 @@
 
     <script type="text/javascript">
     $(document).ready(function() {
-      $.getJSON('./issues.json', function(data) {
+      $.getJSON('./issues.json?' + Math.random(), function(data) {
         var template = $('#booktpl').html();
         var html = Mustache.to_html(template, data);
         $('#issueswrap').html(html);
