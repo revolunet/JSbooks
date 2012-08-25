@@ -99,13 +99,15 @@
     <script id="booktpl" type="text/template">
         {{#books}} 
          <div class="span4 booksection">
-          <div id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
-          </div>
+          <a  target="_blank" href="{{url}}">
+           <div id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
+           </div>
+          </a>
           <h2>{{title}}</h2>
           <h3><a href="{{authorUrl}}" target="_blank">{{author}}</a></h3>
           <p class="level">{{level}}</p>
           <p class="description">{{info}}</p>
-          <p><a class="btn" href="{{url}}">OPEN</a></p>
+          <p><a target="_blank" class="btn" href="{{url}}">OPEN</a></p>
         </div>
         {{/books}}
     </script>
