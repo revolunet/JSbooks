@@ -178,5 +178,14 @@
         "info": "A collection of documentation about the most quirky parts of JavaScript.",
         "url": "http://bonsaiden.github.com/JavaScript-Garden",
         "cover": "img/cover_javascriptgarden.png"
+    },
+    {
+        "title": "The little MongoDB book",
+        "author": "Karl Seguin",
+        "authorUrl": "http://openmymind.net/",
+        "level": "Advanced",
+        "info": "Discover NoSQL with MongoDB and commons Javascript usage patterns.",
+        "url": "http://openmymind.net/mongodb.pdf",
+        "cover": "img/cover_mongodbbook.png"
     }
 ]}
