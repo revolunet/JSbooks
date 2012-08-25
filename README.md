@@ -4,7 +4,7 @@ JSBooks is a showcase of the bests free ebooks about Javascript.
 Find here the best publications about your favourite programming langage without spending any bucks !
 
 
-## HOW TO ADD YOUR PUBLICATION
+### HOW TO ADD YOUR PUBLICATION
 
 If you find a nice ebook about Javascript, feel free to fork JSBooks and add it in a few steps :
 
@@ -17,11 +17,11 @@ Alternatively, you can send us an email with book infos : jsbooks@revolunet.com
 Thanks per advance !
 
 
-## HISTORY
+### HISTORY
 
 Historically, this project was supposed to be an experimental Apple 'NewsStand' application.
 
-After some weeks of work, we discovered that having a functionnal application is wasn't enough.
+After some weeks of work, we discovered that having a functionnal application wasn't enough.
 
 You also have to follow various Apple guidelines and use some Apple libraries to be 'NewsStand' compatible.
 
@@ -30,4 +30,4 @@ So we decided to go full web and this move gave JSBooks a much wider audience.
 Thanks Apple to give us this opportunity :)
 
 ---
-REVOLUNET
+REVOLUNET TEAM
