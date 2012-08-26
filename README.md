@@ -4,6 +4,7 @@ JSbooks is a showcase of the bests free ebooks about Javascript.
 
 Find here the best publications about your favourite programming langage without spending any bucks !
 
+Check it out : http://jsbooks.revolunet.com
 
 ## HOW TO ADD YOUR PUBLICATION
 
