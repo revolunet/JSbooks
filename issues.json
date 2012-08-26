@@ -27,13 +27,13 @@
         "cover": "img/cover_buildingjsframework.png"
     },
     {
-        "title": "Mastering NodeJS",
-        "author": "TJ Holowaychuk",
-        "authorUrl": "http://visionmedia.github.com/masteringnode",
+        "title": "JS in ten minutes",
+        "author": "Spencer Tipping",
+        "authorUrl": "http://spencertipping.com/",
         "level": "Advanced",
-        "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
-        "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
-        "cover": "img/cover_masteringnode.png"
+        "info": "This guide is for anyone who knows some Javascript but would like a quick intro to its advanced features.",
+        "url": "https://github.com/spencertipping/js-in-ten-minutes/blob/master/js-in-ten-minutes.pdf",
+        "cover": "img/cover_js10minutes.png"
     },
     {
         "title": "Smooth CoffeeScript",
@@ -214,5 +214,14 @@
         "info": "Learn the best practices for implementing single page web apps.",
         "url": "http://singlepageappbook.com/",
         "cover": "img/cover_singlepagewebapps.png"
+    },
+    {
+        "title": "Mastering NodeJS",
+        "author": "TJ Holowaychuk",
+        "authorUrl": "http://visionmedia.github.com/masteringnode",
+        "level": "Advanced",
+        "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
+        "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
+        "cover": "img/cover_masteringnode.png"
     }
 ]}
