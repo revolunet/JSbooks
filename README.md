@@ -6,6 +6,9 @@ Find here the best publications about your favourite programming langage without
 
 Check it out : http://jsbooks.revolunet.com
 
+We also have a python version : http://pythonbooks.revolunet.com
+
+
 ## HOW TO ADD YOUR PUBLICATION
 
 If you find a nice ebook about Javascript, feel free to fork JSbooks and add it in a few steps :
