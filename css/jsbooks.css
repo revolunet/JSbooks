@@ -1176,7 +1176,7 @@ select:focus:required:invalid:focus {
 
 
 body {
-  padding-top: 150px;
+  padding-top: 130px;
   background: url('../img/pattern.png') repeat;
   background-attachment: fixed;
   color: white;
@@ -1191,7 +1191,7 @@ body {
   box-shadow: 0 3px 20px black;
 }
 .github img {
-  max-height: 113px;
+  max-height: 128px;
   position: fixed;
   top: 0;
   left: 0;
@@ -1202,6 +1202,12 @@ footer {
   height: 10px;
   line-height: 10px;
   color: #444;
+}
+a.pbookslinks {
+  color: #bcbcbc;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  margin: 0 0 20px 0;
 }
 .booksection {
   margin-bottom: 30px;
