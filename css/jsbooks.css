@@ -1377,6 +1377,12 @@ a#infos:hover {
     height: 298px;
     margin-bottom: 10px;
   }
+  .booksection .view {
+    width: 228px;
+    height: 298px;
+    font: normal 17px Helvetica, Arial, sans-serif;
+    line-height: 298px;
+  }
 }
 @media (max-width: 767px) {
   body {
