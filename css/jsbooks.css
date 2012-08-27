@@ -1176,7 +1176,7 @@ select:focus:required:invalid:focus {
 
 
 body {
-  padding-top: 150px;
+  padding-top: 130px;
   background: url('../img/pattern.png') repeat;
   background-attachment: fixed;
   color: white;
@@ -1191,7 +1191,7 @@ body {
   box-shadow: 0 3px 20px black;
 }
 .github img {
-  max-height: 113px;
+  max-height: 128px;
   position: fixed;
   top: 0;
   left: 0;
@@ -1202,6 +1202,12 @@ footer {
   height: 10px;
   line-height: 10px;
   color: #444;
+}
+a.pbookslinks {
+  color: #bcbcbc;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  margin: 0 0 20px 0;
 }
 .booksection {
   margin-bottom: 30px;
@@ -1215,14 +1221,39 @@ footer {
   outline: 3px solid white;
 }
 .booksection p.description {
-  height: 70px;
-  padding-bottom: 18px;
+  height: 100px;
+  padding-bottom: 10px;
   overflow: hidden;
 }
 .booksection p.level {
   color: grey;
 }
+.booksection .view {
+  display: block;
+  position: absolute;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity:0;
+  width: 140px;
+  height: 184px;
+  font: bold 18px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+  line-height: 184px;
+  background-color: rgba(247, 223, 30, 0.9);
+  z-index: 10;
+  text-align: center;
+  color: black;
+  text-shadow:0 0 10px white;
+  -webkit-transition:opacity .2s linear;
+  -moz-transition:opacity .2s linear;
+  -o-transition:opacity .2s linear;
+  transition:opacity .2s linear;
 
+}
+.booksection .view:hover {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1000)";
+  filter: alpha(opacity=1000);
+  opacity:10;
+}
 h1, #headerlink {
   font: normal 18px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color: #2f2e2d;
@@ -1326,36 +1357,6 @@ a#infos:hover {
 #jsinfos ul li a:hover {
   text-decoration: none;
 }
-.btn {
-  font: bold 15px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-  width: 100px;
-  background: #f7df1e;
-  background: -moz-linear-gradient(top, #f7df1e 0%, #edc536 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7df1e), color-stop(100%, #edc536));
-  background: -webkit-linear-gradient(top, #f7df1e 0%, #edc536 100%);
-  background: linear-gradient(to bottom, #f7df1e 0%, #edc536 100%);
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -webkit-transition: none;
-}
-.btn:hover {
-  background-position: 0;
-  background: #f7d320;
-  background: -moz-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7d320), color-stop(100%, #ddbe33));
-  background: -webkit-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: -o-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: linear-gradient(to bottom, #f7d320 0%, #ddbe33 100%);
-}
-.btn:active {
-  color: white;
-  background-color: #f7df1e;
-  text-shadow: none;
-}
 .footer {
   padding: 10px 0;
   text-align: center;
@@ -1375,9 +1376,6 @@ a#infos:hover {
     width: 228px;
     height: 298px;
     margin-bottom: 10px;
-  }
-  .btn {
-    width: 190px;
   }
 }
 @media (max-width: 767px) {
@@ -1400,9 +1398,6 @@ a#infos:hover {
     width: 140px;
     height: 184px;
   }
-  .btn {
-    width: 90px;
-  }
   .github {
     display: none;
   }
@@ -1418,9 +1413,6 @@ a#infos:hover {
   }
 }
 @media (max-width: 480px) {
-  .btn {
-    width: 120px;
-  }
   .booksection {
     height: 170px;
   }
