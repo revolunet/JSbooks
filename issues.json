@@ -223,5 +223,14 @@
         "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
         "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
         "cover": "img/cover_masteringnode.png"
+    },
+    {
+        "title": "JS The Right Way",
+        "author": "William Oliveira",
+        "authorUrl": "https://twitter.com/gnuwilliam",
+        "level": "Intermediate",
+        "info": "An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.",
+        "url": "http://http://jstherightway.com/",
+        "cover": "img/cover_jsrightway.png"
     }
 ]}
