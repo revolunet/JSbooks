@@ -86,9 +86,15 @@
     <script src="./js/mustache.js"></script>
 
     <script type="text/javascript">
+
+    function randOrd(){
+      return (Math.round(Math.random())-0.5); 
+    }
+
     $(document).ready(function() {
       $.getJSON('./issues.json?' + Math.random(), function(data) {
         var template = $('#booktpl').html();
+        data.books.sort(randOrd);
         var html = Mustache.to_html(template, data);
         $('#issueswrap').html(html);
       });
