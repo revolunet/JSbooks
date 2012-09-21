@@ -232,5 +232,14 @@
         "info": "An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.",
         "url": "http://http://jstherightway.com/",
         "cover": "img/cover_jsrightway.png"
+    },
+    {
+        "title": "DOM Enlightenment",
+        "author": "Cody Lindley",
+        "authorUrl": "http://twitter.com/codylindley",
+        "level": "Advanced",
+        "info": "Exploring the relationship between JavaScript and the modern HTML DOM",
+        "url": "http://domenlightenment.com/",
+        "cover": "img/cover_domenlightenment.png"
     }
 ]}
