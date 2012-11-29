@@ -1204,10 +1204,30 @@ footer {
   color: #444;
 }
 a.pbookslinks {
-  color: #bcbcbc;
+  color: white;
+  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
   display: inline-block;
   margin: 0 0 20px 0;
+}
+a.recrutement {
+  display: block;
+  width: 30%;
+  color: black;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 40px auto;
+  text-align: center;
+  background-color: rgba(247, 223, 30, 0.9);
+  -webkit-transition-duration: .4s;
+  -moz-transition-duration: .4s;
+  -ms-transition-duration: .4s;
+  -o-transition-duration: .4s;
+  transition-duration: .4s;
+}
+a.recrutement:hover {
+  color: white;
+  text-decoration: none;
 }
 .booksection {
   margin-bottom: 30px;
@@ -1361,6 +1381,7 @@ a#infos:hover {
   padding: 10px 0;
   text-align: center;
 }
+
 /* RESPONSIVE LAYOUT */
 @media (min-width: 1200px) {
   
@@ -1376,6 +1397,9 @@ a#infos:hover {
     width: 228px;
     height: 298px;
     margin-bottom: 10px;
+  }
+  a.recrutement {
+      width: 80%;
   }
   .booksection .view {
     width: 228px;
@@ -1393,6 +1417,9 @@ a#infos:hover {
   }
   .jshead img {
     max-width: 100px;
+  }
+  a.recrutement {
+    width: 80%;
   }
   h1 {
     font: normal 14px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
@@ -1419,6 +1446,9 @@ a#infos:hover {
   }
 }
 @media (max-width: 480px) {
+  a.recrutement {
+    width: 95%;
+  }
   .booksection {
     height: 170px;
   }
