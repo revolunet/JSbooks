@@ -234,6 +234,42 @@
         "cover": "img/cover_jsrightway.png"
     },
     {
+        "title": "Building Browser Apps with Google Chrome",
+        "author": "Andy Sylvester",
+        "authorUrl": "http://buildbrowserapps.com/",
+        "level": "Intermediate",
+        "info": "How to write standalone packaged applications for the Google Chrome browser using Javascript. The book will teach you how to build and test an application through a step by step process.",
+        "url": "http://www.buildbrowserapps.com/chromeappbook/index.html",
+        "cover": "img/cover_chromeapp.png"
+    },
+    {
+        "title": "Single page apps in depth",
+        "author": "Mikito Takada",
+        "authorUrl": "http://mixu.net/",
+        "level": "Intermediate",
+        "info": "This free book is the book I would have wanted when I started working with single page apps. It's not an API reference on a particular framework, rather, the focus is on discussing patterns, implementation choices and decent practices.",
+        "url": "http://singlepageappbook.com/",
+        "cover": "img/cover_mixusingleapp.png"
+    },
+    {
+        "title": "Programmin Windows 8 Apps",
+        "author": "Devon Musgrave",
+        "authorUrl": "http://social.msdn.microsoft.com/profile/devon%20musgrave/",
+        "level": "Beginner",
+        "info": "[NOTE : Download needed]This book is about writing Windows Store apps using HTML5, CSS3, and JavaScript.",
+        "url": "http://go.microsoft.com/FWLink/?Linkid=270056",
+        "cover": "img/cover_windows8app.png"
+    },
+    {
+        "title": "CoffeeScript Cookbook",
+        "author": "Multiple Owner",
+        "authorUrl": "http://coffeescriptcookbook.com/authors",
+        "level": "Beginner",
+        "info": "CoffeeScript recipes for the community by the community.",
+        "url": "http://coffeescriptcookbook.com/",
+        "cover": "img/cover_coffeescriptcookbook.png"
+    },
+    {
         "title": "DOM Enlightenment",
         "author": "Cody Lindley",
         "authorUrl": "http://twitter.com/codylindley",
