@@ -32,7 +32,7 @@
         "authorUrl": "http://spencertipping.com/",
         "level": "Advanced",
         "info": "This guide is for anyone who knows some Javascript but would like a quick intro to its advanced features.",
-        "url": "https://github.com/spencertipping/js-in-ten-minutes/blob/master/js-in-ten-minutes.pdf",
+        "url": "https://github.com/spencertipping/js-in-ten-minutes/blob/master/js-in-ten-minutes.pdf?raw=true",
         "cover": "img/cover_js10minutes.png"
     },
     {
