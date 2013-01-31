@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>JSbooks - free javascript books</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="JSbooks is a showcase of the bests free ebooks about Javascript. Find here the best publications about your favourite programming langage without spending any bucks !">
     <meta name="author" content="Revolunet">
 
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./css/jsbooks.css" media="all">
+    <meta property="og:image" content="http://jsbooks.revolunet.com/img/cover_modularjavascript.png" />
+    <meta property="og:title" content="JSbooks - Free Javascript Ebooks" />
+    <meta property="og:description" content="JSbooks is a showcase of the bests free ebooks about Javascript. Find here the best publications about JS without spending any bucks !" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://jsbooks.revolunet.com/" />
+
+    <meta name="twitter:card" content="JSbooks is a showcase of the bests free ebooks about Javascript. Find here the best publications about JS without spending any bucks !"/>
+    <meta name="twitter:url" content="http://jsbooks.revolunet.com/"/>
+    <meta name="twitter:title" content="JSbooks - Free Javascript Ebooks"/>
+    <meta name="twitter:description" content="JSbooks is a showcase of the bests free ebooks about Javascript. Find here the best publications about JS without spending any bucks !"/>
+    <meta name="twitter:image" content="http://jsbooks.revolunet.com/img/cover_modularjavascript.png"/>
+    <meta name=”twitter:creator” value=”@revolunet />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all">
 
     <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
@@ -17,74 +31,86 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
-  </head>
+</head>
 
-  <body>
+<body>
 
     <a href="https://github.com/revolunet/JSbooks" class="github"><img src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png" alt="Fork me on GitHub"></a>
 
+    <!-- ==========================
+    NAVBAR
+    =========================== -->
     <div class="navbar navbar-fixed-top jshead">
-      <img src="./img/logo_jsbooks.png" alt="javascript tutorials">
-      <h1>The best free JavaScript resources</h1>
-      <a href="http://www.revolunet.com" target="_blank" title="revolunet" id="headerlink" >by revolunet - rich web apps for desktop and mobile</a>
-      <a href="#" id="infos">?</a>
-      <div id="twittit">
-        <a href="https://twitter.com/revolunet" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @revolunet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
+        <img src="./img/logo_jsbooks.png" alt="javascript tutorials" width="200" height="54">
+
+        <h1>The best free JavaScript resources</h1>
+
+        <a href="http://www.revolunet.com" target="_blank" title="revolunet" id="headerlink">by revolunet - rich web apps for desktop and mobile</a>
+        <a href="#" id="infos">?</a>
+
+        <div id="twittit">
+            <a href="https://twitter.com/revolunet" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @revolunet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
     </div>
 
+    <!-- ==========================
+    TOGGLE INFOS
+    =========================== -->
     <div class="container" id="jsinfos">
-      <div class="row">
-        <div class="span6"> 
-          <h4> Learn JavaScript for free ! </h4> 
-          <hr>
-          <p>
-            Discover the most popular free JavaScript books and improve your skills, thanks to the developers community ! Fork it on GitHub and add any books related to your best programming language :)
-          </p> 
-          <p>
-          </p>
-          <p>
-            JSbooks will be updated with fresh and updated content out there. Drop your mail below to be notified on each update :
-            <form action="http://revolunet.us1.list-manage.com/subscribe/post?u=43cbcac99221b1ab80c14a121&amp;id=b8d6f6c192" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email adress" required>
-              <input type="submit" value="Subscribe">
-            </form> 
-          </p> 
+        <div class="row">
+            <div class="span6"> 
+                <h4> Learn JavaScript for free ! </h4> 
+                <hr>
+                <p> Discover the most popular free JavaScript books and improve your skills, thanks to the developers community ! Fork it on GitHub and add any books related to your best programming language :)</p> 
+                <p> JSbooks will be updated with fresh and updated content out there. Drop your mail below to be notified on each update : </p> 
+                <form action="http://revolunet.us1.list-manage.com/subscribe/post?u=43cbcac99221b1ab80c14a121&amp;id=b8d6f6c192" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email adress" required>
+                    <input type="submit" value="Subscribe">
+                </form> 
+            </div>
+            <div class="span6"> 
+                <h4>About us :</h4> 
+                <hr>
+                <p>
+                    <a href="http://www.revolunet.com" target="_blank" title="revolunet">Revolunet</a> is a company specialized in web applications development. <br>
+                    Feel free to contact us by mail for further information: <br> 
+                    <a href="mailto:contact@revolunet.com">contact@revolunet.com</a>
+                </p>
+
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Here are the best free JavaScript ressources to learn #js for free ! #webdevelopment #javascript" data-via="revolunet"></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
         </div>
-        <div class="span6"> 
-          <h4>About us :</h4> 
-          <hr>
-          <p>
-            <a href="http://www.revolunet.com" target="_blank" title="revolunet">Revolunet</a> is a company specialized in web applications development. <br>
-            Feel free to contact us by mail for further information: <br> 
-            <a href="mailto:contact@revolunet.com">contact@revolunet.com</a>
-          </p>
-
-
-         <a href="https://twitter.com/share" class="twitter-share-button" data-text="Here are the best free JavaScript ressources to learn #js for free ! #webdevelopment #javascript" data-via="revolunet"></a>
-         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-        </div>
-      </div>
     </div>
 
-    <a class="recrutement" href="http://www.revolunet.com/recrutement-developpeur-web" target="_blank">
-      We're hiring talented web developers in Paris, France
-    </a>
-          
+    <!-- ==========================
+    JOB / PYTHONBOOKS
+    =========================== -->
     <div class="container">
-          <a class="pbookslinks" href="http://pythonbooks.revolunet.com/" target="_blank">
-            Want to learn Python for free too ? Click here !
-          </a>
-          
-      <div class="row" id="issueswrap">
-      </div>
+        <div class="row">
+            <a class="recrutement span12" href="http://www.revolunet.com/recrutement-developpeur-web" target="_blank"> We're hiring talented web developers in Paris, France </a>
+            <div class="pythonbooks span12">
+                <a href="http://pythonbooks.revolunet.com/" target="_blank">
+                    <img src="./img/logo_pythonbooks.png" alt="Python Books" title="Learn Python for free !" width="200" height="32e">
+                </a>
+            </div>
+        </div>
+
+        <!-- ////////// WRAPPER BOOKS -->
+        <div class="row" id="issueswrap"></div>
     </div>
 
+    <!-- ==========================
+    FOOTER
+    =========================== -->
     <div class="footer">
         <hr>
-        <a href="http://www.revolunet.com" target="_blank"> <img src="./img/revologo.png" alt="" /> </a>
+        <a href="http://www.revolunet.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'pythonbooks', 'clic footer'])">
+          <img src="img/revologo.png" width="150" height="29" alt="Revolunet">
+        </a>
+        <p> We provide high quality web applications for desktop and mobile.</p>
+        <a href="mailto:contact@revolunet.com" target="_blank" alt="revolunet" id="footerlink">Get in touch</a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -129,13 +155,13 @@
     
 
     <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-    var pageTracker = _gat._getTracker("UA-294393-1");
-    pageTracker._trackPageview();
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-294393-1");
+        pageTracker._trackPageview();
     } catch(err) {}</script>
     
   </body>
