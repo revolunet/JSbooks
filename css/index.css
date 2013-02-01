@@ -1520,36 +1520,6 @@ a#infos:hover {
   cursor: pointer;
   text-decoration: none;
 }
-.btn {
-  font: bold 15px 'Open Sans Condensed', sans-serif;
-  width: 100px;
-  background: #f7df1e;
-  background: -moz-linear-gradient(top, #f7df1e 0%, #edc536 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7df1e), color-stop(100%, #edc536));
-  background: -webkit-linear-gradient(top, #f7df1e 0%, #edc536 100%);
-  background: linear-gradient(to bottom, #f7df1e 0%, #edc536 100%);
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: 0px 1px 0px 0 #ffffff inset, 0 1px 2px 0 rgba(0, 0, 0, 0.8);
-  -webkit-transition: none;
-}
-.btn:hover {
-  background-position: 0;
-  background: #f7d320;
-  background: -moz-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7d320), color-stop(100%, #ddbe33));
-  background: -webkit-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: -o-linear-gradient(top, #f7d320 0%, #ddbe33 100%);
-  background: linear-gradient(to bottom, #f7d320 0%, #ddbe33 100%);
-}
-.btn:active {
-  color: white;
-  background-color: #f7df1e;
-  text-shadow: none;
-}
 .footer {
   padding: 10px 0;
   text-align: center;
@@ -1563,12 +1533,11 @@ a#infos:hover {
 .footer a {
   font-size: 10px;
 }
-.recrutement,
-.pythonbooks {
+.recrutement {
   color: #eedb59;
   font-weight: bold;
   padding: 10px 0;
-  margin: 10px auto;
+  margin: 20px auto;
   text-align: center;
   background-color: #252624;
   -webkit-transition-duration: .4s;
@@ -1577,14 +1546,17 @@ a#infos:hover {
   -o-transition-duration: .4s;
   transition-duration: .4s;
 }
-.recrutement:hover,
-.pythonbooks:hover {
+.recrutement:hover {
   color: white;
   text-decoration: none;
 }
 .pythonbooks {
   background-color: transparent;
   margin: 0 0 30px;
+}
+.pythonbooks > * {
+  display: inline;
+  margin-right: 10px;
 }
 /*!
  * Bootstrap Responsive v2.0.4
@@ -2273,6 +2245,11 @@ a#infos:hover {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
+  }
+  .github img,
+  #infos,
+  #twittit {
+    display: none;
   }
   .navbar-fixed-top {
     margin-bottom: 18px;
