@@ -145,9 +145,7 @@
         btFilterBy.on('click', function(e) {
             e.preventDefault();
 
-            booksection.each(function() {
-                $(this).show();
-            });
+            booksection.show();
 
             if ( $(this).hasClass('all') ) {
                 booksection.each(function() {
