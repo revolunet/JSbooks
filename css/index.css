@@ -1356,6 +1356,7 @@ footer {
 .booksection {
   margin-bottom: 30px;
 }
+
 .booksection #cover {
   float: left;
   position: relative;
@@ -1552,11 +1553,30 @@ a#infos:hover {
 }
 .pythonbooks {
   background-color: transparent;
-  margin: 0 0 30px;
+  margin: 0;
 }
 .pythonbooks > * {
   display: inline;
   margin-right: 10px;
+}
+#filterBy {
+  float: left;
+  overflow: hidden;
+  margin: 0 0 30px;
+}
+#filterBy li {
+  float: left;
+  margin: 0 0 0 10px;
+  list-style: none;
+}
+#filterBy li:first-child {
+  margin-left: 0;
+}
+#filterBy a {
+  color: #eedb59;
+}
+ #filterBy .active {
+  color: #fff;
 }
 /*!
  * Bootstrap Responsive v2.0.4
