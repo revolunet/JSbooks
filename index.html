@@ -89,12 +89,21 @@
     =========================== -->
     <div class="container">
         <div class="row">
-            <a class="recrutement span12" href="http://www.revolunet.com/recrutement-developpeur-web" target="_blank"> We're hiring talented web developers in Paris, France </a>
             <div class="pythonbooks span12">
                 <p>See also :</p>
                 <a href="http://pythonbooks.revolunet.com/" target="_blank">
                     <img src="./img/logo_pythonbooks.png" alt="Python Books" title="Learn Python for free !" width="100" height="16">
                 </a>
+            </div>
+            <a class="recrutement span12" href="http://www.revolunet.com/recrutement-developpeur-web" target="_blank"> We're hiring talented web developers in Paris, France </a>
+            <div class="span12 row-fluid">
+                <p class="span1">Filter by :</p>
+                <ul id="filterBy">
+                    <li><a href="#" data-level="any" class="active" title="filter books by All">All</a></li>
+                    <li><a href="#" data-level="Beginner" title="filter books by Beginner">Beginner</a></li>
+                    <li><a href="#" data-level="Intermediate" title="filter books by Intermediate">Intermediate</a></li>
+                    <li><a href="#" data-level="Advanced" title="filter books by Advanced">Advanced</a></li>
+                </ul>
             </div>
         </div>
 
@@ -123,23 +132,57 @@
       return (Math.round(Math.random())-0.5); 
     }
 
+    function filterBy() {
+        var // var's sort by
+            active = 'active',
+            btFilterBy = $('#filterBy').find('a'),
+            booksection = $('.booksection');
+
+        // interaction filter by level
+        btFilterBy.on('click', function(e) {
+            e.preventDefault();
+            var level = $(this).data('level');
+            if (level==='any') {
+                // restore all books
+                booksection.show();
+            } else {
+                booksection.not('.' + level).fadeOut('fast');
+                booksection.filter('.' + level).fadeIn('fast');
+            }
+
+            btFilterBy.removeClass(active);
+            $(this).addClass(active);
+        });
+    }
+
     $(document).ready(function() {
-      $.getJSON('./issues.json?' + Math.random(), function(data) {
-        var template = $('#booktpl').html();
-        data.books.sort(randOrd);
-        var html = Mustache.to_html(template, data);
-        $('#issueswrap').html(html);
-      });
-      $('#jsinfos').hide();
-      $('a.#infos').on('click', function(){
-          $('#jsinfos').slideToggle();
-      });
+        // get the data and compile into the html template
+        $.getJSON('./issues.json?' + Math.random(), function(data) {
+            var template = $('#booktpl').html(),
+                html = Mustache.to_html(template, data),
+                issuesWrap = $('#issueswrap');
+
+            data.books.sort(randOrd);
+            issuesWrap.html(html);
+
+            filterBy();
+        });
+
+        var // var's info
+            jsInfos = $('#jsinfos'),
+            btInfo = $('a.#infos');
+
+        // interaction show more info about it
+        jsInfos.hide();
+        btInfo.on('click', function(){
+          jsInfos.slideToggle();
+        });
     });
     </script>
 
     <script id="booktpl" type="text/template">
         {{#books}} 
-         <div class="span4 booksection">
+         <div class="span4 booksection {{level}}">
           <a  target="_blank" href="{{url}}">
            <div class="view"> READ </div>
            <div id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
@@ -152,8 +195,6 @@
         </div>
         {{/books}}
     </script>
-
-    
 
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

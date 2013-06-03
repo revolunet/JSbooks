@@ -57,7 +57,7 @@
         "title": "jQuery Fundamentals",
         "author": "Rebecca Murphey",
         "authorUrl": "http://jqfundamentals.com",
-        "level": "beginner",
+        "level": "Beginner",
         "info": "Community driven Javascript and jQuery book.",
         "url": "http://jqfundamentals.com/",
         "cover": "img/cover_jqueryfund.png"
@@ -75,7 +75,7 @@
         "title": "Javascript Guide",
         "author": "Mozilla Developer Network",
         "authorUrl": "https://developer.mozilla.org",
-        "level": "beginner",
+        "level": "Beginner",
         "info": "JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.",
         "url": "https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview",
         "cover": "img/cover_jsguidemozilla.png"
@@ -84,7 +84,7 @@
         "title": "JavaScript For Cats",
         "author": "Max Ogden",
         "authorUrl": "http://github.com/maxogden",
-        "level": "beginner",
+        "level": "Beginner",
         "info": "An in-browser interactive introductory programming text designed for cats. Humans are probably also capable of following along.",
         "url": "http://jsforcats.com",
         "cover": "img/cover_jsforcats.png"
@@ -93,7 +93,7 @@
         "title": "Javascript Design Patterns",
         "author": "Addy Osmani",
         "authorUrl": "https://twitter.com/addyosmani",
-        "level": "beginner",
+        "level": "Beginner",
         "info": "In this book we will explore applying both classical and modern design patterns to the JavaScript programming language",
         "url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
         "cover": "img/cover_jspatterns.png"
@@ -111,7 +111,7 @@
         "title": "The little Book on CoffeeScript",
         "author": "Alex MacCaw",
         "authorUrl": "http://arcturo.github.com/",
-        "level": "intermediate",
+        "level": "Intermediate",
         "info": "This book is designed to help you learn CoffeeScript, understand best practices and start building awesome client side applications.",
         "url": "http://arcturo.github.com/library/coffeescript/01_introduction.html",
         "cover": "img/cover_littlecoffeescript.png"
@@ -277,5 +277,14 @@
         "info": "Exploring the relationship between JavaScript and the modern HTML DOM",
         "url": "http://domenlightenment.com/",
         "cover": "img/cover_domenlightenment.png"
+    },
+    {
+        "title": "JavaScript Applications",
+        "author": "Eric Elliott",
+        "authorUrl": "https://twitter.com/dilvie",
+        "level": "Intermediate",
+        "info": "Take your existing JavaScript skills to the next level and learn how to build complete web scale or enterprise applications that are easy to extend and maintain.",
+        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+        "cover": "img/cover_javascriptapplications.png"
     }
 ]}
