@@ -277,5 +277,14 @@
         "info": "Exploring the relationship between JavaScript and the modern HTML DOM",
         "url": "http://domenlightenment.com/",
         "cover": "img/cover_domenlightenment.png"
+    },
+    {
+        "title": "JavaScript Applications",
+        "author": "Eric Elliott",
+        "authorUrl": "https://twitter.com/dilvie",
+        "level": "Intermediate",
+        "info": "Take your existing JavaScript skills to the next level and learn how to build complete web scale or enterprise applications that are easy to extend and maintain.",
+        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+        "cover": "img/cover_javascriptapplications.png"
     }
 ]}
