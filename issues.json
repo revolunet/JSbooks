@@ -286,5 +286,14 @@
         "info": "Take your existing JavaScript skills to the next level and learn how to build complete web scale or enterprise applications that are easy to extend and maintain.",
         "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
         "cover": "img/cover_javascriptapplications.png"
+    },
+    {
+        "title": "Bootstrap, Responsive Web Development",
+        "author": "Jake Spurlock",
+        "authorUrl": "https://jakespurlock.com",
+        "level": "Beginnner",
+        "info": "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
+        "url": "https://github.com/whyisjake/bootstrap",
+        "cover": "img/cover_bootstrap.png"
     }
 ]}
