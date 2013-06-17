@@ -159,11 +159,10 @@
         // get the data and compile into the html template
         $.getJSON('./issues.json?' + Math.random(), function(data) {
             var template = $('#booktpl').html(),
-                html = Mustache.to_html(template, data),
                 issuesWrap = $('#issueswrap');
 
             data.books.sort(randOrd);
-            issuesWrap.html(html);
+            issuesWrap.html(Mustache.to_html(template, data));
 
             filterBy();
         });
