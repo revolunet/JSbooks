@@ -295,5 +295,41 @@
         "info": "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
         "url": "https://github.com/whyisjake/bootstrap",
         "cover": "img/cover_bootstrap.png"
+    },
+    {
+        "title": "JavaScript Succinctly",
+        "author": "Cody Lindley",
+        "authorUrl": "http://twitter.com/codylindley",
+        "level": "Beginnner",
+        "info": "JavaScript Succinctly was written to give readers an accurate, concise examination of JavaScript objects and their supporting nuances, such as complex values, primitive values, scope, inheritance, the head object, and more. If you’re an intermediate JavaScript developer and want to solidify your understanding of the language, or if you’ve only used JavaScript beneath the mantle of libraries such as jQuery or Prototype, this is the book for you.",
+        "url": "http://www.syncfusion.com/resources/techportal/ebooks/javascript",
+        "cover": "img/cover_javascriptsuccintly.png"
+    },
+    {
+        "title": "jQuery Succinctly",
+        "author": "Cody Lindley",
+        "authorUrl": "http://twitter.com/codylindley",
+        "level": "Intermediate",
+        "info": "jQuery Succinctly was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in you, the reader, practices that jQuery developers take as common knowledge. Each chapter contains concepts essential to becoming a seasoned jQuery developer.",
+        "url": "http://www.syncfusion.com/resources/techportal/ebooks/jquery",
+        "cover": "img/cover_jquerysuccintly.png"
+    },
+    {
+        "title": "Knockout.js Succinctly",
+        "author": "Ryan Hodson",
+        "authorUrl": "http://rypress.com/",
+        "level": "Intermediate",
+        "info": "Knockout.js Succinctly is intended for professional web developers who need to build dynamic, scalable user interfaces with minimal code. Author Ryan Hodson guides you through the essentials of the library, starting with a brief overview of Knockout and its data-oriented aspects, followed by a thorough examination of binding data to various HTML elements, and finally examples of accessing external data and combining Knockout with jQuery animation routines.",
+        "url": "http://www.syncfusion.com/resources/techportal/ebooks/knockoutjs",
+        "cover": "img/cover_jquerysuccintly.png"
+    },
+    {
+        "title": "TypeScript Succinctly",
+        "author": "Steve Fenton",
+        "authorUrl": "http://www.stevefenton.co.uk/",
+        "level": "Beginnner",
+        "info": "With TypeScript Succinctly by Steve Fenton, you will learn how TypeScript provides optional static typing and classes to JavaScript development, how to create and load modules, and how to work with existing JavaScript libraries through ambient declarations. TypeScript is even significantly integrated with Visual Studio to provide the autocompletion and type checking you are most comfortable with.",
+        "url": "http://www.syncfusion.com/resources/techportal/ebooks/typescript",
+        "cover": "img/cover_typescriptsuccintly.png"
     }
 ]}
