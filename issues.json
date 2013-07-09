@@ -321,7 +321,7 @@
         "level": "Intermediate",
         "info": "Knockout.js Succinctly is intended for professional web developers who need to build dynamic, scalable user interfaces with minimal code. Author Ryan Hodson guides you through the essentials of the library, starting with a brief overview of Knockout and its data-oriented aspects, followed by a thorough examination of binding data to various HTML elements, and finally examples of accessing external data and combining Knockout with jQuery animation routines.",
         "url": "http://www.syncfusion.com/resources/techportal/ebooks/knockoutjs",
-        "cover": "img/cover_jquerysuccinctly.png"
+        "cover": "img/cover_knockoutjssuccinctly.png"
     },
     {
         "title": "TypeScript Succinctly",
