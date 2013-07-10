@@ -295,5 +295,21 @@
         "info": "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
         "url": "https://github.com/whyisjake/bootstrap",
         "cover": "img/cover_bootstrap.png"
+    }, {
+        "title": "Art of Node",
+        "author": "Max Odgen",
+        "authorUrl": "https://maxodgen.com",
+        "level": "Intermediate",
+        "info": "a free short e-book that teaches you the fundamentals of Node.js by Max Odgen, a popular Node supporter",
+        "url": "https://github.com/maxogden/art-of-node",
+        "cover": "img/artofnode.png"
+    }, {
+        "title": "Stream handbook",
+        "author": "James Halliday (substack)",
+        "authorUrl": "https://substack.net",
+        "level": "Advanced",
+        "info": "a free short e-book that teaches you how to write node programs with streams, by James Halliday a famous NodeJS supporter that published numerous awesome NodeJS modules",
+        "url": "https://github.com/substack/stream-handbook",
+        "cover": "img/streamshandbook.jpg"
     }
 ]}
