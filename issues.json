@@ -310,7 +310,7 @@
         "level": "Advanced",
         "info": "a free short e-book that teaches you how to write node programs with streams, by James Halliday a famous NodeJS supporter that published numerous awesome NodeJS modules",
         "url": "https://github.com/substack/stream-handbook",
-        "cover": "img/streamshandbook.jpg"
+        "cover": "img/streamshandbook.png"
     }, {
         "title": "JavaScript Succinctly",
         "author": "Cody Lindley",
