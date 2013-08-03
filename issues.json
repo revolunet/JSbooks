@@ -345,7 +345,7 @@
         "cover": "img/cover_typescriptsuccinctly.png"
     }, {
         "title": "AngularJS Fundamentals in 60 minutes",
-        "author": "Dan Wahlin & Ian Smith",
+        "author": "Dan Wahlin",
         "authorUrl": "http://http://weblogs.asp.net/dwahlin",
         "level": "Beginnner",
         "info": "This eBook is a documented transcription of the famous 'AngularJS in 60 minutes' video; The ebook is going through all of the key fundamentals you need to know about the AngularJS SPA framework.",
