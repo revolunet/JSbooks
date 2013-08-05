@@ -291,7 +291,7 @@
         "title": "Bootstrap, Responsive Web Development",
         "author": "Jake Spurlock",
         "authorUrl": "https://jakespurlock.com",
-        "level": "Beginnner",
+        "level": "Beginner",
         "info": "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
         "url": "https://github.com/whyisjake/bootstrap",
         "cover": "img/cover_bootstrap.png"
@@ -315,7 +315,7 @@
         "title": "JavaScript Succinctly",
         "author": "Cody Lindley",
         "authorUrl": "http://twitter.com/codylindley",
-        "level": "Beginnner",
+        "level": "Beginner",
         "info": "JavaScript Succinctly was written to give readers an accurate, concise examination of JavaScript objects and their supporting nuances, such as complex values, primitive values, scope, inheritance, the head object, and more. If you’re an intermediate JavaScript developer and want to solidify your understanding of the language, or if you’ve only used JavaScript beneath the mantle of libraries such as jQuery or Prototype, this is the book for you.",
         "url": "http://www.syncfusion.com/resources/techportal/ebooks/javascript",
         "cover": "img/cover_javascriptsuccinctly.png"
@@ -339,7 +339,7 @@
         "title": "TypeScript Succinctly",
         "author": "Steve Fenton",
         "authorUrl": "http://www.stevefenton.co.uk/",
-        "level": "Beginnner",
+        "level": "Intermediate",
         "info": "With TypeScript Succinctly by Steve Fenton, you will learn how TypeScript provides optional static typing and classes to JavaScript development, how to create and load modules, and how to work with existing JavaScript libraries through ambient declarations. TypeScript is even significantly integrated with Visual Studio to provide the autocompletion and type checking you are most comfortable with.",
         "url": "http://www.syncfusion.com/resources/techportal/ebooks/typescript",
         "cover": "img/cover_typescriptsuccinctly.png"
@@ -347,7 +347,7 @@
         "title": "AngularJS Fundamentals in 60 minutes",
         "author": "Dan Wahlin",
         "authorUrl": "http://http://weblogs.asp.net/dwahlin",
-        "level": "Beginnner",
+        "level": "Beginner",
         "info": "This eBook is a documented transcription of the famous 'AngularJS in 60 minutes' video; The ebook is going through all of the key fundamentals you need to know about the AngularJS SPA framework.",
         "url": "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
         "cover": "img/angular-fundamentals.jpg"
@@ -355,7 +355,7 @@
         "title": "Basic JavaScript for the impatient programmer",
         "author": "Dr. Axel Rauschmayer",
         "authorUrl": "http://rauschma.de/",
-        "level": "Beginnner",
+        "level": "Beginner",
         "info": "A complete blog post enables you to get started with JavaScript as quickly as possible – if you already know how to program. It describes the smallest subset of the language that allows you to be productive. I call that subset “Basic JavaScript” and recommend to program in it for a while, before moving on to more details and advanced topics.",
         "url": "http://www.2ality.com/2013/06/basic-javascript.html",
         "cover": "img/basic-javascript.jpg"
