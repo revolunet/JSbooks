@@ -359,5 +359,13 @@
         "info": "A complete blog post enables you to get started with JavaScript as quickly as possible – if you already know how to program. It describes the smallest subset of the language that allows you to be productive. I call that subset “Basic JavaScript” and recommend to program in it for a while, before moving on to more details and advanced topics.",
         "url": "http://www.2ality.com/2013/06/basic-javascript.html",
         "cover": "img/basic-javascript.jpg"
+    }, {
+        "title": "Learn.js: a guidebook to building projects with javascript",
+        "author": "Seth Vincent",
+        "authorUrl": "http://superbigtree.com",
+        "level": "Beginner",
+        "info": "You've already learned the basics of the language, now you need to level up on the tools commonly used in building projects with javascript.",
+        "url": "https://github.com/learn-js/learnjs/blob/master/readme.md",
+        "cover": "img/cover_learnjs.png"
     }
 ]}
