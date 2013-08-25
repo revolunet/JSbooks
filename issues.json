@@ -189,15 +189,6 @@
         "cover": "img/cover_mongodbbook.png"
     },
     {
-        "title": "Up and Running with Node.js",
-        "author": "Tom Hughes-Croucher",
-        "authorUrl": "http://tomhughescroucher.com/",
-        "level": "Advanced",
-        "info": "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
-        "url": "http://ofps.oreilly.com/titles/9781449398583/index.html",
-        "cover": "img/cover_upandrunningnode.png"
-    },
-    {
         "title": "Mixu's Node book",
         "author": "Mikito Takada",
         "authorUrl": "http://mixu.net/",
