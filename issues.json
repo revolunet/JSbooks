@@ -358,5 +358,13 @@
         "info": "You've already learned the basics of the language, now you need to level up on the tools commonly used in building projects with javascript.",
         "url": "https://github.com/learn-js/learnjs/blob/master/readme.md",
         "cover": "img/cover_learnjs.png"
+    }, {
+        "title": "JavaScript Allonge",
+        "author": "Reginald Braithwaite",
+        "authorUrl": "http://braythwayt.com/",
+        "level": "Intermediate",
+        "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
+        "url": "https://leanpub.com/javascript-allonge/read",
+        "cover": "img/JavaScriptAllonge.jpg"
     }
 ]}
