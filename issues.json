@@ -54,14 +54,14 @@
         "cover": "img/cover_nodebeginnerbook.png"
     },
     {
--       "title": "Up and Running with Node.js",
--       "author": "Tom Hughes-Croucher",
--       "authorUrl": "http://tomhughescroucher.com/",
--       "level": "Advanced",
--       "info": "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
--       "url": "http://chimera.labs.oreilly.com/books/1234000001808/index.html",
--       "cover": "img/cover_upandrunningnode.png"
--   },
+       "title": "Up and Running with Node.js",
+       "author": "Tom Hughes-Croucher",
+       "authorUrl": "http://tomhughescroucher.com/",
+       "level": "Advanced",
+       "info": "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
+       "url": "http://chimera.labs.oreilly.com/books/1234000001808/index.html",
+       "cover": "img/cover_upandrunningnode.png"
+    },
     {
         "title": "jQuery Fundamentals",
         "author": "Rebecca Murphey",
