@@ -375,13 +375,5 @@
         "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
         "url": "https://leanpub.com/javascript-allonge/read",
         "cover": "img/JavaScriptAllonge.jpg"
-    }, {
-        "title": "Apache Cordova 3 Programming",
-        "author": "John M. Wargo",
-        "authorUrl": "http://www.johnwargo.com",
-        "level": "Advanced",
-        "info": "Apache Cordova 3 Programming  is a complete introduction to Apache Cordova 3 and Adobe PhoneGap 3.  It describes what makes Cordova important and shows how to install and use the tools, the new Cordova CLI, the native SDKs and more.",
-        "url": "http://my.safaribooksonline.com/9780133521832",
-        "cover": "img/cordova3.jpg"
     }
 ]}
