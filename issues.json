@@ -375,5 +375,13 @@
         "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
         "url": "https://leanpub.com/javascript-allonge/read",
         "cover": "img/JavaScriptAllonge.jpg"
+    }, {
+        "title": "jQuery Enlightenment",
+        "author": "Cody Lindley",
+        "authorUrl": "http://www.jqueryenlightenment.com",
+        "level": "Intermediate",
+        "info": "A book for jQuery developers who have surpassed the introductory concepts.",
+        "url": "http://jqueryenlightenment.com/jquery_enlightenment.pdf",
+        "cover": "img/cover_jqueryenlight.png"
     }
 ]}
