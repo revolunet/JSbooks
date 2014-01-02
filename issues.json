@@ -383,5 +383,15 @@
         "info": "A book for jQuery developers who have surpassed the introductory concepts.",
         "url": "http://jqueryenlightenment.com/jquery_enlightenment.pdf",
         "cover": "img/cover_jqueryenlight.png"
+    }, {
+        "title": "D3 Tips and Tricks",
+        "author": "Malcolm Maclean",
+        "authorUrl": "https://leanpub.com/u/d3noob",
+        "level": "Intermediate",
+        "info": "Over 430 pages of tips and tricks for using d3.js, one of the leading data visualization tools for the web. It's aimed at helping people get started and also includes loads of help for more complicated tasks.",
+        "url": "https://leanpub.com/D3-Tips-and-Tricks/read",
+        "cover": "img/cover_d3tips.jpg"
     }
+
+
 ]}
