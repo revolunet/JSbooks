@@ -366,5 +366,13 @@
         "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
         "url": "https://leanpub.com/javascript-allonge/read",
         "cover": "img/JavaScriptAllonge.jpg"
+    }, {
+        "title": "Recipes with Angular.js",
+        "author": "Frederik Dietz",
+        "authorUrl": "http://fdietz.de/",
+        "level": "Beginner",
+        "info": "Practical concepts and techniques for rapid web application development",
+        "url": "https://leanpub.com/recipes-with-angular-js/read",
+        "cover": "img/recipes_with_angular.png"
     }
 ]}
