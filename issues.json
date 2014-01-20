@@ -376,6 +376,7 @@
         "url": "https://leanpub.com/javascript-allonge/read",
         "cover": "img/JavaScriptAllonge.jpg"
     }, {
+<<<<<<< HEAD
         "title": "jQuery Enlightenment",
         "author": "Cody Lindley",
         "authorUrl": "http://www.jqueryenlightenment.com",
@@ -399,7 +400,14 @@
         "info": "A Collection of Essential Basics.",
         "url": "https://leanpub.com/jsfun",
         "cover": "img/javascriptandnodefundamentals.png"
+    }, {
+        "title": "Recipes with Angular.js",
+        "author": "Frederik Dietz",
+        "authorUrl": "http://fdietz.de/",
+        "level": "Beginner",
+        "info": "Practical concepts and techniques for rapid web application development",
+        "url": "https://leanpub.com/recipes-with-angular-js/read",
+        "cover": "img/recipes_with_angular.png"
     }
-
 
 ]}
