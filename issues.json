@@ -415,6 +415,14 @@
         "info": "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
         "url": "http://speakingjs.com/es5",
         "cover": "img/speakingjs.jpg"
+    }, {
+        "title": "You Don't Know JS (series)",
+        "author": "Kyle Simpson",
+        "authorUrl": "http://getify.me",
+        "level": "Advanced",
+        "info": "Learn and deeply know *all* of JS (not just the 'good parts')",
+        "url": "http://YouDonKnowJS.com",
+        "cover": "img/ydkjs.jpg"
     }
 
 ]}
