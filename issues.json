@@ -78,7 +78,7 @@
         "level": "Intermediate",
         "info": "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
         "url": "http://addyosmani.github.com/backbone-fundamentals",
-        "cover": "img/cover_backbonefundamentals.png"
+        "cover": "img/cover_backbonefundamentals.jpg"
     },
     {
         "title": "Javascript Guide",
@@ -423,6 +423,14 @@
         "info": "Learn and deeply know *all* of JS (not just the 'good parts')",
         "url": "http://YouDontKnowJS.com",
         "cover": "img/ydkjs.jpg"
+    }, {
+        "title": "ECMAscript language reference",
+        "author": "various authors",
+        "authorUrl": "http://www.ecma-international.org",
+        "level": "Advanced",
+        "info": "Learn all about the Javacript language specifications with this official ECMA-262 bible.",
+        "url": "http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf",
+        "cover": "img/ecma-262.jpg"
     }
 
 ]}
