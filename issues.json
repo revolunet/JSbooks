@@ -431,6 +431,14 @@
         "info": "Learn all about the Javacript language specifications with this official ECMA-262 bible.",
         "url": "http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf",
         "cover": "img/ecma-262.jpg"
+    }, {
+        "title": "Human Javascript",
+        "author": "Henrik Joreteg",
+        "authorUrl": "http://www.andyet.com",
+        "level": "Intermediate",
+        "info": "Practical patterns for simple but powerful javascript apps. No magic frameworks. No monolithic toolkits. You're going to work with proper, real-life javascript in a way you'll understand, and with explanations that help you learn how to make great choices as you build your apps.",
+        "url": "http://read.humanjavascript.com/ch01-introduction.html",
+        "cover": "img/human-javascript.jpg"
     }
 
 ]}
