@@ -162,15 +162,6 @@
         "cover": "img/cover_testingcf.png"
     },
     {
-        "title": "The Past, Present, and Future of JavaScript",
-        "author": "Axel Rauschmayer",
-        "authorUrl": "http://www.rauschma.de/",
-        "level": "Intermediate",
-        "info": "[NOTE : Free registration needed] Historical JavaScript milestones and an overview of ECMAScript.next, the next version of JavaScript.",
-        "url": "http://oreillynet.com/oreilly/javascript/radarreports/past-present-future-javascript.csp",
-        "cover": "img/cover_pastpresentfuturejs.png"
-    },
-    {
         "title": "Dive into HTML 5",
         "author": "Mark Pilgrim",
         "authorUrl": "http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)",
@@ -352,14 +343,6 @@
         "url": "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
         "cover": "img/angular-fundamentals.jpg"
     }, {
-        "title": "Basic JavaScript for the impatient programmer",
-        "author": "Dr. Axel Rauschmayer",
-        "authorUrl": "http://rauschma.de/",
-        "level": "Beginner",
-        "info": "A complete blog post enables you to get started with JavaScript as quickly as possible – if you already know how to program. It describes the smallest subset of the language that allows you to be productive. I call that subset “Basic JavaScript” and recommend to program in it for a while, before moving on to more details and advanced topics.",
-        "url": "http://www.2ality.com/2013/06/basic-javascript.html",
-        "cover": "img/basic-javascript.jpg"
-    }, {
         "title": "Learn.js: a guidebook to building projects with javascript",
         "author": "Seth Vincent",
         "authorUrl": "http://superbigtree.com",
@@ -411,7 +394,7 @@
         "title": "Speaking Javascript",
         "author": "Axel Rauschmayer",
         "authorUrl": "http://www.rauschma.de/",
-        "level": "Intermediate",
+        "level": "Beginner",
         "info": "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
         "url": "http://speakingjs.com/es5",
         "cover": "img/speakingjs.jpg"
