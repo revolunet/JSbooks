@@ -375,14 +375,6 @@
         "url": "https://leanpub.com/D3-Tips-and-Tricks/read",
         "cover": "img/cover_d3tips.jpg"
     }, {
-        "title": "JavaScript and Node FUNdamentals",
-        "author": "Azat Mardanov",
-        "authorUrl": "https://leanpub.com/u/d3noob",
-        "level": "Beginner",
-        "info": "A Collection of Essential Basics.",
-        "url": "https://leanpub.com/jsfun",
-        "cover": "img/javascriptandnodefundamentals.png"
-    }, {
         "title": "Recipes with Angular.js",
         "author": "Frederik Dietz",
         "authorUrl": "http://fdietz.de/",
