@@ -406,6 +406,14 @@
         "info": "Practical patterns for simple but powerful javascript apps. No magic frameworks. No monolithic toolkits. You're going to work with proper, real-life javascript in a way you'll understand, and with explanations that help you learn how to make great choices as you build your apps.",
         "url": "http://read.humanjavascript.com/ch01-introduction.html",
         "cover": "img/human-javascript.jpg"
+    }, {
+        "title": "Canvassing",
+        "author": "Seth Vincent",
+        "authorUrl": "http://sethvincent.com",
+        "level": "Beginner",
+        "info": "Learn to use JavaScript and the HTML5 canvas tag to create art, games, and other creative coding projects.",
+        "url": "http://learnjs.io/canvassing/read",
+        "cover": "img/cover_canvassing.png"
     }
 
 ]}
