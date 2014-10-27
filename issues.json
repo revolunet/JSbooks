@@ -343,14 +343,6 @@
         "url": "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
         "cover": "img/angular-fundamentals.jpg"
     }, {
-        "title": "Learn.js: a guidebook to building projects with javascript",
-        "author": "Seth Vincent",
-        "authorUrl": "http://superbigtree.com",
-        "level": "Beginner",
-        "info": "You've already learned the basics of the language, now you need to level up on the tools commonly used in building projects with javascript.",
-        "url": "https://github.com/learn-js/learnjs/blob/master/readme.md",
-        "cover": "img/cover_learnjs.png"
-    }, {
         "title": "JavaScript Allonge",
         "author": "Reginald Braithwaite",
         "authorUrl": "http://braythwayt.com/",
