@@ -414,6 +414,14 @@
         "info": "Learn to use JavaScript and the HTML5 canvas tag to create art, games, and other creative coding projects.",
         "url": "http://learnjs.io/canvassing/read",
         "cover": "img/cover_canvassing.png"
+    }, {
+        "title": "Understanding ECMAScript 6",
+        "author": "Nicholas C. Zakas",
+        "authorUrl": "http://www.nczonline.net",
+        "level": "Intermediate",
+        "info": "ECMAScript 6 is coming, are you ready? There's a lot of new concepts to learn and understand. Get a headstart with this book!",
+        "url": "https://leanpub.com/understandinges6/read/",
+        "cover": "img/understandinges6.jpg"
     }
 
 ]}
