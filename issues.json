@@ -374,5 +374,13 @@
         "info": "Practical concepts and techniques for rapid web application development",
         "url": "https://leanpub.com/recipes-with-angular-js/read",
         "cover": "img/recipes_with_angular.png"
+    }, {
+        "title": "Programming JavaScript Applications",
+        "author": "Eric Elliott",
+        "authorUrl": "http://ericleads.com/",
+        "level": "Intermediate",
+        "info": "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
+        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+        "cover": "img/Programming-JavaScript-Applications.jpg"
     }
 ]}
