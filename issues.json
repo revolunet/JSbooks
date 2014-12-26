@@ -45,15 +45,6 @@
         "cover": "img/cover_smoothcoffeescript.png"
     },
     {
-        "title": "Node Beginner",
-        "author": "Manuel Kiessling",
-        "authorUrl": "http://www.nodebeginner.org",
-        "level": "Intermediate",
-        "info": "The aim of the book is to get you started with developing applications with Node.js, teaching you everything you need to know about 'Advanced' JavaScript along the way.",
-        "url": "http://www.nodebeginner.org/#about",
-        "cover": "img/cover_nodebeginnerbook.png"
-    },
-    {
        "title": "Up and Running with Node.js",
        "author": "Tom Hughes-Croucher",
        "authorUrl": "http://tomhughescroucher.com/",
