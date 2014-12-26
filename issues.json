@@ -413,6 +413,14 @@
         "info": "ECMAScript 6 is coming, are you ready? There's a lot of new concepts to learn and understand. Get a headstart with this book!",
         "url": "https://leanpub.com/understandinges6/read/",
         "cover": "img/understandinges6.jpg"
+    }, {
+        "title": "Programming JavaScript Applications",
+        "author": "Eric Elliott",
+        "authorUrl": "http://ericleads.com/",
+        "level": "Intermediate",
+        "info": "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
+        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+        "cover": "img/Programming-JavaScript-Applications.jpg"
     }
 
 ]}
