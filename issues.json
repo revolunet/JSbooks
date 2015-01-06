@@ -421,13 +421,5 @@
         "info": "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
         "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
         "cover": "img/Programming-JavaScript-Applications.jpg"
-    }, {
-        "title": "Javascript Challenges",
-        "author": "Tomas Corral",
-        "authorUrl": "http://javascriptnews.overblog.com/",
-        "level": "Intermediate",
-        "info": "A book to challenge your knowledge about the most obscure parts of Javascript. Learn with us and don't be afraid again of Javascript.",
-        "url": "http://amischol.gitbooks.io/javascript_challenges/",
-        "cover": "img/javascript_challenges.jpg"
     }
 ]}
