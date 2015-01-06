@@ -427,7 +427,7 @@
         "authorUrl": "http://javascriptnews.overblog.com/",
         "level": "Intermediate",
         "info": "A book to challenge your knowledge about the most obscure parts of Javascript. Learn with us and don't be afraid again of Javascript.",
-        "url": "http://amischol.gitbooks.io/javascript_challenges/",
+        "url": "https://github.com/tcorral/javascript-challenges-book",
         "cover": "img/javascript_challenges.jpg"
     }
 ]}
