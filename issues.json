@@ -261,15 +261,6 @@
         "cover": "img/cover_domenlightenment.png"
     },
     {
-        "title": "JavaScript Applications",
-        "author": "Eric Elliott",
-        "authorUrl": "https://twitter.com/dilvie",
-        "level": "Intermediate",
-        "info": "Take your existing JavaScript skills to the next level and learn how to build complete web scale or enterprise applications that are easy to extend and maintain.",
-        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
-        "cover": "img/cover_javascriptapplications.png"
-    },
-    {
         "title": "Bootstrap, Responsive Web Development",
         "author": "Jake Spurlock",
         "authorUrl": "https://jakespurlock.com",
@@ -416,10 +407,10 @@
     }, {
         "title": "Programming JavaScript Applications",
         "author": "Eric Elliott",
-        "authorUrl": "http://ericleads.com/",
+        "authorUrl": "http://ericelliottjs.com/",
         "level": "Intermediate",
         "info": "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
-        "url": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+        "url": "http://chimera.labs.oreilly.com/books/1234000000262",
         "cover": "img/Programming-JavaScript-Applications.jpg"
     }, {
         "title": "Javascript Challenges",
