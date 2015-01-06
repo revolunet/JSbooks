@@ -200,7 +200,7 @@
     {
         "title": "Mastering NodeJS",
         "author": "TJ Holowaychuk",
-        "authorUrl": "http://visionmedia.github.com/masteringnode",
+        "authorUrl": "https://github.com/tj",
         "level": "Advanced",
         "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
         "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
