@@ -422,6 +422,14 @@
         "info": "ECMAScript 6 is coming, are you ready? There's a lot of new concepts to learn and understand. Get a headstart with this book!",
         "url": "https://leanpub.com/understandinges6/read/",
         "cover": "img/understandinges6.jpg"
+    }, {
+        "title": "Sams Teach Yourself JavaScript in 24 Hours",
+        "author": "Michael Moncur",
+        "authorUrl": "http://www.michaelmoncur.com/",
+        "level": "Beginner",
+        "info": "Sams Teach Yourself JavaScript in 24 Hours serves as an easy-to-understand tutorial on both scripting basics and JavaScript itself.",
+        "url": "http://www.informit.com/library/library.aspx?b=STY_JavaScript_24_hours",
+        "cover": "img/cover_teach_js_24hr.jpeg"
     }
 
 ]}
