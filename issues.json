@@ -45,6 +45,15 @@
         "cover": "img/cover_smoothcoffeescript.png"
     },
     {
+      "title": "Hard Rock CoffeeScript",
+      "author": "Alex Chaplinsky",
+      "authorUrl": "https://github.com/alchapone/hard-rock-coffeescript",
+      "level": "Intermediate",
+      "info": "CoffeeScript programming language guide with javascript design patterns explained in coffeescript.",
+      "url": "http://hardrockcoffeescript.org",
+      "cover": "img/hard_rock_coffeescript.png"
+    },
+    {
        "title": "Up and Running with Node.js",
        "author": "Tom Hughes-Croucher",
        "authorUrl": "http://tomhughescroucher.com/",
