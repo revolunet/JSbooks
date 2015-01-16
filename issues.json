@@ -254,10 +254,10 @@
     {
         "title": "CoffeeScript Cookbook",
         "author": "Multiple Owner",
-        "authorUrl": "http://coffeescriptcookbook.com/authors",
+        "authorUrl": "https://coffeescript-cookbook.github.io/authors",
         "level": "Beginner",
         "info": "CoffeeScript recipes for the community by the community.",
-        "url": "http://coffeescriptcookbook.com/",
+        "url": "https://coffeescript-cookbook.github.io/",
         "cover": "img/cover_coffeescriptcookbook.png"
     },
     {
