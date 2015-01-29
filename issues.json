@@ -1,5 +1,23 @@
 { "books" : [
     {
+        "title": "Apuntes de Javascript I - Nivel Intermedio",
+        "author": "JuanMa Garrido",
+        "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
+        "level": "Intermediate",
+        "info": "(En Castellano) Revision de conceptos (actuales) de javascript desde basicos hasta un nivel intermedio",
+        "url": "https://leanpub.com/apuntes-javascript-intermedio",
+        "cover": "img/cover-apuntes-javascript-intermedio.png"
+    },
+    {
+        "title": "Apuntes de Javascript I - Nivel Avanzado",
+        "author": "JuanMa Garrido",
+        "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
+        "level": "Advanced",
+        "info": "(En Castellano) Revision de conceptos (actuales) de javascript avanzados",
+        "url": "https://leanpub.com/apuntes-javascript-avanzado",
+        "cover": "img/cover-apuntes-javascript-avanzado.png"
+    },
+    {
         "title": "Javascript Enlightenment",
         "author": "Cody Lindley",
         "authorUrl": "http://www.javascriptenlightenment.com",
