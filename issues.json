@@ -447,5 +447,13 @@
         "info": "A book to challenge your knowledge about the most obscure parts of Javascript. Learn with us and don't be afraid again of Javascript.",
         "url": "https://github.com/tcorral/javascript-challenges-book",
         "cover": "img/javascript_challenges.jpg"
+    }, {
+        "title": "Angular Succinctly",
+        "author": "Frederik Dietz",
+        "authorUrl": "http://twitter.com/fdietz",
+        "level": "Beginner",
+        "info": "Whether you are a novice looking to understand Angular.js or an expert seeking a reference guide, AngularJS Succinctly is indispensable!",
+        "url": "https://www.syncfusion.com/resources/techportal/ebooks/angularjs",
+        "cover": "img/cover_angularjssuccinctly.jpg"
     }
 ]}
