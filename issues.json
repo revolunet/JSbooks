@@ -623,6 +623,19 @@
       "tags": [
         "angularjs"
       ]
+    },
+    {
+      "title": "The offline cookbook",
+      "author": "Jake Archibald",
+      "authorUrl": "http://jakearchibald.com/",
+      "level": "Intermediate",
+      "info": "Excellent overview and recipes using the current offline browsers capabilities",
+      "url": "http://jakearchibald.com/2014/offline-cookbook/",
+      "cover": "img/offlinecookbook.jpg",
+      "tags": [
+        "mobile",
+        "html5"
+      ]
     }
   ]
 }
