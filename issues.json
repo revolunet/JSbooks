@@ -606,5 +606,16 @@
       "nodejs",
       "core"
     ]
+  }, {
+    "title": "Exploring ES6",
+    "author": "Axel Rauschmayer",
+    "authorUrl": "http://www.2ality.com/",
+    "level": "Intermediate",
+    "info": "Upgrade to the next version of JavaScript",
+    "url": "https://leanpub.com/exploring-es6/read",
+    "cover": "img/cover_exploringes6.png",
+    "tags": [
+      "core"
+    ]
   }]
 }
