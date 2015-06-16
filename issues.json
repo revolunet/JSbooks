@@ -617,5 +617,18 @@
     "tags": [
       "core"
     ]
+  }, {
+    "title": "SurviveJS - Webpack and React",
+    "author": "Juho Vepsäläinen",
+    "authorUrl": "https://twitter.com/bebraw",
+    "level": "Beginner",
+    "info": "Go from zero to Webpack and React hero",
+    "url": "http://survivejs.com/",
+    "cover": "img/cover_survivejs_webpack_and_react.jpg",
+    "tags": [
+      "core",
+      "react",
+      "webpack"
+    ]
   }]
 }
