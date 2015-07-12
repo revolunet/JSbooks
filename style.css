@@ -1,0 +1,286 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+html {
+  font-size:100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+/* DEFAULTS */
+body {
+  font: 300 1rem 'Roboto', sans-serif;
+  line-height: 1.4;
+  background: #ebebeb;
+  color: $baseFontColor;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+/*  HEADER  */
+.header,
+.footer {
+  background: #f1c40f;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.header__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12vw;
+  letter-spacing: -1px;
+}
+
+.header__title span {
+  font-weight: 300;
+}
+
+.header__baseline {
+  color: white;
+}
+
+
+
+
+/*  META  */
+.meta {
+  background: #ecf0f1;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+
+.filter__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.filter + .filter {
+  margin-top: 2rem;
+}
+
+.label {
+  display: inline-block;
+  padding: .1rem .5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/*  BOOK ITEM  */
+
+.books-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.book__item {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  border-radius: 3px;
+  border: 0;
+  display: block;
+  box-shadow: 0 1px 2px rgba(43,59,93,0.29);
+  background: #fff;
+  transition: all 300ms ease-out;
+}
+
+.book__img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.book__title {
+  display: block;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.book__author {
+  font-weight: 300;
+  color: #424242;
+  margin-bottom: .8rem;
+}
+
+.book__level {
+  display: inline-block;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: .1rem .3rem;
+  margin-right: .5rem;
+}
+
+.book__level--Beginner,
+.book__level--beginner {
+    background-color: #5CB85C;
+}
+.book__level--Intermediate,
+.book__level--intermediate {
+    background-color: #F0AD4E;
+}
+.book__level--Advanced,
+.book__level--advanced {
+    background-color: #D9534F;
+}
+
+.book_meta {
+  display: block;
+  margin-top: 2rem;
+}
+
+.book_meta--title {
+  font-weight: 600;
+}
+
+.book__info {
+  margin: 1.5rem 0 1rem;
+  color: #757575;
+  font-size: 1rem;
+}
+
+.button {
+    display:inline-block;
+    vertical-align:middle;
+    white-space:nowrap;
+    font-family:inherit;
+    font-size:100%;
+    border: none;
+    margin:.5rem 0;
+    padding: 0.7rem 2rem;
+    background: #2ecc71;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+/*  FOOTER  */
+.footer * {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/*  MEDIA QUERIES  */
+@media screen and (min-width: 415px) {
+
+  .book__item {
+    display: block;
+    float: left;
+    width: 50%;
+    margin: .5rem;
+  }
+
+}
+
+
+@media screen and (min-width: 769px) {
+
+  .book__item {
+    display: block;
+    float: left;
+    width: 31.33333%;
+    margin: .5rem;
+  }
+
+  .header__title {
+    font-size: 3rem;
+  }
+
+}
