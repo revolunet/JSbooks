@@ -262,19 +262,19 @@ body {
 
 
 /*  MEDIA QUERIES  */
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 769px) {
 
   .book__item {
     display: block;
     float: left;
-    width: 50%;
+    width: 47%;
     margin: .5rem;
   }
 
 }
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
 
   .book__item {
     display: block;

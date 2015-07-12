@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js"></script>
-    <script src="js/angular.masonry.min.js"></script>
+    <script src="js/angular.masonry.js"></script>
 
     <script src="app.js"></script>
 </head>
@@ -69,34 +69,36 @@
 
             <section class="books">
                 <div class="container">
-                    <article class="book__item" ng-repeat="book in MainCtrl.books|filterBooks">
-                        <a ng-href="{{ book.url }}">
-                            <img class="book__img" ng-src="{{ book.cover }}" alt="{{ book__title }}" width="120" />
-                        </a>
+                    <div masonry>
+                        <article class="book__item masonry-brick" ng-repeat="book in MainCtrl.books|filterBooks">
+                            <a ng-href="{{ book.url }}">
+                                <img class="book__img" ng-src="{{ book.cover }}" alt="{{ book__title }}" width="120" />
+                            </a>
 
-                        <span class="book__level" ng-class="'book__level--' + book.level">{{ book.level }}</span>
+                            <span class="book__level" ng-class="'book__level--' + book.level">{{ book.level }}</span>
 
-                        <h3>
-                            <a class="book__title" ng-href="{{ book.url }}">{{ book.title }}</a>
-                        </h3>
-                        <a class="book__author" ng-href="{{ book.authorUrl }}">{{ book.author }}</a>
+                            <h3>
+                                <a class="book__title" ng-href="{{ book.url }}">{{ book.title }}</a>
+                            </h3>
+                            <a class="book__author" ng-href="{{ book.authorUrl }}">{{ book.author }}</a>
 
 
-                        <div class="book__info">{{ book.info }}</div>
+                            <div class="book__info">{{ book.info }}</div>
 
-                        <a href="{{ book.url }}" class="button">READ</a>
+                            <a href="{{ book.url }}" class="button">READ</a>
 
-                        <div class="book_meta">
-                            <span class="book_meta--title">Tags :</span> </span> <span class="label" ng-repeat="tag in book.tags">{{ tag }}</span>
-                        </div>
-                    </article>
+                            <div class="book_meta">
+                                <span class="book_meta--title">Tags :</span> </span> <span class="label" ng-repeat="tag in book.tags">{{ tag }}</span>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </section>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-            <p>JSBooks, made by love by <a href="http://www.revolunet.com">Revolunet</a> (<a href="https://twitter.com/revolunet" target="_blank">Twitter</a>).</p>
+            <p>JSBooks, made with &#x2665; by <a href="http://www.revolunet.com">Revolunet</a> (<a href="https://twitter.com/revolunet" target="_blank">Twitter</a>).</p>
             <p>CSS by <a href="http://www.philippebarbosa.com" target="_blank">Philippe Barbosa</a> (<a href="https://twitter.com/philippebarbosa">Twitter</a>).</p>
         </div>
     </footer>
