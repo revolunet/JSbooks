@@ -1,5 +1,5 @@
 
-angular.module('jsBooks', [ 'wu.masonry' ])
+angular.module('jsBooks', [])
 
 .service('loadBooks', function($http, randomizeArray) {
     return function() {

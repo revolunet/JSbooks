@@ -6,6 +6,7 @@
 
     <meta name="description" content="JSbooks is a showcase of the bests free ebooks about Javascript. Find here the best publications about your favourite programming langage without spending any bucks !">
     <meta name="author" content="Revolunet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:image" content="http://jsbooks.revolunet.com/img/cover_modularjavascript.png" />
     <meta property="og:title" content="JSbooks - Free Javascript Ebooks" />
@@ -20,14 +21,10 @@
     <meta name="twitter:image" content="http://jsbooks.revolunet.com/img/cover_modularjavascript.png"/>
     <meta name="twitter:creator" value="@revolunet" />
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,600,400' rel='stylesheet' type='text/css'>
     <link href="./style.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300,600,400' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js"></script>
-    <script src="js/angular.masonry.js"></script>
 
     <script src="app.js"></script>
 </head>
@@ -69,29 +66,27 @@
 
             <section class="books">
                 <div class="container">
-                    <div masonry>
-                        <article class="book__item masonry-brick" ng-repeat="book in MainCtrl.books|filterBooks">
-                            <a ng-href="{{ book.url }}">
-                                <img class="book__img" ng-src="{{ book.cover }}" alt="{{ book__title }}" width="120" />
-                            </a>
+                    <article class="book__item" ng-repeat="book in MainCtrl.books|filterBooks">
+                        <a ng-href="{{ book.url }}">
+                            <img class="book__img" ng-src="{{ book.cover }}" alt="{{ book__title }}" width="120" />
+                        </a>
 
-                            <span class="book__level" ng-class="'book__level--' + book.level">{{ book.level }}</span>
+                        <span class="book__level" ng-class="'book__level--' + book.level">{{ book.level }}</span>
 
-                            <h3>
-                                <a class="book__title" ng-href="{{ book.url }}">{{ book.title }}</a>
-                            </h3>
-                            <a class="book__author" ng-href="{{ book.authorUrl }}">{{ book.author }}</a>
+                        <h3>
+                            <a class="book__title" ng-href="{{ book.url }}">{{ book.title }}</a>
+                        </h3>
+                        <a class="book__author" ng-href="{{ book.authorUrl }}">{{ book.author }}</a>
 
 
-                            <div class="book__info">{{ book.info }}</div>
+                        <div class="book__info">{{ book.info }}</div>
 
-                            <a href="{{ book.url }}" class="button">READ</a>
+                        <a href="{{ book.url }}" class="button">READ</a>
 
-                            <div class="book_meta">
-                                <span class="book_meta--title">Tags :</span> </span> <span class="label" ng-repeat="tag in book.tags">{{ tag }}</span>
-                            </div>
-                        </article>
-                    </div>
+                        <div class="book_meta">
+                            <span class="book_meta--title">Tags :</span> </span> <span class="label" ng-repeat="tag in book.tags">{{ tag }}</span>
+                        </div>
+                    </article>
                 </div>
             </section>
         </div>

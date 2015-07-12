@@ -109,7 +109,7 @@ body {
 }
 
 .header__baseline {
-  color: white;
+  color: #757575;
 }
 
 
@@ -138,6 +138,7 @@ body {
   padding: .1rem .5rem;
   cursor: pointer;
   text-transform: uppercase;
+  margin-right: .5rem;
 }
 
 .label--selected {
@@ -145,19 +146,6 @@ body {
 }
 
 /*  BOOK ITEM  */
-
-.books-container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-}
-
 .book__item {
   margin: 1rem 0;
   padding: 2rem 1rem;
@@ -236,8 +224,8 @@ body {
     border: none;
     margin:.5rem 0;
     padding: 0.7rem 2rem;
-    background: #2ecc71;
-    color: white;
+    background: #f1c40f;
+    color: black;
     font-size: 1rem;
     text-decoration: none;
     font-weight: 600;
@@ -248,6 +236,9 @@ body {
 
 
 /*  FOOTER  */
+.footer {
+  border-top: 1px solid #fff;
+}
 .footer * {
   color: #757575;
   text-decoration: none;
