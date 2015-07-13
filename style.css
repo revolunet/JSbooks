@@ -262,6 +262,16 @@ body {
     margin: .5rem;
   }
 
+  .button {
+    transition: all 0.5s ease-in-out;
+    color: white;
+  }
+
+  .button:hover {
+    color: black;
+    padding: 0.7rem 2.5rem;
+  }
+
 }
 
 
