@@ -59,22 +59,22 @@
     =========================== -->
     <div class="container" id="jsinfos">
         <div class="row">
-            <div class="span6"> 
-                <h4> Learn JavaScript for free ! </h4> 
+            <div class="span6">
+                <h4> Learn JavaScript for free ! </h4>
                 <hr>
-                <p> Discover the most popular free JavaScript books and improve your skills, thanks to the developers community ! Fork it on GitHub and add any books related to your best programming language :)</p> 
-                <p> JSbooks will be updated with fresh and updated content out there. Drop your mail below to be notified on each update : </p> 
+                <p> Discover the most popular free JavaScript books and improve your skills, thanks to the developers community ! Fork it on GitHub and add any books related to your best programming language :)</p>
+                <p> JSbooks will be updated with fresh and updated content out there. Drop your mail below to be notified on each update : </p>
                 <form action="http://revolunet.us1.list-manage.com/subscribe/post?u=43cbcac99221b1ab80c14a121&amp;id=b8d6f6c192" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email adress" required>
                     <input type="submit" value="Subscribe">
-                </form> 
+                </form>
             </div>
-            <div class="span6"> 
-                <h4>About us :</h4> 
+            <div class="span6">
+                <h4>About us :</h4>
                 <hr>
                 <p>
                     <a href="http://www.revolunet.com" target="_blank" title="revolunet">Revolunet</a> is a company specialized in web applications development. <br>
-                    Feel free to contact us by mail for further information: <br> 
+                    Feel free to contact us by mail for further information: <br>
                     <a href="mailto:contact@revolunet.com">contact@revolunet.com</a>
                 </p>
 
@@ -104,6 +104,7 @@
                     <li><a href="#" data-level="Intermediate" title="filter books by Intermediate">Intermediate</a></li>
                     <li><a href="#" data-level="Advanced" title="filter books by Advanced">Advanced</a></li>
                 </ul>
+                <input type="search" class="search-box" placeholder="search for books...">
             </div>
         </div>
 
@@ -129,7 +130,7 @@
     <script type="text/javascript">
 
     function randOrd(){
-      return (Math.round(Math.random())-0.5); 
+      return (Math.round(Math.random())-0.5);
     }
 
     function filterBy() {
@@ -155,9 +156,22 @@
         });
     }
 
+    function search(query, collection) {
+      var m = $.trim(query);
+      var searchQuery = new RegExp(m || "", "i");
+
+      console.log(collection);
+
+    	collection.filter(function (element) {
+    		searchQuery.test(element.text)
+    			? $(element.el).fadeIn()
+    			: $(element.el).fadeOut();
+    	});
+    }
+
     $(document).ready(function() {
         // get the data and compile into the html template
-        $.getJSON('./issues.json?' + Math.random(), function(data) {
+        $.when($.getJSON('./issues.json?' + Math.random(), function(data) {
             var template = $('#booktpl').html(),
                 issuesWrap = $('#issueswrap');
 
@@ -165,22 +179,36 @@
             issuesWrap.html(Mustache.to_html(template, data));
 
             filterBy();
-        });
+        })).then(function() {
+          var // var's info
+              jsInfos = $('#jsinfos'),
+              btInfo = $('a.#infos'),
+              searchBox = $('.search-box'),
+              dom = $('.booksection'),
+              searchBox = $('.search-box'),
+              domMap = $.makeArray(dom).map(function (el) {
+                return {
+                  el: el,
+                  text: el.textContent.replace(/[\n\t\r]?/gi, "")
+                };
+              });
 
-        var // var's info
-            jsInfos = $('#jsinfos'),
-            btInfo = $('a.#infos');
+          // interaction show more info about it
+          jsInfos.hide();
+          btInfo.on('click', function(){
+            jsInfos.slideToggle();
+          });
 
-        // interaction show more info about it
-        jsInfos.hide();
-        btInfo.on('click', function(){
-          jsInfos.slideToggle();
+          searchBox.on('keyup', function () {
+            console.log(dom);
+            search($(this).val(), domMap);
+          });
         });
     });
     </script>
 
     <script id="booktpl" type="text/template">
-        {{#books}} 
+        {{#books}}
          <div class="span4 booksection {{level}}">
           <a  target="_blank" href="{{url}}">
            <div class="view"> READ </div>
@@ -204,6 +232,6 @@
         var pageTracker = _gat._getTracker("UA-294393-1");
         pageTracker._trackPageview();
     } catch(err) {}</script>
-    
+
   </body>
 </html>
