@@ -630,5 +630,16 @@
       "react",
       "webpack"
     ]
+  }, {
+    "title": "Mostly adequate guide to functionnal programming",
+    "author": "Brian Lonsdorf (DrBoolean)",
+    "authorUrl": "https://twitter.com/drboolean",
+    "level": "Intermediate",
+    "info": "Pure Happiness with Pure Functions",
+    "url": "https://github.com/DrBoolean/mostly-adequate-guide",
+    "cover": "img/cover_mostly-adequate-guide.jpg",
+    "tags": [
+      "core"
+    ]
   }]
 }
