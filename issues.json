@@ -643,8 +643,8 @@
     ]
   }, {
     "title": "The introduction to Reactive Programming you've been missing",
-    "author": "André Staltz (staltz)",
-    "authorUrl": "https://twitter.com/staltz",
+    "author": "André Staltz (andrestaltz)",
+    "authorUrl": "https://twitter.com/andrestaltz",
     "level": "Intermediate",
     "info": "So you're curious in learning this new thing called Reactive Programming, particularly its variant comprising of Rx, Bacon.js, RAC, and others.",
     "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
