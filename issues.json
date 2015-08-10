@@ -107,7 +107,8 @@
     "url": "http://jqfundamentals.com/",
     "cover": "img/cover_jqueryfund.png",
     "tags": [
-      "jquery"
+      "jquery",
+      "frontend"
     ]
   }, {
     "title": "Developing Backbone.js Applications",
@@ -118,7 +119,8 @@
     "url": "http://addyosmani.github.com/backbone-fundamentals",
     "cover": "img/cover_backbonefundamentals.jpg",
     "tags": [
-      "backbone"
+      "backbone",
+      "frontend"
     ]
   }, {
     "title": "Javascript Guide",
@@ -184,7 +186,7 @@
     "url": "http://www.noelrappin.com/mstwjs",
     "cover": "img/cover_masterspacetime.png",
     "tags": [
-      "coffeescript"
+      "core"
     ]
   }, {
     "title": "HTML Canvas Deep Dive",
@@ -195,7 +197,8 @@
     "url": "http://joshondesign.com/p/books/canvasdeepdive/toc.html",
     "cover": "img/cover_htmlcanvas.png",
     "tags": [
-      "games"
+      "games",
+      "frontend"
     ]
   }, {
     "title": "Dynamisez vos sites web avec JavaScript !",
@@ -217,7 +220,8 @@
     "url": "https://efendibooks.com/minibooks/testing-with-coffeescript",
     "cover": "img/cover_testingcf.png",
     "tags": [
-      "coffeescript"
+      "coffeescript",
+      "testing"
     ]
   }, {
     "title": "Dive into HTML 5",
@@ -228,7 +232,8 @@
     "url": "http://diveintohtml5.info/index.html",
     "cover": "img/cover_diveintohtml5.png",
     "tags": [
-      "html5"
+      "html5",
+      "frontend"
     ]
   }, {
     "title": "Javascript Garden",
@@ -250,7 +255,8 @@
     "url": "http://openmymind.net/mongodb.pdf",
     "cover": "img/cover_mongodbbook.png",
     "tags": [
-      "mongodb"
+      "mongodb",
+      "backend"
     ]
   }, {
     "title": "Mixu's Node book",
@@ -272,7 +278,8 @@
     "url": "http://singlepageappbook.com/",
     "cover": "img/cover_singlepagewebapps.png",
     "tags": [
-      "spa"
+      "spa",
+      "frontend"
     ]
   }, {
     "title": "Mastering NodeJS",
@@ -305,7 +312,8 @@
     "url": "http://www.buildbrowserapps.com/chromeappbook/index.html",
     "cover": "img/cover_chromeapp.png",
     "tags": [
-      "chrome"
+      "chrome",
+      "frontend"
     ]
   }, {
     "title": "Programming Windows 8 Apps",
@@ -338,7 +346,8 @@
     "url": "http://domenlightenment.com/",
     "cover": "img/cover_domenlightenment.png",
     "tags": [
-      "dom"
+      "dom",
+      "frontend"
     ]
   }, {
     "title": "Bootstrap, Responsive Web Development",
@@ -349,7 +358,8 @@
     "url": "https://github.com/whyisjake/bootstrap",
     "cover": "img/cover_bootstrap.png",
     "tags": [
-      "bootstrap"
+      "bootstrap",
+      "frontend"
     ]
   }, {
     "title": "Art of Node",
@@ -426,7 +436,8 @@
     "url": "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
     "cover": "img/angular-fundamentals.jpg",
     "tags": [
-      "angularjs"
+      "angularjs",
+      "frontend"
     ]
   }, {
     "title": "JavaScript Allonge",
@@ -448,7 +459,8 @@
     "url": "http://jqueryenlightenment.com/jquery_enlightenment.pdf",
     "cover": "img/cover_jqueryenlight.png",
     "tags": [
-      "jquery"
+      "jquery",
+      "frontend"
     ]
   }, {
     "title": "D3 Tips and Tricks",
@@ -459,7 +471,8 @@
     "url": "https://leanpub.com/D3-Tips-and-Tricks/read",
     "cover": "img/cover_d3tips.jpg",
     "tags": [
-      "d3"
+      "d3",
+      "frontend"
     ]
   }, {
     "title": "Recipes with Angular.js",
@@ -470,7 +483,8 @@
     "url": "https://leanpub.com/recipes-with-angular-js/read",
     "cover": "img/recipes_with_angular.png",
     "tags": [
-      "angularjs"
+      "angularjs",
+      "frontend"
     ]
   }, {
     "title": "Speaking Javascript",
@@ -525,7 +539,8 @@
     "url": "http://learnjs.io/canvassing/read",
     "cover": "img/cover_canvassing.png",
     "tags": [
-      "games"
+      "games",
+      "frontend"
     ]
   }, {
     "title": "Understanding ECMAScript 6",
@@ -569,7 +584,8 @@
     "url": "https://www.syncfusion.com/resources/techportal/ebooks/angularjs",
     "cover": "img/cover_angularjssuccinctly.jpg",
     "tags": [
-      "angularjs"
+      "angularjs",
+      "frontend"
     ]
   }, {
     "title": "The offline cookbook",
@@ -581,7 +597,8 @@
     "cover": "img/offlinecookbook.jpg",
     "tags": [
       "mobile",
-      "html5"
+      "html5",
+      "frontend"
     ]
   }, {
     "title": "You Don't Know JS: Up & Going",
@@ -604,7 +621,8 @@
     "cover": "img/cover_felix_nodejs_guide.png",
     "tags": [
       "nodejs",
-      "core"
+      "core",
+      "backend"
     ]
   }, {
     "title": "Exploring ES6",
@@ -626,9 +644,9 @@
     "url": "http://survivejs.com/",
     "cover": "img/cover_survivejs_webpack_and_react.jpg",
     "tags": [
-      "core",
       "react",
-      "webpack"
+      "webpack",
+      "frontend"
     ]
   }, {
     "title": "Mostly adequate guide to functionnal programming",
@@ -639,7 +657,7 @@
     "url": "https://github.com/DrBoolean/mostly-adequate-guide",
     "cover": "img/cover_mostly-adequate-guide.jpg",
     "tags": [
-      "core"
+      "fp"
     ]
   }, {
     "title": "The introduction to Reactive Programming you've been missing",
@@ -650,7 +668,18 @@
     "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
     "cover": "img/rxintro.jpg",
     "tags": [
-      "core"
+      "fp"
+    ]
+  }, {
+    "title": "Book on Building Front-End Web Apps with Plain JavaScript",
+    "author": "Gerd Wagner",
+    "authorUrl": "https://plus.google.com/104237216582874489152",
+    "level": "Intermediate",
+    "info": "This book shows how to build front-end web applications with plain JavaScript, not using any (third-party) framework or library.",
+    "url": "https://oxygen.informatik.tu-cottbus.de/webeng/JsFrontendApp/book/",
+    "cover": "img/buildingfrontend.jpg",
+    "tags": [
+      "frontend"
     ]
   }]
 }
