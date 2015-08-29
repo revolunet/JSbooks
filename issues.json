@@ -630,7 +630,7 @@
     "authorUrl": "http://www.2ality.com/",
     "level": "Intermediate",
     "info": "Upgrade to the next version of JavaScript",
-    "url": "https://leanpub.com/exploring-es6/read",
+    "url": "http://exploringjs.com/es6/",
     "cover": "img/cover_exploringes6.png",
     "tags": [
       "core"
