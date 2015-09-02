@@ -1,1 +1,31 @@
+
+node_modules
+dist/
+.tmp/
+
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
 .DS_Store
+.AppleDouble
+.LSOverride
+
+Icon
+
+
+._*
+
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
