@@ -16,6 +16,7 @@ Icon
 
 
 ._*
+*.log
 
 .DocumentRevisions-V100
 .fseventsd
