@@ -115,7 +115,7 @@ angular.module('jsBooks', ['wu.masonry'])
     this.name = 'world';
 
     this.books = [];
-    this.levels = ["beginner", "intermediate", "advanced"];
+    this.levels = ["Beginner", "Intermediate", "Advanced"];
 
     var self = this;
     loadBooks().then(function(books) {

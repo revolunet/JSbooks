@@ -104,6 +104,7 @@ body {
   letter-spacing: -1px;
   text-decoration: none;
   color: black;
+  text-shadow: 2px 2px 0px white;
 }
 
 .header__title span {
@@ -114,6 +115,17 @@ body {
   color: #757575;
 }
 
+.tw__share {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: #f1c40f;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.1rem .5rem;
+  border-radius: 3px;
+  background: white;
+}
 
 
 
@@ -124,6 +136,9 @@ body {
   border-bottom: 1px solid white;
 }
 
+.filter span {
+  cursor: pointer;
+}
 
 .filter__title {
   text-transform: uppercase;
@@ -272,6 +287,12 @@ body {
   .button:hover {
     color: black;
     padding: 0.7rem 2.5rem;
+  }
+
+  .tw__share {
+    float: right;
+    margin-top: -1.5rem;
+    font-size: 80%;
   }
 
 }

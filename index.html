@@ -23,10 +23,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,600,400' rel='stylesheet' type='text/css'>
     <link href="./style.css" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js"></script>
-    <script src="node_modules/angular-masonry/angular-masonry.min.js"></script>
-    <script src="app.js"></script>
 </head>
 <body>
     <header class="header">
@@ -35,6 +31,8 @@
                 <a href="http://jsbooks.revolunet.com"><span>JS</span>Books</a>
             </h1>
             <p class="header__baseline">Free Javascript ebooks</p>
+
+
         </div>
     </header>
     <main>
@@ -62,14 +60,15 @@
                             >{{ level }}
                             </span>
                         </div>
+                       <a class="tw__share" href="https://twitter.com/home?status=JSBooks%20-%20A%20curated%20list%20of%20free%20javascript%20ebooks%20%3A%20http%3A//jsbooks.revolunet.com%20%23javascript%20%23ebook%20%23resource" target="_blank">Share on Twitter</a>
                     </div>
                 </div>
             </section>
 
             <section class="books">
                 <div class="container">
-                    <div masonry="">
-                        <article class="book__item  masonry-bricks" ng-repeat="book in MainCtrl.books|filterBooks">
+                    <div masonry reload-on-resize>
+                        <article class="book__item  masonry-brick" ng-repeat="book in MainCtrl.books|filterBooks">
                             <a ng-href="{{ book.url }}">
                                 <img class="book__img" ng-src="{{ book.cover }}" alt="{{ book__title }}" width="120" />
                             </a>
@@ -102,6 +101,13 @@
             <p>CSS by <a href="http://www.philippebarbosa.com" target="_blank">Philippe Barbosa</a> (<a href="https://twitter.com/philippebarbosa">Twitter</a>).</p>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="plugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js"></script>
+    <script src="node_modules/angular-masonry/angular-masonry.min.js"></script>
+    <script src="app.js"></script>
+
 </body>
 </html>
 
