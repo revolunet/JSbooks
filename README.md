@@ -11,10 +11,11 @@ We also have a python version : http://pythonbooks.revolunet.com
 
 ## HOW TO ADD YOUR PUBLICATION
 
-If you find a nice ebook about Javascript, feel free to fork JSbooks and add it in a few steps :
+If you find a nice ebook about Javascript, feel free to fork JSbooks and add it in a few steps :  
 
+- Fork project && `npm install` to install dependancies.
 - Paste the informations into the JSON file.
-- Please include a .png file for the cover : less than 100Ko.
+- Please include a .jpg file for the cover : less than 100Ko.
 - Make a pull request.
 
 Alternatively, you can send us an email with book infos : JSbooks@revolunet.com

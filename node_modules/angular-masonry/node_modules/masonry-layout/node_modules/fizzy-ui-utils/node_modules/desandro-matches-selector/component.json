@@ -1,0 +1,8 @@
+{
+  "name": "matches-selector",
+  "repo": "desandro/matches-selector",
+  "description": "matchesSelector helper",
+  "version": "1.0.3",
+  "scripts": ["matches-selector.js"],
+  "main": "matches-selector.js"
+}

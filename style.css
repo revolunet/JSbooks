@@ -97,11 +97,13 @@ body {
   text-align: center;
 }
 
-.header__title {
+.header__title a {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12vw;
   letter-spacing: -1px;
+  text-decoration: none;
+  color: black;
 }
 
 .header__title span {
@@ -284,7 +286,7 @@ body {
     margin: .5rem;
   }
 
-  .header__title {
+  .header__title a {
     font-size: 3rem;
   }
 

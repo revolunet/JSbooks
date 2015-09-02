@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Masonry tests</title>
+
+  <link rel="stylesheet" href="tests.css" />
+  <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" />
+
+<script src="../bower_components/eventie/eventie.js"></script>
+<script src="../bower_components/doc-ready/doc-ready.js"></script>
+<script src="../bower_components/eventEmitter/EventEmitter.js"></script>
+<script src="../bower_components/get-style-property/get-style-property.js"></script>
+<script src="../bower_components/get-size/get-size.js"></script>
+<script src="../bower_components/jquery-bridget/jquery.bridget.js"></script>
+<script src="../bower_components/matches-selector/matches-selector.js"></script>
+<script src="../bower_components/fizzy-ui-utils/utils.js"></script>
+<script src="../bower_components/outlayer/item.js"></script>
+<script src="../bower_components/outlayer/outlayer.js"></script>
+<script src="../bower_components/qunit/qunit/qunit.js"></script>
+<script src="../masonry.js"></script>
+
+<script src="helpers.js"></script>
+<!-- tests -->
+<script src="unit/basic-layout.js"></script>
+<script src="unit/gutter.js"></script>
+<script src="unit/stamp.js"></script>
+<script src="unit/fit-width.js"></script>
+<script src="unit/empty.js"></script>
+<script src="unit/zero-column-width.js"></script>
+<script src="unit/element-sizing.js"></script>
+<script src="unit/pixel-rounding.js"></script>
+
+</head>
+<body>
+
+  <h1>Masonry tests</h1>
+
+  <div id="qunit"></div>
+
+  <h2>Basic layout top left</h2>
+
+  <div id="basic-layout-top-left" class="container basic-layout">
+    <div class="item"></div>
+    <div class="item h4"></div>
+    <div class="item h3"></div>
+    <div class="item h3"></div>
+    <div class="item w2"></div>
+  </div>
+
+  <h2>Basic layout top right</h2>
+  <div id="basic-layout-top-right" class="container basic-layout">
+    <div class="item"></div>
+    <div class="item h4"></div>
+    <div class="item h3"></div>
+    <div class="item h3"></div>
+    <div class="item w2"></div>
+  </div>
+
+  <h2>Basic layout bottom left</h2>
+  <div id="basic-layout-bottom-left" class="container basic-layout">
+    <div class="item"></div>
+    <div class="item h4"></div>
+    <div class="item h3"></div>
+    <div class="item h3"></div>
+    <div class="item w2"></div>
+  </div>
+
+  <h2>Basic layout bottom right</h2>
+  <div id="basic-layout-bottom-right" class="container basic-layout">
+    <div class="item"></div>
+    <div class="item h4"></div>
+    <div class="item h3"></div>
+    <div class="item h3"></div>
+    <div class="item w2"></div>
+  </div>
+
+  <h2>Gutter</h2>
+  <div id="gutter" class="container has-stamp">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item h3"></div>
+    <div class="item w2"></div>
+  </div>
+
+  <h2>Stamp</h2>
+  <div id="stamp-top-left" class="container has-stamp">
+    <div class="stamp stamp1"></div>
+    <div class="stamp stamp2"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <div id="stamp-column-width-multiple" class="container has-stamp">
+    <div class="stamp stamp1"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <div id="stamp-bottom-right" class="container has-stamp">
+    <div class="stamp stamp1"></div>
+    <div class="stamp stamp2"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <h2>fit width</h2>
+  <div id="fit-width">
+    <div class="container">
+      <div class="item"></div>
+      <div class="item h2"></div>
+      <div class="item h3"></div>
+    </div>
+  </div>
+
+  <h2>Empty</h2>
+  <div id="empty" class="container"></div>
+
+  <h2>zero columnWidth</h2>
+  <div id="zero-column-width" class="container">
+    <div class="item hidden"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <h2>Element sizing</h2>
+  <div id="element-sizing" class="container">
+    <div class="grid-sizer"></div>
+    <div class="item"></div>
+    <div class="item w2"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <h2>Pixel rounding</h2>
+  <div id="pixel-rounding" class="container">
+    <div class="gutter-sizer"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+</body>
+</html>

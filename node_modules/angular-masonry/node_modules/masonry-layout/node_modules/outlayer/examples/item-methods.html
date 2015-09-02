@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Item Methods</title>
+
+  <link rel="stylesheet" href="examples.css" />
+
+</head>
+<body>
+
+  <h1>Item Methods</h1>
+
+<p>
+  <button id="reveal">reveal</button>
+  <button id="hide">hide</button>
+  <button id="move">move</button>
+</p>
+
+<div class="container">
+  <div class="item"></div>
+</div>
+
+<script src="../bower_components/get-style-property/get-style-property.js"></script>
+<script src="../bower_components/get-size/get-size.js"></script>
+<script src="../bower_components/matches-selector/matches-selector.js"></script>
+<script src="../bower_components/eventEmitter/EventEmitter.js"></script>
+<script src="../bower_components/eventie/eventie.js"></script>
+<script src="../bower_components/doc-ready/doc-ready.js"></script>
+<script src="../bower_components/fizzy-ui-utils/utils.js"></script>
+<script src="../item.js"></script>
+<script src="../outlayer.js"></script>
+
+<script>
+docReady( function() {
+  var basic = document.querySelector('.container');
+  var layout = new Outlayer( basic );
+  var item = layout.items[0];
+
+  var revealButton = document.querySelector('#reveal');
+  var hideButton = document.querySelector('#hide');
+  var moveButton = document.querySelector('#move');
+
+  eventie.bind( revealButton, 'click', function() {
+    item.reveal();
+  });
+
+  eventie.bind( hideButton, 'click', function() {
+    item.hide();
+  });
+
+  eventie.bind( moveButton, 'click', function() {
+    var x = Math.random() * 400;
+    var y = Math.random() * 200;
+    item.moveTo( x, y )
+  });
+
+});
+</script>
+
+</body>
+</html>
