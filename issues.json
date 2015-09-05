@@ -681,5 +681,18 @@
     "tags": [
       "frontend"
     ]
+  }, {
+    "title": "AngularJS Directives in Traction",
+    "author": "Amit Gharat",
+    "authorUrl": "https://amitgharat.wordpress.com/",
+    "level": "Intermediate",
+    "info": "This eBook helps you understand how built-in directives work and teaches you to build custom directives on your own.",
+    "url": "http://codef0rmer.gitbooks.io/angularjs-directives-in-traction-the-book/",
+    "cover": "img/angular-directives-in-traction.jpg",
+    "tags": [
+      "angularjs",
+      "angular directives",
+      "frontend"
+    ]
   }]
 }
