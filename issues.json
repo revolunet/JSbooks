@@ -304,18 +304,6 @@
       "core"
     ]
   }, {
-    "title": "Building Browser Apps with Google Chrome",
-    "author": "Andy Sylvester",
-    "authorUrl": "http://buildbrowserapps.com/",
-    "level": "Intermediate",
-    "info": "How to write standalone packaged applications for the Google Chrome browser using Javascript. The book will teach you how to build and test an application through a step by step process.",
-    "url": "http://www.buildbrowserapps.com/chromeappbook/index.html",
-    "cover": "img/cover_chromeapp.png",
-    "tags": [
-      "chrome",
-      "frontend"
-    ]
-  }, {
     "title": "Programming Windows 8 Apps",
     "author": "Devon Musgrave",
     "authorUrl": "http://social.msdn.microsoft.com/profile/devon%20musgrave/",
