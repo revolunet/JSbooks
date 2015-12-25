@@ -628,9 +628,9 @@
     "author": "Juho Vepsäläinen",
     "authorUrl": "https://twitter.com/bebraw",
     "level": "Beginner",
-    "info": "Go from zero to Webpack and React hero",
+    "info": "Learn how to build a Kanban application using Webpack and React",
     "url": "http://survivejs.com/",
-    "cover": "img/cover_survivejs_webpack_and_react.jpg",
+    "cover": "img/cover_survivejs_webpack_and_react.png",
     "tags": [
       "react",
       "webpack",
