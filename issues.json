@@ -624,19 +624,30 @@
       "core"
     ]
   }, {
-    "title": "SurviveJS - Webpack and React",
+    "title": "SurviveJS - Webpack",
     "author": "Juho Vepsäläinen",
     "authorUrl": "https://twitter.com/bebraw",
     "level": "Beginner",
-    "info": "Learn how to build a Kanban application using Webpack and React",
-    "url": "http://survivejs.com/",
-    "cover": "img/cover_survivejs_webpack_and_react.png",
+    "info": "Learn to understand Webpack, the bundler.",
+    "url": "http://survivejs.com/webpack/introduction",
+    "cover": "img/cover_survivejs_webpack.png",
     "tags": [
-      "react",
       "webpack",
       "frontend"
     ]
   }, {
+  "title": "SurviveJS - React",
+  "author": "Juho Vepsäläinen",
+  "authorUrl": "https://twitter.com/bebraw",
+  "level": "Beginner",
+  "info": "Learn how to build a Kanban application using React.",
+  "url": "http://survivejs.com/react/introduction",
+  "cover": "img/cover_survivejs_react.png",
+  "tags": [
+    "react",
+    "frontend"
+  ]
+}, {
     "title": "Mostly adequate guide to functional programming",
     "author": "Brian Lonsdorf (DrBoolean)",
     "authorUrl": "https://twitter.com/drboolean",
