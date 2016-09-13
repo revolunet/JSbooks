@@ -82,7 +82,7 @@
     "authorUrl": "https://github.com/alchapone/hard-rock-coffeescript",
     "level": "Intermediate",
     "info": "CoffeeScript programming language guide with javascript design patterns explained in coffeescript.",
-    "url": "http://hardrockcoffeescript.org",
+    "url": "https://github.com/alchapone/hard-rock-coffeescript",
     "cover": "img/hard_rock_coffeescript.png",
     "tags": [
       "coffeescript"
