@@ -718,5 +718,18 @@
       "html",
       "frontend"
     ]
+  }, {
+    "title": "Exploring ES2016 and ES2017",
+    "author": "Dr. Axel Rauschmayer",
+    "authorUrl": "http://www.2ality.com/",
+    "level": "Intermediate",
+    "info": "“Exploring ES2016 and ES2017” is a living book. Much content is still to come! Buy it to stay up to date on what is in ECMAScript 2016 and ECMAScript 2017",
+    "url": "http://exploringjs.com/es2016-es2017.html",
+    "cover": "img/exploring-es2016-es2017.jpg",
+    "tags": [
+      "es2016",
+      "es2017",
+      "core"
+    ]
   }]
 }
