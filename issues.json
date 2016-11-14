@@ -693,5 +693,30 @@
       "angular directives",
       "frontend"
     ]
+  }, {
+    "title": "Thinking in Javascript",
+    "author": "Aravind Shenoy",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript",
+    "level": "Beginner",
+    "info": "[registration] Get started with JavaScript with this free eBook and learn one of the most important languages in web development today. With helpful tips and code examples, discover how you can create websites with impressive and dynamic functionality. Explore JavaScript’s in-built features and find out how to customize them in this accessible and free guide.",
+    "url": "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript",
+    "cover": "img/thinking-javascript.jpg",
+    "tags": [
+      "jquery",
+      "html",
+      "frontend"
+    ]
+  }, {
+    "title": "What You Need to Know about JavaScript",
+    "author": "Gabriel Cánepa",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript",
+    "level": "Beginner",
+    "info": "[registration] Discover everything a beginner needs to know about the world of JavaScript with this free eBook. From the absolute basics of JS syntax to combining ECMAScript 6 and Visual Studio Code this primer is the perfect resource for a JavaScript Master-in-the-Making!",
+    "url": "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript",
+    "cover": "img/need-to-know-javascript.jpg",
+    "tags": [
+      "html",
+      "frontend"
+    ]
   }]
 }
