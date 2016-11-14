@@ -738,7 +738,7 @@
     "level": "Intermediate",
     "info": "Ideal for professional software developers with a basic understanding of JavaScript, this practical book shows you how to build small, interconnected ES6 JavaScript modules that emphasize reusability. You’ll learn how to face a project with a modular mindset, and how to organize your applications into simple pieces that work well in isolation and can be combined to create a large, robust application.",
     "url": "https://ponyfoo.com/books/practical-es6",
-    "cover": "img/exploring-es2016-es2017.jpg",
+    "cover": "img/practical-es6.jpg",
     "tags": [
       "es6",
       "core"
