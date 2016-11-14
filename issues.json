@@ -743,5 +743,27 @@
       "es6",
       "core"
     ]
+  }, {
+    "title": "Designing Scalable JavaScript Applications",
+    "author": "Emmit Scott",
+    "authorUrl": "https://www.manning.com/books/designing-scalable-javascript-applications",
+    "level": "Intermediate",
+    "info": "[registration] Designing Scalable JavaScript Applications helps you start thinking about which tools and frameworks you’ll use and which design patterns you’ll implement. This book brings together excerpts from four different Manning titles selected by Emmit Scott.",
+    "url": "https://www.manning.com/books/designing-scalable-javascript-applications",
+    "cover": "img/designing-scalable-javascript.jpg",
+    "tags": [
+      "frameworks"
+    ]
+  }, {
+    "title": "Using the Web to Build the IoT",
+    "author": "Dominique D. Guinard and Vlad Trifa",
+    "authorUrl": "https://www.manning.com/books/using-the-web-to-build-the-iot",
+    "level": "Intermediate",
+    "info": "[registration] Using the Web to Build the IoT is a collection of six hand-picked chapters that introduce the key technologies and concepts for building the application layer of the IoT.",
+    "url": "https://www.manning.com/books/using-the-web-to-build-the-iot",
+    "cover": "img/iot-javascript.jpg",
+    "tags": [
+      "iot"
+    ]
   }]
 }
