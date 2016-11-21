@@ -752,7 +752,8 @@
     "url": "https://www.manning.com/books/designing-scalable-javascript-applications",
     "cover": "img/designing-scalable-javascript.jpg",
     "tags": [
-      "frameworks"
+      "frameworks",
+      "frontend"
     ]
   }, {
     "title": "Using the Web to Build the IoT",
@@ -764,6 +765,43 @@
     "cover": "img/iot-javascript.jpg",
     "tags": [
       "iot"
+    ]
+  }, {
+    "title": "AngularJS essentials",
+    "author": "Rodrigo Blanas",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
+    "level": "Intermediate",
+    "info": "[registration] Discover the best practices of the AngularJS framework and its most important concepts such as AngularJS directives, expressions, filters, and modules. This free eBook guides you through the steps of building your very own web application with AngularJS.",
+    "url": "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
+    "cover": "img/angularjs-essentials.jpg",
+    "tags": [
+      "angularjs",
+      "frontend"
+    ]
+  }, {
+    "title": "HTML5 Data Visualization",
+    "author": "Ben Fhala",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
+    "level": "Intermediate",
+    "info": "[registration] Get a complete grounding in the exciting visual world of Canvas and HTML5 using this recipe-packed cookbook. Learn to create charts and graphs, draw complex shapes, add interactivity, work with Google maps, and much more.",
+    "url": "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
+    "cover": "img/html5-dataviz.jpg",
+    "tags": [
+      "html5",
+      "dataviz"
+    ]
+  }, {
+    "title": "Instant MongoDB Starter Guide",
+    "author": "Amol Nayak",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
+    "level": "Intermediate",
+    "info": "[registration] This free MongoDB eBook is designed to get you working with MongoDB as quickly as possible. Starting with installation and setup, we quickly show you how to start importing your data into the database. Learn about CRUD operations in MongoDB, its Map Reduce support, schema design, performance tuning operations, and more.",
+    "url": "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
+    "cover": "img/instant-mongodb.jpg",
+    "tags": [
+      "mongodb",
+      "database",
+      "backend"
     ]
   }]
 }
