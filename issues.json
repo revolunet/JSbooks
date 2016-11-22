@@ -803,5 +803,18 @@
       "database",
       "backend"
     ]
+  }, {
+    "title": "Mastering Javascript high performance",
+    "author": "Chad R. Adams",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
+    "level": "Intermediate",
+    "info": "[registration] Studying JavaScript performance in depth will make you capable of tackling the complex and important tasks required to solve performance issues. With this full-length free eBook, discover how to optimize your JavaScript for both mobile and web applications.",
+    "url": "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
+    "cover": "img/js-high-performance.jpg",
+    "tags": [
+      "backend",
+      "frontend",
+      "performance"
+    ]
   }]
 }
