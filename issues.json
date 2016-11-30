@@ -519,18 +519,6 @@
       "core"
     ]
   }, {
-    "title": "Canvassing",
-    "author": "Seth Vincent",
-    "authorUrl": "http://sethvincent.com",
-    "level": "Beginner",
-    "info": "Learn to use JavaScript and the HTML5 canvas tag to create art, games, and other creative coding projects.",
-    "url": "http://learnjs.io/canvassing/read",
-    "cover": "img/cover_canvassing.png",
-    "tags": [
-      "games",
-      "frontend"
-    ]
-  }, {
     "title": "Understanding ECMAScript 6",
     "author": "Nicholas C. Zakas",
     "authorUrl": "http://www.nczonline.net",
