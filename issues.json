@@ -663,7 +663,7 @@
     "authorUrl": "https://plus.google.com/104237216582874489152",
     "level": "Intermediate",
     "info": "This book shows how to build front-end web applications with plain JavaScript, not using any (third-party) framework or library.",
-    "url": "https://oxygen.informatik.tu-cottbus.de/webeng/JsFrontendApp/book/",
+    "url": "http://web-engineering.info/JsFrontendApp-Book",
     "cover": "img/buildingfrontend.jpg",
     "tags": [
       "frontend"
