@@ -811,10 +811,10 @@
     "level": "Beginner",
     "info": "[registration] Learn to write intutive HTML and build your sites on solid foundations",
     "url": "https://www.packtpub.com/packt/free-ebook/thinking-in-html2",
-    "cover": "img/thinking-in-html.jpg",
+    "cover": "img/thinking-html.jpg",
     "tags": [
       "html",
       "frontend"
-    ]  
+    ]
   }]
 }
