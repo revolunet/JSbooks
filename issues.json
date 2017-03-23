@@ -816,5 +816,29 @@
       "html",
       "frontend"
     ]
+    }, {
+    "title": "What You Need To Know About Node.js",
+    "author": "Bruno Joseph Dmello",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
+    "level": "Beginner",
+    "info": "[registration] Dive into fundamentals of Node.js",
+    "url": "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
+    "cover": "img/What-you-need-to-know-about-Nodejs.jpg",
+    "tags": [
+      "node.js",
+      "frontend"
+    ]
+    }, {
+    "title": "Object-Oriented JavaScript - Second Edition",
+    "author": "Stoyan Stefanov & Kumar Chetan Sharma",
+    "authorUrl": "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
+    "level": "Beginner",
+    "info": "[registration] Learn everything you need to know about OOJS in this comprehensive guide",
+    "url": "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
+    "cover": "img/Object-Oriented-JavaScript-Second-Edition.jpg",
+    "tags": [
+      "html",
+      "frontend"
+    ]       
   }]
 }
