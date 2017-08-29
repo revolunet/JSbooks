@@ -843,10 +843,10 @@
   }, {
     "title": "The Road to learn React",
     "author": "Robin Wieruch",
-    "authorUrl": "https://leanpub.com/the-road-to-learn-react",
+    "authorUrl": "https://twitter.com/rwieruch",
     "level": "Beginner",
     "info": "[registration] Your journey to master plain React with practical experiences",
-    "url": "https://twitter.com/rwieruch",
+    "url": "https://leanpub.com/the-road-to-learn-react",
     "cover": "img/hero.png",
     "tags": [
       "reactjs",
