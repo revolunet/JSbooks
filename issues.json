@@ -852,5 +852,17 @@
       "reactjs",
       "frontend"
     ]       
+  }, {
+    "title": "JavaScript, ¡Inspírate!",
+    "author": "Ulises Gascón González",
+    "authorUrl": "https://twitter.com/kom_256",
+    "level": "Beginner",
+    "info": "Un libro de programación sencillo y divertido que nos muestra como programar en JavaScript, desde pseudocódigo hasta las peticiones AJAX.",
+    "url": "https://leanpub.com/javascript-inspirate",
+    "cover": "img/inspirate.png",
+    "tags": [
+      "javascript",
+      "frontend"
+    ]       
   }]
 }
