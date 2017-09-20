@@ -1065,7 +1065,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search {
   position: relative;
-  float: left;
+  float: right;
   margin-top: 6px;
   margin-bottom: 0;
 }
@@ -1261,6 +1261,15 @@ input[type="submit"].btn.btn-mini {
   position: absolute;
   top: -6px;
   left: 10px;
+}
+
+.search-box {
+  float: right;
+  position: relative;
+  right: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
 }
 .navbar-fixed-bottom .dropdown-menu:before {
   border-top: 7px solid #ccc;
