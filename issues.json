@@ -840,5 +840,17 @@
       "html",
       "frontend"
     ]       
+    }, {   
+    "title": "Advanced Machine Learning with Python",
+    "author": "John Hearty",
+    "authorUrl": "https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-python",
+    "level": "ADVANCED",
+    "info": "[registration] Solve challenging data science problems by mastering cutting-edge machine learning techniques in Python",
+    "url": "https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-python",
+    "cover": "img/Advanced-Machine-Learning-with-Python.jpg",
+    "tags": [
+      "python",
+      "machine learning"
+    ]
   }]
 }
