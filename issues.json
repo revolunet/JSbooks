@@ -864,5 +864,18 @@
       "javascript",
       "frontend"
     ]
+  }, {
+    "title": "The JavaScript Way",
+    "author": "Baptiste Pesquet",
+    "authorUrl": "http://bpesquet.com",
+    "level": "Beginner",
+    "info": "A modern introduction to an essential language: beginner-friendly yet comprehensive, standards-aligned, hands-on and easy to follow.",
+    "url": "https://github.com/bpesquet/thejsway",
+    "cover": "img/cover_thejsway.png",
+    "tags": [
+      "core",
+      "es6",
+      "es2015"
+    ]
   }]
 }
