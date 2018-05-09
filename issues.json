@@ -1,881 +1,877 @@
 {
-  "books": [{
-    "title": "Apuntes de Javascript I - Nivel Intermedio",
-    "author": "JuanMa Garrido",
-    "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
-    "level": "Intermediate",
-    "info": "(En Castellano) Revision de conceptos (actuales) de javascript desde basicos hasta un nivel intermedio",
-    "url": "https://leanpub.com/apuntes-javascript-intermedio",
-    "cover": "img/cover-apuntes-javascript-intermedio.png",
-    "tags": [
-      "core"
+    "books": [
+        {
+            "title": "Apuntes de Javascript I - Nivel Intermedio",
+            "author": "JuanMa Garrido",
+            "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
+            "level": "Intermediate",
+            "info":
+                "(En Castellano) Revision de conceptos (actuales) de javascript desde basicos hasta un nivel intermedio",
+            "url": "https://leanpub.com/apuntes-javascript-intermedio",
+            "cover": "img/cover-apuntes-javascript-intermedio.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Apuntes de Javascript I - Nivel Avanzado",
+            "author": "JuanMa Garrido",
+            "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
+            "level": "Advanced",
+            "info":
+                "(En Castellano) Revision de conceptos (actuales) de javascript avanzados",
+            "url": "https://leanpub.com/apuntes-javascript-avanzado",
+            "cover": "img/cover-apuntes-javascript-avanzado.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Javascript Enlightenment",
+            "author": "Cody Lindley",
+            "authorUrl": "http://www.javascriptenlightenment.com",
+            "level": "Intermediate",
+            "info":
+                "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
+            "url":
+                "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
+            "cover": "img/cover_jsenlight.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Eloquent Javascript",
+            "author": "Marijn Haverbeke",
+            "authorUrl": "http://eloquentjavascript.net",
+            "level": "Beginner",
+            "info":
+                "A book providing an introduction to the JavaScript language and programming in general.",
+            "url": "http://eloquentjavascript.net/",
+            "cover": "img/cover_eloquentjs.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Building A JavaScript Framework",
+            "author": "Alex Young",
+            "authorUrl": "http://dailyjs.com",
+            "level": "Advanced",
+            "info": "best Of Let’s Make a Framework articles.",
+            "url": "http://dailyjs.com/files/build-a-javascript-framework.pdf",
+            "cover": "img/cover_buildingjsframework.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "JS in ten minutes",
+            "author": "Spencer Tipping",
+            "authorUrl": "http://spencertipping.com/",
+            "level": "Advanced",
+            "info":
+                "This guide is for anyone who knows some Javascript but would like a quick intro to its advanced features.",
+            "url":
+                "https://github.com/spencertipping/js-in-ten-minutes/blob/master/js-in-ten-minutes.pdf?raw=true",
+            "cover": "img/cover_js10minutes.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Smooth CoffeeScript",
+            "author": "E. Hoigaard",
+            "authorUrl": "http://autotelicum.github.com/Smooth-CoffeeScript",
+            "level": "Intermediate",
+            "info":
+                "An introduction to CoffeeScript programming with an emphasis on clarity, abstraction and verification.",
+            "url":
+                "http://autotelicum.github.com/Smooth-CoffeeScript/interactive/interactive-coffeescript.html",
+            "cover": "img/cover_smoothcoffeescript.png",
+            "tags": ["coffeescript"]
+        },
+        {
+            "title": "Hard Rock CoffeeScript",
+            "author": "Alex Chaplinsky",
+            "authorUrl": "https://github.com/alchapone/hard-rock-coffeescript",
+            "level": "Intermediate",
+            "info":
+                "CoffeeScript programming language guide with javascript design patterns explained in coffeescript.",
+            "url": "https://github.com/alchapone/hard-rock-coffeescript",
+            "cover": "img/hard_rock_coffeescript.png",
+            "tags": ["coffeescript"]
+        },
+        {
+            "title": "Up and Running with Node.js",
+            "author": "Tom Hughes-Croucher",
+            "authorUrl": "http://tomhughescroucher.com/",
+            "level": "Advanced",
+            "info":
+                "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
+            "url":
+                "http://chimera.labs.oreilly.com/books/1234000001808/index.html",
+            "cover": "img/cover_upandrunningnode.png",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "jQuery Fundamentals",
+            "author": "Rebecca Murphey",
+            "authorUrl": "http://jqfundamentals.com",
+            "level": "Beginner",
+            "info": "Community driven Javascript and jQuery book.",
+            "url": "http://jqfundamentals.com/",
+            "cover": "img/cover_jqueryfund.png",
+            "tags": ["jquery", "frontend"]
+        },
+        {
+            "title": "Developing Backbone.js Applications",
+            "author": "Addy Osmani",
+            "authorUrl": "https://twitter.com/addyosmani",
+            "level": "Intermediate",
+            "info":
+                "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
+            "url": "http://addyosmani.github.com/backbone-fundamentals",
+            "cover": "img/cover_backbonefundamentals.jpg",
+            "tags": ["backbone", "frontend"]
+        },
+        {
+            "title": "Javascript Guide",
+            "author": "Mozilla Developer Network",
+            "authorUrl": "https://developer.mozilla.org",
+            "level": "Beginner",
+            "info":
+                "JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.",
+            "url":
+                "https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview",
+            "cover": "img/cover_jsguidemozilla.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "JavaScript For Cats",
+            "author": "Max Ogden",
+            "authorUrl": "http://github.com/maxogden",
+            "level": "Beginner",
+            "info":
+                "An in-browser interactive introductory programming text designed for cats. Humans are probably also capable of following along.",
+            "url": "http://jsforcats.com",
+            "cover": "img/cover_jsforcats.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Javascript Design Patterns",
+            "author": "Addy Osmani",
+            "authorUrl": "https://twitter.com/addyosmani",
+            "level": "Beginner",
+            "info":
+                "In this book we will explore applying both classical and modern design patterns to the JavaScript programming language",
+            "url":
+                "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
+            "cover": "img/cover_jspatterns.png",
+            "tags": ["core"]
+        },
+        {
+            "title":
+                "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
+            "author": "Addy Osmani",
+            "authorUrl": "https://twitter.com/addyosmani",
+            "level": "Advanced",
+            "info":
+                "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
+            "url": "http://addyosmani.com/writing-modular-js",
+            "cover": "img/cover_modularjavascript.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "The little Book on CoffeeScript",
+            "author": "Alex MacCaw",
+            "authorUrl": "http://arcturo.github.com/",
+            "level": "Intermediate",
+            "info":
+                "This book is designed to help you learn CoffeeScript, understand best practices and start building awesome client side applications.",
+            "url":
+                "http://arcturo.github.com/library/coffeescript/01_introduction.html",
+            "cover": "img/cover_littlecoffeescript.png",
+            "tags": ["coffeescript"]
+        },
+        {
+            "title": "Master Space and time with JavaScript - The Basics",
+            "author": "Noel Rappin",
+            "authorUrl": "http://www.noelrappin.com/",
+            "level": "Intermediate",
+            "info":
+                "[NOTE : Free registration needed]. A four book series aimed at developers who have a basic knowledge of JavaScript but who need to learn about newer tools and practices.",
+            "url": "http://www.noelrappin.com/mstwjs",
+            "cover": "img/cover_masterspacetime.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "HTML Canvas Deep Dive",
+            "author": "Josh Marinacci",
+            "authorUrl": "http://joshondesign.com/",
+            "level": "Advanced",
+            "info":
+                "For those who allready know JavaScript basics and wants to learn HTML Canvas.",
+            "url": "http://joshondesign.com/p/books/canvasdeepdive/toc.html",
+            "cover": "img/cover_htmlcanvas.png",
+            "tags": ["games", "frontend"]
+        },
+        {
+            "title": "Dynamisez vos sites web avec JavaScript !",
+            "author": "Le Site du Zero",
+            "authorUrl": "http://www.siteduzero.com/",
+            "level": "Beginner",
+            "info":
+                "[IN FRENCH] Le tutorial référence en francais pour apprendre le JavaScript. Culte !",
+            "url":
+                "http://www.siteduzero.com/tutoriel-3-309961-dynamisez-vos-sites-web-avec-javascript.html#part_309955",
+            "cover": "img/cover_sitezero.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Testing with CoffeeScript",
+            "author": "Jack Franklin",
+            "authorUrl": "http://jackfranklin.co.uk/",
+            "level": "Intermediate",
+            "info":
+                "[NOTE : Download needed]. You will be guided through the creation of a shopping cart system. You’ll learn about using and testing jQuery code, writing more idiomatic CoffeeScript and building a well thought out and structured, complex JavaScript application.",
+            "url":
+                "https://efendibooks.com/minibooks/testing-with-coffeescript",
+            "cover": "img/cover_testingcf.png",
+            "tags": ["coffeescript", "testing"]
+        },
+        {
+            "title": "Dive into HTML 5",
+            "author": "Mark Pilgrim",
+            "authorUrl":
+                "http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)",
+            "level": "Intermediate",
+            "info":
+                "A community ebook to discover HTML5 best practices and experiment with Javascript.",
+            "url": "http://www.diveintohtml5.net/",
+            "cover": "img/cover_diveintohtml5.png",
+            "tags": ["html5", "frontend"]
+        },
+        {
+            "title": "Javascript Garden",
+            "author": "Ivo Wetzel",
+            "authorUrl": "https://github.com/BonsaiDen",
+            "level": "Advanced",
+            "info":
+                "A collection of documentation about the most quirky parts of JavaScript.",
+            "url": "http://bonsaiden.github.com/JavaScript-Garden",
+            "cover": "img/cover_javascriptgarden.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "The little MongoDB book",
+            "author": "Karl Seguin",
+            "authorUrl": "http://openmymind.net/",
+            "level": "Advanced",
+            "info":
+                "Discover NoSQL with MongoDB and commons Javascript usage patterns.",
+            "url": "http://openmymind.net/mongodb.pdf",
+            "cover": "img/cover_mongodbbook.png",
+            "tags": ["mongodb", "backend"]
+        },
+        {
+            "title": "Mixu's Node book",
+            "author": "Mikito Takada",
+            "authorUrl": "http://mixu.net/",
+            "level": "Advanced",
+            "info":
+                "A comprehensive and interesting NodeJS overview covering many aspects in details.",
+            "url": "http://book.mixu.net/",
+            "cover": "img/cover_nodemixu.png",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "Single page apps in depth",
+            "author": "Mikito Takada",
+            "authorUrl": "http://mixu.net/",
+            "level": "Advanced",
+            "info":
+                "Learn the best practices for implementing single page web apps.",
+            "url": "http://singlepageappbook.com/",
+            "cover": "img/cover_singlepagewebapps.png",
+            "tags": ["spa", "frontend"]
+        },
+        {
+            "title": "Mastering NodeJS",
+            "author": "TJ Holowaychuk",
+            "authorUrl": "https://github.com/tj",
+            "level": "Advanced",
+            "info":
+                "In Mastering Node we will discover how to write high concurrency web servers,…",
+            "url":
+                "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
+            "cover": "img/cover_masteringnode.png",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "JS The Right Way",
+            "author": "William Oliveira",
+            "authorUrl": "https://twitter.com/gnuwilliam",
+            "level": "Intermediate",
+            "info":
+                "An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.",
+            "url": "http://jstherightway.org/",
+            "cover": "img/cover_jsrightway.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "Programming Windows 8 Apps",
+            "author": "Devon Musgrave",
+            "authorUrl":
+                "http://social.msdn.microsoft.com/profile/devon%20musgrave/",
+            "level": "Beginner",
+            "info":
+                "[NOTE : Download needed]This book is about writing Windows Store apps using HTML5, CSS3, and JavaScript.",
+            "url": "http://go.microsoft.com/FWLink/?Linkid=270056",
+            "cover": "img/cover_windows8app.png",
+            "tags": ["windows"]
+        },
+        {
+            "title": "CoffeeScript Cookbook",
+            "author": "Multiple Owner",
+            "authorUrl": "https://coffeescript-cookbook.github.io/authors",
+            "level": "Beginner",
+            "info": "CoffeeScript recipes for the community by the community.",
+            "url": "https://coffeescript-cookbook.github.io/",
+            "cover": "img/cover_coffeescriptcookbook.png",
+            "tags": ["coffeescript"]
+        },
+        {
+            "title": "DOM Enlightenment",
+            "author": "Cody Lindley",
+            "authorUrl": "http://twitter.com/codylindley",
+            "level": "Advanced",
+            "info":
+                "Exploring the relationship between JavaScript and the modern HTML DOM",
+            "url": "http://domenlightenment.com/",
+            "cover": "img/cover_domenlightenment.png",
+            "tags": ["dom", "frontend"]
+        },
+        {
+            "title": "Bootstrap, Responsive Web Development",
+            "author": "Jake Spurlock",
+            "authorUrl": "https://jakespurlock.com",
+            "level": "Beginner",
+            "info":
+                "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
+            "url": "https://github.com/whyisjake/bootstrap",
+            "cover": "img/cover_bootstrap.png",
+            "tags": ["bootstrap", "frontend"]
+        },
+        {
+            "title": "Art of Node",
+            "author": "Max Odgen",
+            "authorUrl": "https://maxodgen.com",
+            "level": "Intermediate",
+            "info":
+                "a free short e-book that teaches you the fundamentals of Node.js by Max Odgen, a popular Node supporter",
+            "url": "https://github.com/maxogden/art-of-node",
+            "cover": "img/artofnode.png",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "Stream handbook",
+            "author": "James Halliday (substack)",
+            "authorUrl": "http://substack.net",
+            "level": "Advanced",
+            "info":
+                "a free short e-book that teaches you how to write node programs with streams, by James Halliday a famous NodeJS supporter that published numerous awesome NodeJS modules",
+            "url": "https://github.com/substack/stream-handbook",
+            "cover": "img/streamshandbook.png",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "JavaScript Succinctly",
+            "author": "Cody Lindley",
+            "authorUrl": "http://twitter.com/codylindley",
+            "level": "Beginner",
+            "info":
+                "JavaScript Succinctly was written to give readers an accurate, concise examination of JavaScript objects and their supporting nuances, such as complex values, primitive values, scope, inheritance, the head object, and more. If you’re an intermediate JavaScript developer and want to solidify your understanding of the language, or if you’ve only used JavaScript beneath the mantle of libraries such as jQuery or Prototype, this is the book for you.",
+            "url":
+                "http://www.syncfusion.com/resources/techportal/ebooks/javascript",
+            "cover": "img/cover_javascriptsuccinctly.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "jQuery Succinctly",
+            "author": "Cody Lindley",
+            "authorUrl": "http://twitter.com/codylindley",
+            "level": "Intermediate",
+            "info":
+                "jQuery Succinctly was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in you, the reader, practices that jQuery developers take as common knowledge. Each chapter contains concepts essential to becoming a seasoned jQuery developer.",
+            "url":
+                "http://www.syncfusion.com/resources/techportal/ebooks/jquery",
+            "cover": "img/cover_jquerysuccinctly.png",
+            "tags": ["jquery"]
+        },
+        {
+            "title": "Knockout.js Succinctly",
+            "author": "Ryan Hodson",
+            "authorUrl": "http://rypress.com/",
+            "level": "Intermediate",
+            "info":
+                "Knockout.js Succinctly is intended for professional web developers who need to build dynamic, scalable user interfaces with minimal code. Author Ryan Hodson guides you through the essentials of the library, starting with a brief overview of Knockout and its data-oriented aspects, followed by a thorough examination of binding data to various HTML elements, and finally examples of accessing external data and combining Knockout with jQuery animation routines.",
+            "url":
+                "http://www.syncfusion.com/resources/techportal/ebooks/knockoutjs",
+            "cover": "img/cover_knockoutjssuccinctly.png",
+            "tags": ["knockout"]
+        },
+        {
+            "title": "TypeScript Succinctly",
+            "author": "Steve Fenton",
+            "authorUrl": "http://www.stevefenton.co.uk/",
+            "level": "Intermediate",
+            "info":
+                "With TypeScript Succinctly by Steve Fenton, you will learn how TypeScript provides optional static typing and classes to JavaScript development, how to create and load modules, and how to work with existing JavaScript libraries through ambient declarations. TypeScript is even significantly integrated with Visual Studio to provide the autocompletion and type checking you are most comfortable with.",
+            "url":
+                "http://www.syncfusion.com/resources/techportal/ebooks/typescript",
+            "cover": "img/cover_typescriptsuccinctly.png",
+            "tags": ["typescript"]
+        },
+        {
+            "title": "AngularJS Fundamentals in 60 minutes",
+            "author": "Dan Wahlin",
+            "authorUrl": "https://blog.codewithdan.com/",
+            "level": "Beginner",
+            "info":
+                "This eBook is a documented transcription of the famous 'AngularJS in 60 minutes' video; The ebook is going through all of the key fundamentals you need to know about the AngularJS SPA framework.",
+            "url":
+                "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
+            "cover": "img/angular-fundamentals.jpg",
+            "tags": ["angularjs", "frontend"]
+        },
+        {
+            "title": "JavaScript Allonge",
+            "author": "Reginald Braithwaite",
+            "authorUrl": "http://braythwayt.com/",
+            "level": "Intermediate",
+            "info":
+                "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
+            "url": "https://leanpub.com/javascriptallongesix/read",
+            "cover": "img/JavaScriptAllonge.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "jQuery Enlightenment",
+            "author": "Cody Lindley",
+            "authorUrl": "http://www.jqueryenlightenment.com",
+            "level": "Intermediate",
+            "info":
+                "A book for jQuery developers who have surpassed the introductory concepts.",
+            "url": "http://jqueryenlightenment.com/jquery_enlightenment.pdf",
+            "cover": "img/cover_jqueryenlight.png",
+            "tags": ["jquery", "frontend"]
+        },
+        {
+            "title": "D3 Tips and Tricks",
+            "author": "Malcolm Maclean",
+            "authorUrl": "https://leanpub.com/u/d3noob",
+            "level": "Intermediate",
+            "info":
+                "Over 430 pages of tips and tricks for using d3.js, one of the leading data visualization tools for the web. It's aimed at helping people get started and also includes loads of help for more complicated tasks.",
+            "url": "https://leanpub.com/D3-Tips-and-Tricks/read",
+            "cover": "img/cover_d3tips.jpg",
+            "tags": ["d3", "frontend"]
+        },
+        {
+            "title": "Recipes with Angular.js",
+            "author": "Frederik Dietz",
+            "authorUrl": "http://fdietz.de/",
+            "level": "Beginner",
+            "info":
+                "Practical concepts and techniques for rapid web application development",
+            "url": "https://leanpub.com/recipes-with-angular-js/read",
+            "cover": "img/recipes_with_angular.png",
+            "tags": ["angularjs", "frontend"]
+        },
+        {
+            "title": "Speaking Javascript",
+            "author": "Axel Rauschmayer",
+            "authorUrl": "http://www.rauschma.de/",
+            "level": "Beginner",
+            "info":
+                "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+            "url": "http://speakingjs.com/es5",
+            "cover": "img/speakingjs.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "You Don't Know JS (series)",
+            "author": "Kyle Simpson",
+            "authorUrl": "http://getify.me",
+            "level": "Advanced",
+            "info":
+                "Learn and deeply know *all* of JS (not just the 'good parts')",
+            "url": "http://YouDontKnowJS.com",
+            "cover": "img/ydkjs.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "ECMAscript language reference",
+            "author": "various authors",
+            "authorUrl": "http://www.ecma-international.org",
+            "level": "Advanced",
+            "info":
+                "Learn all about the Javacript language specifications with this official ECMA-262 bible.",
+            "url":
+                "http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf",
+            "cover": "img/ecma-262.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Human Javascript",
+            "author": "Henrik Joreteg",
+            "authorUrl": "http://www.andyet.com",
+            "level": "Intermediate",
+            "info":
+                "Practical patterns for simple but powerful javascript apps. No magic frameworks. No monolithic toolkits. You're going to work with proper, real-life javascript in a way you'll understand, and with explanations that help you learn how to make great choices as you build your apps.",
+            "url": "http://read.humanjavascript.com/ch01-introduction.html",
+            "cover": "img/human-javascript.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Understanding ECMAScript 6",
+            "author": "Nicholas C. Zakas",
+            "authorUrl": "http://www.nczonline.net",
+            "level": "Intermediate",
+            "info":
+                "ECMAScript 6 is coming, are you ready? There's a lot of new concepts to learn and understand. Get a headstart with this book!",
+            "url": "https://leanpub.com/understandinges6/read/",
+            "cover": "img/understandinges6.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Programming JavaScript Applications",
+            "author": "Eric Elliott",
+            "authorUrl": "http://ericelliottjs.com/",
+            "level": "Intermediate",
+            "info":
+                "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
+            "url": "http://chimera.labs.oreilly.com/books/1234000000262",
+            "cover": "img/Programming-JavaScript-Applications.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Javascript Challenges",
+            "author": "Tomas Corral",
+            "authorUrl": "http://javascriptnews.overblog.com/",
+            "level": "Intermediate",
+            "info":
+                "A book to challenge your knowledge about the most obscure parts of Javascript. Learn with us and don't be afraid again of Javascript.",
+            "url": "https://github.com/tcorral/javascript-challenges-book",
+            "cover": "img/javascript_challenges.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Angular Succinctly",
+            "author": "Frederik Dietz",
+            "authorUrl": "http://twitter.com/fdietz",
+            "level": "Beginner",
+            "info":
+                "Whether you are a novice looking to understand Angular.js or an expert seeking a reference guide, AngularJS Succinctly is indispensable!",
+            "url":
+                "https://www.syncfusion.com/resources/techportal/ebooks/angularjs",
+            "cover": "img/cover_angularjssuccinctly.jpg",
+            "tags": ["angularjs", "frontend"]
+        },
+        {
+            "title": "The offline cookbook",
+            "author": "Jake Archibald",
+            "authorUrl": "http://jakearchibald.com/",
+            "level": "Intermediate",
+            "info":
+                "Excellent overview and recipes using the current offline browsers capabilities",
+            "url": "http://jakearchibald.com/2014/offline-cookbook/",
+            "cover": "img/offlinecookbook.jpg",
+            "tags": ["mobile", "html5", "frontend"]
+        },
+        {
+            "title": "You Don't Know JS: Up & Going",
+            "author": "Kyle Simpson",
+            "authorUrl": "https://twitter.com/getify",
+            "level": "Beginner",
+            "info":
+                "It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years. With the 'You Don’t Know JS' book series, you’ll get a more complete understanding of JavaScript, including trickier parts of the language that many experienced...",
+            "url": "http://shop.oreilly.com/product/0636920039303.do",
+            "cover": "img/YDKJS-UpAndGoing.jpg",
+            "tags": ["core"]
+        },
+        {
+            "title": "Felix's Node.js Guide",
+            "author": "Felix Geisendörfer",
+            "authorUrl": "http://twitter.com/felixge",
+            "level": "Intermediate",
+            "info":
+                "Node.js Beginner Guide and Style Guide. The guide is a work in progress by Felix Geisendörfer, an early Node.js core contributor.",
+            "url": "http://nodeguide.com/",
+            "cover": "img/cover_felix_nodejs_guide.png",
+            "tags": ["nodejs", "core", "backend"]
+        },
+        {
+            "title": "Exploring ES6",
+            "author": "Axel Rauschmayer",
+            "authorUrl": "http://www.2ality.com/",
+            "level": "Intermediate",
+            "info": "Upgrade to the next version of JavaScript",
+            "url": "http://exploringjs.com/es6/",
+            "cover": "img/cover_exploringes6.png",
+            "tags": ["core"]
+        },
+        {
+            "title": "SurviveJS - Webpack",
+            "author": "Juho Vepsäläinen",
+            "authorUrl": "https://twitter.com/bebraw",
+            "level": "Beginner",
+            "info": "Learn to understand Webpack, the bundler.",
+            "url": "http://survivejs.com/webpack/introduction",
+            "cover": "img/cover_survivejs_webpack.png",
+            "tags": ["webpack", "frontend"]
+        },
+        {
+            "title": "SurviveJS - React",
+            "author": "Juho Vepsäläinen",
+            "authorUrl": "https://twitter.com/bebraw",
+            "level": "Beginner",
+            "info": "Learn how to build a Kanban application using React.",
+            "url": "http://survivejs.com/react/introduction",
+            "cover": "img/cover_survivejs_react.png",
+            "tags": ["react", "frontend"]
+        },
+        {
+            "title": "Mostly adequate guide to functional programming",
+            "author": "Brian Lonsdorf (DrBoolean)",
+            "authorUrl": "https://twitter.com/drboolean",
+            "level": "Intermediate",
+            "info": "Pure Happiness with Pure Functions",
+            "url": "https://github.com/DrBoolean/mostly-adequate-guide",
+            "cover": "img/cover_mostly-adequate-guide.jpg",
+            "tags": ["fp"]
+        },
+        {
+            "title":
+                "The introduction to Reactive Programming you've been missing",
+            "author": "André Staltz (andrestaltz)",
+            "authorUrl": "https://twitter.com/andrestaltz",
+            "level": "Intermediate",
+            "info":
+                "So you're curious in learning this new thing called Reactive Programming, particularly its variant comprising of Rx, Bacon.js, RAC, and others.",
+            "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+            "cover": "img/rxintro.jpg",
+            "tags": ["fp"]
+        },
+        {
+            "title":
+                "Book on Building Front-End Web Apps with Plain JavaScript",
+            "author": "Gerd Wagner",
+            "authorUrl": "https://plus.google.com/104237216582874489152",
+            "level": "Intermediate",
+            "info":
+                "This book shows how to build front-end web applications with plain JavaScript, not using any (third-party) framework or library.",
+            "url": "http://web-engineering.info/JsFrontendApp-Book",
+            "cover": "img/buildingfrontend.jpg",
+            "tags": ["frontend"]
+        },
+        {
+            "title": "AngularJS Directives in Traction",
+            "author": "Amit Gharat",
+            "authorUrl": "https://amitgharat.wordpress.com/",
+            "level": "Intermediate",
+            "info":
+                "This eBook helps you understand how built-in directives work and teaches you to build custom directives on your own.",
+            "url":
+                "http://codef0rmer.gitbooks.io/angularjs-directives-in-traction-the-book/",
+            "cover": "img/angular-directives-in-traction.jpg",
+            "tags": ["angularjs", "angular directives", "frontend"]
+        },
+        {
+            "title": "Thinking in Javascript",
+            "author": "Aravind Shenoy",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript2",
+            "level": "Beginner",
+            "info":
+                "[registration] Get started with JavaScript with this free eBook and learn one of the most important languages in web development today. With helpful tips and code examples, discover how you can create websites with impressive and dynamic functionality. Explore JavaScript’s in-built features and find out how to customize them in this accessible and free guide.",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript2",
+            "cover": "img/thinking-javascript.jpg",
+            "tags": ["jquery", "html", "frontend"]
+        },
+        {
+            "title": "What You Need to Know about JavaScript",
+            "author": "Gabriel Cánepa",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript2",
+            "level": "Beginner",
+            "info":
+                "[registration] Discover everything a beginner needs to know about the world of JavaScript with this free eBook. From the absolute basics of JS syntax to combining ECMAScript 6 and Visual Studio Code this primer is the perfect resource for a JavaScript Master-in-the-Making!",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript2",
+            "cover": "img/need-to-know-javascript.jpg",
+            "tags": ["html", "frontend"]
+        },
+        {
+            "title": "Exploring ES2016 and ES2017",
+            "author": "Dr. Axel Rauschmayer",
+            "authorUrl": "http://www.2ality.com/",
+            "level": "Advanced",
+            "info":
+                "“Exploring ES2016 and ES2017” is a living book. Much content is still to come! Buy it to stay up to date on what is in ECMAScript 2016 and ECMAScript 2017",
+            "url": "http://exploringjs.com/es2016-es2017.html",
+            "cover": "img/exploring-es2016-es2017.jpg",
+            "tags": ["es2016", "es2017", "core"]
+        },
+        {
+            "title": "Practical ES6 [modular javascript]",
+            "author": "Nicolás Bevacqua",
+            "authorUrl": "http://www.ponyfoo.com/",
+            "level": "Intermediate",
+            "info":
+                "Ideal for professional software developers with a basic understanding of JavaScript, this practical book shows you how to build small, interconnected ES6 JavaScript modules that emphasize reusability. You’ll learn how to face a project with a modular mindset, and how to organize your applications into simple pieces that work well in isolation and can be combined to create a large, robust application.",
+            "url": "https://ponyfoo.com/books/practical-es6",
+            "cover": "img/practical-es6.jpg",
+            "tags": ["es6", "core"]
+        },
+        {
+            "title": "Designing Scalable JavaScript Applications",
+            "author": "Emmit Scott",
+            "authorUrl":
+                "https://www.manning.com/books/designing-scalable-javascript-applications",
+            "level": "Intermediate",
+            "info":
+                "[registration] Designing Scalable JavaScript Applications helps you start thinking about which tools and frameworks you’ll use and which design patterns you’ll implement. This book brings together excerpts from four different Manning titles selected by Emmit Scott.",
+            "url":
+                "https://www.manning.com/books/designing-scalable-javascript-applications",
+            "cover": "img/designing-scalable-javascript.jpg",
+            "tags": ["frameworks", "frontend"]
+        },
+        {
+            "title": "Using the Web to Build the IoT",
+            "author": "Dominique D. Guinard and Vlad Trifa",
+            "authorUrl":
+                "https://www.manning.com/books/using-the-web-to-build-the-iot",
+            "level": "Intermediate",
+            "info":
+                "[registration] Using the Web to Build the IoT is a collection of six hand-picked chapters that introduce the key technologies and concepts for building the application layer of the IoT.",
+            "url":
+                "https://www.manning.com/books/using-the-web-to-build-the-iot",
+            "cover": "img/iot-javascript.jpg",
+            "tags": ["iot"]
+        },
+        {
+            "title": "AngularJS essentials",
+            "author": "Rodrigo Blanas",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
+            "level": "Intermediate",
+            "info":
+                "[registration] Discover the best practices of the AngularJS framework and its most important concepts such as AngularJS directives, expressions, filters, and modules. This free eBook guides you through the steps of building your very own web application with AngularJS.",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
+            "cover": "img/angularjs-essentials.jpg",
+            "tags": ["angularjs", "frontend"]
+        },
+        {
+            "title": "HTML5 Data Visualization",
+            "author": "Ben Fhala",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
+            "level": "Intermediate",
+            "info":
+                "[registration] Get a complete grounding in the exciting visual world of Canvas and HTML5 using this recipe-packed cookbook. Learn to create charts and graphs, draw complex shapes, add interactivity, work with Google maps, and much more.",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
+            "cover": "img/html5-dataviz.jpg",
+            "tags": ["html5", "dataviz"]
+        },
+        {
+            "title": "Instant MongoDB Starter Guide",
+            "author": "Amol Nayak",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
+            "level": "Intermediate",
+            "info":
+                "[registration] This free MongoDB eBook is designed to get you working with MongoDB as quickly as possible. Starting with installation and setup, we quickly show you how to start importing your data into the database. Learn about CRUD operations in MongoDB, its Map Reduce support, schema design, performance tuning operations, and more.",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
+            "cover": "img/instant-mongodb.jpg",
+            "tags": ["mongodb", "database", "backend"]
+        },
+        {
+            "title": "Mastering Javascript high performance",
+            "author": "Chad R. Adams",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
+            "level": "Intermediate",
+            "info":
+                "[registration] Studying JavaScript performance in depth will make you capable of tackling the complex and important tasks required to solve performance issues. With this full-length free eBook, discover how to optimize your JavaScript for both mobile and web applications.",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
+            "cover": "img/js-high-performance.jpg",
+            "tags": ["backend", "frontend", "performance"]
+        },
+        {
+            "title": "Thinking in HTML",
+            "author": "Aravind Shenoy",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/thinking-in-html2",
+            "level": "Beginner",
+            "info":
+                "[registration] Learn to write intutive HTML and build your sites on solid foundations",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/thinking-in-html2",
+            "cover": "img/thinking-html.jpg",
+            "tags": ["html", "frontend"]
+        },
+        {
+            "title": "What You Need To Know About Node.js",
+            "author": "Bruno Joseph Dmello",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
+            "level": "Beginner",
+            "info": "[registration] Dive into fundamentals of Node.js",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
+            "cover": "img/What-you-need-to-know-about-Nodejs.jpg",
+            "tags": ["node.js", "frontend"]
+        },
+        {
+            "title": "Object-Oriented JavaScript - Second Edition",
+            "author": "Stoyan Stefanov & Kumar Chetan Sharma",
+            "authorUrl":
+                "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
+            "level": "Beginner",
+            "info":
+                "[registration] Learn everything you need to know about OOJS in this comprehensive guide",
+            "url":
+                "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
+            "cover": "img/Object-Oriented-JavaScript-Second-Edition.jpg",
+            "tags": ["html", "frontend"]
+        },
+        {
+            "title": "The Road to learn React",
+            "author": "Robin Wieruch",
+            "authorUrl": "https://twitter.com/rwieruch",
+            "level": "Beginner",
+            "info":
+                "[registration] Your journey to master plain React with practical experiences",
+            "url": "https://leanpub.com/the-road-to-learn-react",
+            "cover": "img/hero.png",
+            "tags": ["reactjs", "frontend"]
+        },
+        {
+            "title": "JavaScript, ¡Inspírate!",
+            "author": "Ulises Gascón González",
+            "authorUrl": "https://twitter.com/kom_256",
+            "level": "Beginner",
+            "info":
+                "[ES] Un libro de programación sencillo y divertido que nos muestra como programar en JavaScript, desde pseudocódigo hasta las peticiones AJAX.",
+            "url": "https://leanpub.com/javascript-inspirate",
+            "cover": "img/inspirate.png",
+            "tags": ["javascript", "frontend"]
+        },
+        {
+            "title": "The JavaScript Way",
+            "author": "Baptiste Pesquet",
+            "authorUrl": "http://bpesquet.com",
+            "level": "Beginner",
+            "info":
+                "A modern introduction to an essential language: beginner-friendly yet comprehensive, standards-aligned, hands-on and easy to follow.",
+            "url": "https://github.com/bpesquet/thejsway",
+            "cover": "img/cover_thejsway.png",
+            "tags": ["core", "es6", "es2015"]
+        }
     ]
-  }, {
-    "title": "Apuntes de Javascript I - Nivel Avanzado",
-    "author": "JuanMa Garrido",
-    "authorUrl": "https://leanpub.com/u/juanmanuelgarrido",
-    "level": "Advanced",
-    "info": "(En Castellano) Revision de conceptos (actuales) de javascript avanzados",
-    "url": "https://leanpub.com/apuntes-javascript-avanzado",
-    "cover": "img/cover-apuntes-javascript-avanzado.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Javascript Enlightenment",
-    "author": "Cody Lindley",
-    "authorUrl": "http://www.javascriptenlightenment.com",
-    "level": "Intermediate",
-    "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances.",
-    "url": "http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf",
-    "cover": "img/cover_jsenlight.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Eloquent Javascript",
-    "author": "Marijn Haverbeke",
-    "authorUrl": "http://eloquentjavascript.net",
-    "level": "Beginner",
-    "info": "A book providing an introduction to the JavaScript language and programming in general.",
-    "url": "http://eloquentjavascript.net/",
-    "cover": "img/cover_eloquentjs.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Building A JavaScript Framework",
-    "author": "Alex Young",
-    "authorUrl": "http://dailyjs.com",
-    "level": "Advanced",
-    "info": "best Of Let’s Make a Framework articles.",
-    "url": "http://dailyjs.com/files/build-a-javascript-framework.pdf",
-    "cover": "img/cover_buildingjsframework.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "JS in ten minutes",
-    "author": "Spencer Tipping",
-    "authorUrl": "http://spencertipping.com/",
-    "level": "Advanced",
-    "info": "This guide is for anyone who knows some Javascript but would like a quick intro to its advanced features.",
-    "url": "https://github.com/spencertipping/js-in-ten-minutes/blob/master/js-in-ten-minutes.pdf?raw=true",
-    "cover": "img/cover_js10minutes.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Smooth CoffeeScript",
-    "author": "E. Hoigaard",
-    "authorUrl": "http://autotelicum.github.com/Smooth-CoffeeScript",
-    "level": "Intermediate",
-    "info": "An introduction to CoffeeScript programming with an emphasis on clarity, abstraction and verification.",
-    "url": "http://autotelicum.github.com/Smooth-CoffeeScript/interactive/interactive-coffeescript.html",
-    "cover": "img/cover_smoothcoffeescript.png",
-    "tags": [
-      "coffeescript"
-    ]
-  }, {
-    "title": "Hard Rock CoffeeScript",
-    "author": "Alex Chaplinsky",
-    "authorUrl": "https://github.com/alchapone/hard-rock-coffeescript",
-    "level": "Intermediate",
-    "info": "CoffeeScript programming language guide with javascript design patterns explained in coffeescript.",
-    "url": "https://github.com/alchapone/hard-rock-coffeescript",
-    "cover": "img/hard_rock_coffeescript.png",
-    "tags": [
-      "coffeescript"
-    ]
-  }, {
-    "title": "Up and Running with Node.js",
-    "author": "Tom Hughes-Croucher",
-    "authorUrl": "http://tomhughescroucher.com/",
-    "level": "Advanced",
-    "info": "Discover NodeJS APIS, tools, modules and best practices and learn how to extend it.",
-    "url": "http://chimera.labs.oreilly.com/books/1234000001808/index.html",
-    "cover": "img/cover_upandrunningnode.png",
-    "tags": [
-      "nodejs"
-    ]
-  }, {
-    "title": "jQuery Fundamentals",
-    "author": "Rebecca Murphey",
-    "authorUrl": "http://jqfundamentals.com",
-    "level": "Beginner",
-    "info": "Community driven Javascript and jQuery book.",
-    "url": "http://jqfundamentals.com/",
-    "cover": "img/cover_jqueryfund.png",
-    "tags": [
-      "jquery",
-      "frontend"
-    ]
-  }, {
-    "title": "Developing Backbone.js Applications",
-    "author": "Addy Osmani",
-    "authorUrl": "https://twitter.com/addyosmani",
-    "level": "Intermediate",
-    "info": "In this book we will explore MVC theory and how to build applications using Backbone's models, views, collections and routers.",
-    "url": "http://addyosmani.github.com/backbone-fundamentals",
-    "cover": "img/cover_backbonefundamentals.jpg",
-    "tags": [
-      "backbone",
-      "frontend"
-    ]
-  }, {
-    "title": "Javascript Guide",
-    "author": "Mozilla Developer Network",
-    "authorUrl": "https://developer.mozilla.org",
-    "level": "Beginner",
-    "info": "JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.",
-    "url": "https://developer.mozilla.org/en/JavaScript/Guide/JavaScript_Overview",
-    "cover": "img/cover_jsguidemozilla.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "JavaScript For Cats",
-    "author": "Max Ogden",
-    "authorUrl": "http://github.com/maxogden",
-    "level": "Beginner",
-    "info": "An in-browser interactive introductory programming text designed for cats. Humans are probably also capable of following along.",
-    "url": "http://jsforcats.com",
-    "cover": "img/cover_jsforcats.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Javascript Design Patterns",
-    "author": "Addy Osmani",
-    "authorUrl": "https://twitter.com/addyosmani",
-    "level": "Beginner",
-    "info": "In this book we will explore applying both classical and modern design patterns to the JavaScript programming language",
-    "url": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
-    "cover": "img/cover_jspatterns.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Writing Modular JavaScript With AMD, CommonJS & ES Harmony",
-    "author": "Addy Osmani",
-    "authorUrl": "https://twitter.com/addyosmani",
-    "level": "Advanced",
-    "info": "In this article, we're going to look at three formats for writing modular JavaScript: AMD, CommonJS and proposals for the next version of JavaScript, Harmony.",
-    "url": "http://addyosmani.com/writing-modular-js",
-    "cover": "img/cover_modularjavascript.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "The little Book on CoffeeScript",
-    "author": "Alex MacCaw",
-    "authorUrl": "http://arcturo.github.com/",
-    "level": "Intermediate",
-    "info": "This book is designed to help you learn CoffeeScript, understand best practices and start building awesome client side applications.",
-    "url": "http://arcturo.github.com/library/coffeescript/01_introduction.html",
-    "cover": "img/cover_littlecoffeescript.png",
-    "tags": [
-      "coffeescript"
-    ]
-  }, {
-    "title": "Master Space and time with JavaScript - The Basics",
-    "author": "Noel Rappin",
-    "authorUrl": "http://www.noelrappin.com/",
-    "level": "Intermediate",
-    "info": "[NOTE : Free registration needed]. A four book series aimed at developers who have a basic knowledge of JavaScript but who need to learn about newer tools and practices.",
-    "url": "http://www.noelrappin.com/mstwjs",
-    "cover": "img/cover_masterspacetime.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "HTML Canvas Deep Dive",
-    "author": "Josh Marinacci",
-    "authorUrl": "http://joshondesign.com/",
-    "level": "Advanced",
-    "info": "For those who allready know JavaScript basics and wants to learn HTML Canvas.",
-    "url": "http://joshondesign.com/p/books/canvasdeepdive/toc.html",
-    "cover": "img/cover_htmlcanvas.png",
-    "tags": [
-      "games",
-      "frontend"
-    ]
-  }, {
-    "title": "Dynamisez vos sites web avec JavaScript !",
-    "author": "Le Site du Zero",
-    "authorUrl": "http://www.siteduzero.com/",
-    "level": "Beginner",
-    "info": "[IN FRENCH] Le tutorial référence en francais pour apprendre le JavaScript. Culte !",
-    "url": "http://www.siteduzero.com/tutoriel-3-309961-dynamisez-vos-sites-web-avec-javascript.html#part_309955",
-    "cover": "img/cover_sitezero.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Testing with CoffeeScript",
-    "author": "Jack Franklin",
-    "authorUrl": "http://jackfranklin.co.uk/",
-    "level": "Intermediate",
-    "info": "[NOTE : Download needed]. You will be guided through the creation of a shopping cart system. You’ll learn about using and testing jQuery code, writing more idiomatic CoffeeScript and building a well thought out and structured, complex JavaScript application.",
-    "url": "https://efendibooks.com/minibooks/testing-with-coffeescript",
-    "cover": "img/cover_testingcf.png",
-    "tags": [
-      "coffeescript",
-      "testing"
-    ]
-  }, {
-    "title": "Dive into HTML 5",
-    "author": "Mark Pilgrim",
-    "authorUrl": "http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)",
-    "level": "Intermediate",
-    "info": "A community ebook to discover HTML5 best practices and experiment with Javascript.",
-    "url": "http://diveintohtml5.info/index.html",
-    "cover": "img/cover_diveintohtml5.png",
-    "tags": [
-      "html5",
-      "frontend"
-    ]
-  }, {
-    "title": "Javascript Garden",
-    "author": "Ivo Wetzel",
-    "authorUrl": "https://github.com/BonsaiDen",
-    "level": "Advanced",
-    "info": "A collection of documentation about the most quirky parts of JavaScript.",
-    "url": "http://bonsaiden.github.com/JavaScript-Garden",
-    "cover": "img/cover_javascriptgarden.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "The little MongoDB book",
-    "author": "Karl Seguin",
-    "authorUrl": "http://openmymind.net/",
-    "level": "Advanced",
-    "info": "Discover NoSQL with MongoDB and commons Javascript usage patterns.",
-    "url": "http://openmymind.net/mongodb.pdf",
-    "cover": "img/cover_mongodbbook.png",
-    "tags": [
-      "mongodb",
-      "backend"
-    ]
-  }, {
-    "title": "Mixu's Node book",
-    "author": "Mikito Takada",
-    "authorUrl": "http://mixu.net/",
-    "level": "Advanced",
-    "info": "A comprehensive and interesting NodeJS overview covering many aspects in details.",
-    "url": "http://book.mixu.net/",
-    "cover": "img/cover_nodemixu.png",
-    "tags": [
-      "nodejs"
-    ]
-  }, {
-    "title": "Single page apps in depth",
-    "author": "Mikito Takada",
-    "authorUrl": "http://mixu.net/",
-    "level": "Advanced",
-    "info": "Learn the best practices for implementing single page web apps.",
-    "url": "http://singlepageappbook.com/",
-    "cover": "img/cover_singlepagewebapps.png",
-    "tags": [
-      "spa",
-      "frontend"
-    ]
-  }, {
-    "title": "Mastering NodeJS",
-    "author": "TJ Holowaychuk",
-    "authorUrl": "https://github.com/tj",
-    "level": "Advanced",
-    "info": "In Mastering Node we will discover how to write high concurrency web servers,…",
-    "url": "http://github.com/visionmedia/masteringnode/raw/master/book.pdf",
-    "cover": "img/cover_masteringnode.png",
-    "tags": [
-      "nodejs"
-    ]
-  }, {
-    "title": "JS The Right Way",
-    "author": "William Oliveira",
-    "authorUrl": "https://twitter.com/gnuwilliam",
-    "level": "Intermediate",
-    "info": "An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.",
-    "url": "http://jstherightway.org/",
-    "cover": "img/cover_jsrightway.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Programming Windows 8 Apps",
-    "author": "Devon Musgrave",
-    "authorUrl": "http://social.msdn.microsoft.com/profile/devon%20musgrave/",
-    "level": "Beginner",
-    "info": "[NOTE : Download needed]This book is about writing Windows Store apps using HTML5, CSS3, and JavaScript.",
-    "url": "http://go.microsoft.com/FWLink/?Linkid=270056",
-    "cover": "img/cover_windows8app.png",
-    "tags": [
-      "windows"
-    ]
-  }, {
-    "title": "CoffeeScript Cookbook",
-    "author": "Multiple Owner",
-    "authorUrl": "https://coffeescript-cookbook.github.io/authors",
-    "level": "Beginner",
-    "info": "CoffeeScript recipes for the community by the community.",
-    "url": "https://coffeescript-cookbook.github.io/",
-    "cover": "img/cover_coffeescriptcookbook.png",
-    "tags": [
-      "coffeescript"
-    ]
-  }, {
-    "title": "DOM Enlightenment",
-    "author": "Cody Lindley",
-    "authorUrl": "http://twitter.com/codylindley",
-    "level": "Advanced",
-    "info": "Exploring the relationship between JavaScript and the modern HTML DOM",
-    "url": "http://domenlightenment.com/",
-    "cover": "img/cover_domenlightenment.png",
-    "tags": [
-      "dom",
-      "frontend"
-    ]
-  }, {
-    "title": "Bootstrap, Responsive Web Development",
-    "author": "Jake Spurlock",
-    "authorUrl": "https://jakespurlock.com",
-    "level": "Beginner",
-    "info": "Discover how easy it is to design killer interfaces and responsive websites with the Bootstrap framework. This practical book gets you started building pages with Bootstrap’s HTML/CSS-based tools and design templates right away. You’ll also learn how to extend your app with interactive features, using its suite of jQuery plugins—often without writing a single line of code.",
-    "url": "https://github.com/whyisjake/bootstrap",
-    "cover": "img/cover_bootstrap.png",
-    "tags": [
-      "bootstrap",
-      "frontend"
-    ]
-  }, {
-    "title": "Art of Node",
-    "author": "Max Odgen",
-    "authorUrl": "https://maxodgen.com",
-    "level": "Intermediate",
-    "info": "a free short e-book that teaches you the fundamentals of Node.js by Max Odgen, a popular Node supporter",
-    "url": "https://github.com/maxogden/art-of-node",
-    "cover": "img/artofnode.png",
-    "tags": [
-      "nodejs"
-    ]
-  }, {
-    "title": "Stream handbook",
-    "author": "James Halliday (substack)",
-    "authorUrl": "http://substack.net",
-    "level": "Advanced",
-    "info": "a free short e-book that teaches you how to write node programs with streams, by James Halliday a famous NodeJS supporter that published numerous awesome NodeJS modules",
-    "url": "https://github.com/substack/stream-handbook",
-    "cover": "img/streamshandbook.png",
-    "tags": [
-      "nodejs"
-    ]
-  }, {
-    "title": "JavaScript Succinctly",
-    "author": "Cody Lindley",
-    "authorUrl": "http://twitter.com/codylindley",
-    "level": "Beginner",
-    "info": "JavaScript Succinctly was written to give readers an accurate, concise examination of JavaScript objects and their supporting nuances, such as complex values, primitive values, scope, inheritance, the head object, and more. If you’re an intermediate JavaScript developer and want to solidify your understanding of the language, or if you’ve only used JavaScript beneath the mantle of libraries such as jQuery or Prototype, this is the book for you.",
-    "url": "http://www.syncfusion.com/resources/techportal/ebooks/javascript",
-    "cover": "img/cover_javascriptsuccinctly.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "jQuery Succinctly",
-    "author": "Cody Lindley",
-    "authorUrl": "http://twitter.com/codylindley",
-    "level": "Intermediate",
-    "info": "jQuery Succinctly was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in you, the reader, practices that jQuery developers take as common knowledge. Each chapter contains concepts essential to becoming a seasoned jQuery developer.",
-    "url": "http://www.syncfusion.com/resources/techportal/ebooks/jquery",
-    "cover": "img/cover_jquerysuccinctly.png",
-    "tags": [
-      "jquery"
-    ]
-  }, {
-    "title": "Knockout.js Succinctly",
-    "author": "Ryan Hodson",
-    "authorUrl": "http://rypress.com/",
-    "level": "Intermediate",
-    "info": "Knockout.js Succinctly is intended for professional web developers who need to build dynamic, scalable user interfaces with minimal code. Author Ryan Hodson guides you through the essentials of the library, starting with a brief overview of Knockout and its data-oriented aspects, followed by a thorough examination of binding data to various HTML elements, and finally examples of accessing external data and combining Knockout with jQuery animation routines.",
-    "url": "http://www.syncfusion.com/resources/techportal/ebooks/knockoutjs",
-    "cover": "img/cover_knockoutjssuccinctly.png",
-    "tags": [
-      "knockout"
-    ]
-  }, {
-    "title": "TypeScript Succinctly",
-    "author": "Steve Fenton",
-    "authorUrl": "http://www.stevefenton.co.uk/",
-    "level": "Intermediate",
-    "info": "With TypeScript Succinctly by Steve Fenton, you will learn how TypeScript provides optional static typing and classes to JavaScript development, how to create and load modules, and how to work with existing JavaScript libraries through ambient declarations. TypeScript is even significantly integrated with Visual Studio to provide the autocompletion and type checking you are most comfortable with.",
-    "url": "http://www.syncfusion.com/resources/techportal/ebooks/typescript",
-    "cover": "img/cover_typescriptsuccinctly.png",
-    "tags": [
-      "typescript"
-    ]
-  }, {
-    "title": "AngularJS Fundamentals in 60 minutes",
-    "author": "Dan Wahlin",
-    "authorUrl": "https://blog.codewithdan.com/",
-    "level": "Beginner",
-    "info": "This eBook is a documented transcription of the famous 'AngularJS in 60 minutes' video; The ebook is going through all of the key fundamentals you need to know about the AngularJS SPA framework.",
-    "url": "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf",
-    "cover": "img/angular-fundamentals.jpg",
-    "tags": [
-      "angularjs",
-      "frontend"
-    ]
-  }, {
-    "title": "JavaScript Allonge",
-    "author": "Reginald Braithwaite",
-    "authorUrl": "http://braythwayt.com/",
-    "level": "Intermediate",
-    "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions.",
-    "url": "https://leanpub.com/javascriptallongesix/read",
-    "cover": "img/JavaScriptAllonge.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "jQuery Enlightenment",
-    "author": "Cody Lindley",
-    "authorUrl": "http://www.jqueryenlightenment.com",
-    "level": "Intermediate",
-    "info": "A book for jQuery developers who have surpassed the introductory concepts.",
-    "url": "http://jqueryenlightenment.com/jquery_enlightenment.pdf",
-    "cover": "img/cover_jqueryenlight.png",
-    "tags": [
-      "jquery",
-      "frontend"
-    ]
-  }, {
-    "title": "D3 Tips and Tricks",
-    "author": "Malcolm Maclean",
-    "authorUrl": "https://leanpub.com/u/d3noob",
-    "level": "Intermediate",
-    "info": "Over 430 pages of tips and tricks for using d3.js, one of the leading data visualization tools for the web. It's aimed at helping people get started and also includes loads of help for more complicated tasks.",
-    "url": "https://leanpub.com/D3-Tips-and-Tricks/read",
-    "cover": "img/cover_d3tips.jpg",
-    "tags": [
-      "d3",
-      "frontend"
-    ]
-  }, {
-    "title": "Recipes with Angular.js",
-    "author": "Frederik Dietz",
-    "authorUrl": "http://fdietz.de/",
-    "level": "Beginner",
-    "info": "Practical concepts and techniques for rapid web application development",
-    "url": "https://leanpub.com/recipes-with-angular-js/read",
-    "cover": "img/recipes_with_angular.png",
-    "tags": [
-      "angularjs",
-      "frontend"
-    ]
-  }, {
-    "title": "Speaking Javascript",
-    "author": "Axel Rauschmayer",
-    "authorUrl": "http://www.rauschma.de/",
-    "level": "Beginner",
-    "info": "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
-    "url": "http://speakingjs.com/es5",
-    "cover": "img/speakingjs.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "You Don't Know JS (series)",
-    "author": "Kyle Simpson",
-    "authorUrl": "http://getify.me",
-    "level": "Advanced",
-    "info": "Learn and deeply know *all* of JS (not just the 'good parts')",
-    "url": "http://YouDontKnowJS.com",
-    "cover": "img/ydkjs.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "ECMAscript language reference",
-    "author": "various authors",
-    "authorUrl": "http://www.ecma-international.org",
-    "level": "Advanced",
-    "info": "Learn all about the Javacript language specifications with this official ECMA-262 bible.",
-    "url": "http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf",
-    "cover": "img/ecma-262.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Human Javascript",
-    "author": "Henrik Joreteg",
-    "authorUrl": "http://www.andyet.com",
-    "level": "Intermediate",
-    "info": "Practical patterns for simple but powerful javascript apps. No magic frameworks. No monolithic toolkits. You're going to work with proper, real-life javascript in a way you'll understand, and with explanations that help you learn how to make great choices as you build your apps.",
-    "url": "http://read.humanjavascript.com/ch01-introduction.html",
-    "cover": "img/human-javascript.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Understanding ECMAScript 6",
-    "author": "Nicholas C. Zakas",
-    "authorUrl": "http://www.nczonline.net",
-    "level": "Intermediate",
-    "info": "ECMAScript 6 is coming, are you ready? There's a lot of new concepts to learn and understand. Get a headstart with this book!",
-    "url": "https://leanpub.com/understandinges6/read/",
-    "cover": "img/understandinges6.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Programming JavaScript Applications",
-    "author": "Eric Elliott",
-    "authorUrl": "http://ericelliottjs.com/",
-    "level": "Intermediate",
-    "info": "Take advantage of JavaScript’s power to build robust web-scale or enterprise applications that are easy to extend and maintain.",
-    "url": "http://chimera.labs.oreilly.com/books/1234000000262",
-    "cover": "img/Programming-JavaScript-Applications.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Javascript Challenges",
-    "author": "Tomas Corral",
-    "authorUrl": "http://javascriptnews.overblog.com/",
-    "level": "Intermediate",
-    "info": "A book to challenge your knowledge about the most obscure parts of Javascript. Learn with us and don't be afraid again of Javascript.",
-    "url": "https://github.com/tcorral/javascript-challenges-book",
-    "cover": "img/javascript_challenges.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Angular Succinctly",
-    "author": "Frederik Dietz",
-    "authorUrl": "http://twitter.com/fdietz",
-    "level": "Beginner",
-    "info": "Whether you are a novice looking to understand Angular.js or an expert seeking a reference guide, AngularJS Succinctly is indispensable!",
-    "url": "https://www.syncfusion.com/resources/techportal/ebooks/angularjs",
-    "cover": "img/cover_angularjssuccinctly.jpg",
-    "tags": [
-      "angularjs",
-      "frontend"
-    ]
-  }, {
-    "title": "The offline cookbook",
-    "author": "Jake Archibald",
-    "authorUrl": "http://jakearchibald.com/",
-    "level": "Intermediate",
-    "info": "Excellent overview and recipes using the current offline browsers capabilities",
-    "url": "http://jakearchibald.com/2014/offline-cookbook/",
-    "cover": "img/offlinecookbook.jpg",
-    "tags": [
-      "mobile",
-      "html5",
-      "frontend"
-    ]
-  }, {
-    "title": "You Don't Know JS: Up & Going",
-    "author": "Kyle Simpson",
-    "authorUrl": "https://twitter.com/getify",
-    "level": "Beginner",
-    "info": "It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years. With the 'You Don’t Know JS' book series, you’ll get a more complete understanding of JavaScript, including trickier parts of the language that many experienced...",
-    "url": "http://shop.oreilly.com/product/0636920039303.do",
-    "cover": "img/YDKJS-UpAndGoing.jpg",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "Felix's Node.js Guide",
-    "author": "Felix Geisendörfer",
-    "authorUrl": "http://twitter.com/felixge",
-    "level": "Intermediate",
-    "info": "Node.js Beginner Guide and Style Guide. The guide is a work in progress by Felix Geisendörfer, an early Node.js core contributor.",
-    "url": "http://nodeguide.com/",
-    "cover": "img/cover_felix_nodejs_guide.png",
-    "tags": [
-      "nodejs",
-      "core",
-      "backend"
-    ]
-  }, {
-    "title": "Exploring ES6",
-    "author": "Axel Rauschmayer",
-    "authorUrl": "http://www.2ality.com/",
-    "level": "Intermediate",
-    "info": "Upgrade to the next version of JavaScript",
-    "url": "http://exploringjs.com/es6/",
-    "cover": "img/cover_exploringes6.png",
-    "tags": [
-      "core"
-    ]
-  }, {
-    "title": "SurviveJS - Webpack",
-    "author": "Juho Vepsäläinen",
-    "authorUrl": "https://twitter.com/bebraw",
-    "level": "Beginner",
-    "info": "Learn to understand Webpack, the bundler.",
-    "url": "http://survivejs.com/webpack/introduction",
-    "cover": "img/cover_survivejs_webpack.png",
-    "tags": [
-      "webpack",
-      "frontend"
-    ]
-  }, {
-  "title": "SurviveJS - React",
-  "author": "Juho Vepsäläinen",
-  "authorUrl": "https://twitter.com/bebraw",
-  "level": "Beginner",
-  "info": "Learn how to build a Kanban application using React.",
-  "url": "http://survivejs.com/react/introduction",
-  "cover": "img/cover_survivejs_react.png",
-  "tags": [
-    "react",
-    "frontend"
-  ]
-}, {
-    "title": "Mostly adequate guide to functional programming",
-    "author": "Brian Lonsdorf (DrBoolean)",
-    "authorUrl": "https://twitter.com/drboolean",
-    "level": "Intermediate",
-    "info": "Pure Happiness with Pure Functions",
-    "url": "https://github.com/DrBoolean/mostly-adequate-guide",
-    "cover": "img/cover_mostly-adequate-guide.jpg",
-    "tags": [
-      "fp"
-    ]
-  }, {
-    "title": "The introduction to Reactive Programming you've been missing",
-    "author": "André Staltz (andrestaltz)",
-    "authorUrl": "https://twitter.com/andrestaltz",
-    "level": "Intermediate",
-    "info": "So you're curious in learning this new thing called Reactive Programming, particularly its variant comprising of Rx, Bacon.js, RAC, and others.",
-    "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
-    "cover": "img/rxintro.jpg",
-    "tags": [
-      "fp"
-    ]
-  }, {
-    "title": "Book on Building Front-End Web Apps with Plain JavaScript",
-    "author": "Gerd Wagner",
-    "authorUrl": "https://plus.google.com/104237216582874489152",
-    "level": "Intermediate",
-    "info": "This book shows how to build front-end web applications with plain JavaScript, not using any (third-party) framework or library.",
-    "url": "http://web-engineering.info/JsFrontendApp-Book",
-    "cover": "img/buildingfrontend.jpg",
-    "tags": [
-      "frontend"
-    ]
-  }, {
-    "title": "AngularJS Directives in Traction",
-    "author": "Amit Gharat",
-    "authorUrl": "https://amitgharat.wordpress.com/",
-    "level": "Intermediate",
-    "info": "This eBook helps you understand how built-in directives work and teaches you to build custom directives on your own.",
-    "url": "http://codef0rmer.gitbooks.io/angularjs-directives-in-traction-the-book/",
-    "cover": "img/angular-directives-in-traction.jpg",
-    "tags": [
-      "angularjs",
-      "angular directives",
-      "frontend"
-    ]
-  }, {
-    "title": "Thinking in Javascript",
-    "author": "Aravind Shenoy",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript2",
-    "level": "Beginner",
-    "info": "[registration] Get started with JavaScript with this free eBook and learn one of the most important languages in web development today. With helpful tips and code examples, discover how you can create websites with impressive and dynamic functionality. Explore JavaScript’s in-built features and find out how to customize them in this accessible and free guide.",
-    "url": "https://www.packtpub.com/packt/free-ebook/thinking-in-javascript2",
-    "cover": "img/thinking-javascript.jpg",
-    "tags": [
-      "jquery",
-      "html",
-      "frontend"
-    ]
-  }, {
-    "title": "What You Need to Know about JavaScript",
-    "author": "Gabriel Cánepa",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript2",
-    "level": "Beginner",
-    "info": "[registration] Discover everything a beginner needs to know about the world of JavaScript with this free eBook. From the absolute basics of JS syntax to combining ECMAScript 6 and Visual Studio Code this primer is the perfect resource for a JavaScript Master-in-the-Making!",
-    "url": "https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-javascript2",
-    "cover": "img/need-to-know-javascript.jpg",
-    "tags": [
-      "html",
-      "frontend"
-    ]
-  }, {
-    "title": "Exploring ES2016 and ES2017",
-    "author": "Dr. Axel Rauschmayer",
-    "authorUrl": "http://www.2ality.com/",
-    "level": "Advanced",
-    "info": "“Exploring ES2016 and ES2017” is a living book. Much content is still to come! Buy it to stay up to date on what is in ECMAScript 2016 and ECMAScript 2017",
-    "url": "http://exploringjs.com/es2016-es2017.html",
-    "cover": "img/exploring-es2016-es2017.jpg",
-    "tags": [
-      "es2016",
-      "es2017",
-      "core"
-    ]
-  }, {
-    "title": "Practical ES6 [modular javascript]",
-    "author": "Nicolás Bevacqua",
-    "authorUrl": "http://www.ponyfoo.com/",
-    "level": "Intermediate",
-    "info": "Ideal for professional software developers with a basic understanding of JavaScript, this practical book shows you how to build small, interconnected ES6 JavaScript modules that emphasize reusability. You’ll learn how to face a project with a modular mindset, and how to organize your applications into simple pieces that work well in isolation and can be combined to create a large, robust application.",
-    "url": "https://ponyfoo.com/books/practical-es6",
-    "cover": "img/practical-es6.jpg",
-    "tags": [
-      "es6",
-      "core"
-    ]
-  }, {
-    "title": "Designing Scalable JavaScript Applications",
-    "author": "Emmit Scott",
-    "authorUrl": "https://www.manning.com/books/designing-scalable-javascript-applications",
-    "level": "Intermediate",
-    "info": "[registration] Designing Scalable JavaScript Applications helps you start thinking about which tools and frameworks you’ll use and which design patterns you’ll implement. This book brings together excerpts from four different Manning titles selected by Emmit Scott.",
-    "url": "https://www.manning.com/books/designing-scalable-javascript-applications",
-    "cover": "img/designing-scalable-javascript.jpg",
-    "tags": [
-      "frameworks",
-      "frontend"
-    ]
-  }, {
-    "title": "Using the Web to Build the IoT",
-    "author": "Dominique D. Guinard and Vlad Trifa",
-    "authorUrl": "https://www.manning.com/books/using-the-web-to-build-the-iot",
-    "level": "Intermediate",
-    "info": "[registration] Using the Web to Build the IoT is a collection of six hand-picked chapters that introduce the key technologies and concepts for building the application layer of the IoT.",
-    "url": "https://www.manning.com/books/using-the-web-to-build-the-iot",
-    "cover": "img/iot-javascript.jpg",
-    "tags": [
-      "iot"
-    ]
-  }, {
-    "title": "AngularJS essentials",
-    "author": "Rodrigo Blanas",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
-    "level": "Intermediate",
-    "info": "[registration] Discover the best practices of the AngularJS framework and its most important concepts such as AngularJS directives, expressions, filters, and modules. This free eBook guides you through the steps of building your very own web application with AngularJS.",
-    "url": "https://www.packtpub.com/packt/free-ebook/angularjs-essentials",
-    "cover": "img/angularjs-essentials.jpg",
-    "tags": [
-      "angularjs",
-      "frontend"
-    ]
-  }, {
-    "title": "HTML5 Data Visualization",
-    "author": "Ben Fhala",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
-    "level": "Intermediate",
-    "info": "[registration] Get a complete grounding in the exciting visual world of Canvas and HTML5 using this recipe-packed cookbook. Learn to create charts and graphs, draw complex shapes, add interactivity, work with Google maps, and much more.",
-    "url": "https://www.packtpub.com/packt/free-ebook/html5-data-visualization-cookbook",
-    "cover": "img/html5-dataviz.jpg",
-    "tags": [
-      "html5",
-      "dataviz"
-    ]
-  }, {
-    "title": "Instant MongoDB Starter Guide",
-    "author": "Amol Nayak",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
-    "level": "Intermediate",
-    "info": "[registration] This free MongoDB eBook is designed to get you working with MongoDB as quickly as possible. Starting with installation and setup, we quickly show you how to start importing your data into the database. Learn about CRUD operations in MongoDB, its Map Reduce support, schema design, performance tuning operations, and more.",
-    "url": "https://www.packtpub.com/packt/free-ebook/mongoDB-starter-guide",
-    "cover": "img/instant-mongodb.jpg",
-    "tags": [
-      "mongodb",
-      "database",
-      "backend"
-    ]
-  }, {
-    "title": "Mastering Javascript high performance",
-    "author": "Chad R. Adams",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
-    "level": "Intermediate",
-    "info": "[registration] Studying JavaScript performance in depth will make you capable of tackling the complex and important tasks required to solve performance issues. With this full-length free eBook, discover how to optimize your JavaScript for both mobile and web applications.",
-    "url": "https://www.packtpub.com/packt/free-ebook/javascript-high-performance",
-    "cover": "img/js-high-performance.jpg",
-    "tags": [
-      "backend",
-      "frontend",
-      "performance"
-    ]
-    }, {
-    "title": "Thinking in HTML",
-    "author": "Aravind Shenoy",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/thinking-in-html2",
-    "level": "Beginner",
-    "info": "[registration] Learn to write intutive HTML and build your sites on solid foundations",
-    "url": "https://www.packtpub.com/packt/free-ebook/thinking-in-html2",
-    "cover": "img/thinking-html.jpg",
-    "tags": [
-      "html",
-      "frontend"
-    ]
-    }, {
-    "title": "What You Need To Know About Node.js",
-    "author": "Bruno Joseph Dmello",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
-    "level": "Beginner",
-    "info": "[registration] Dive into fundamentals of Node.js",
-    "url": "https://www.packtpub.com/packt/free-ebook/what-you-need-to-know-about-nodejs",
-    "cover": "img/What-you-need-to-know-about-Nodejs.jpg",
-    "tags": [
-      "node.js",
-      "frontend"
-    ]
-    }, {
-    "title": "Object-Oriented JavaScript - Second Edition",
-    "author": "Stoyan Stefanov & Kumar Chetan Sharma",
-    "authorUrl": "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
-    "level": "Beginner",
-    "info": "[registration] Learn everything you need to know about OOJS in this comprehensive guide",
-    "url": "https://www.packtpub.com/packt/free-ebook/object-oriented-javascript-pdf-ebook",
-    "cover": "img/Object-Oriented-JavaScript-Second-Edition.jpg",
-    "tags": [
-      "html",
-      "frontend"
-    ]
-  }, {
-    "title": "The Road to learn React",
-    "author": "Robin Wieruch",
-    "authorUrl": "https://twitter.com/rwieruch",
-    "level": "Beginner",
-    "info": "[registration] Your journey to master plain React with practical experiences",
-    "url": "https://leanpub.com/the-road-to-learn-react",
-    "cover": "img/hero.png",
-    "tags": [
-      "reactjs",
-      "frontend"
-    ]
-  }, {
-    "title": "JavaScript, ¡Inspírate!",
-    "author": "Ulises Gascón González",
-    "authorUrl": "https://twitter.com/kom_256",
-    "level": "Beginner",
-    "info": "[ES] Un libro de programación sencillo y divertido que nos muestra como programar en JavaScript, desde pseudocódigo hasta las peticiones AJAX.",
-    "url": "https://leanpub.com/javascript-inspirate",
-    "cover": "img/inspirate.png",
-    "tags": [
-      "javascript",
-      "frontend"
-    ]
-  }, {
-    "title": "The JavaScript Way",
-    "author": "Baptiste Pesquet",
-    "authorUrl": "http://bpesquet.com",
-    "level": "Beginner",
-    "info": "A modern introduction to an essential language: beginner-friendly yet comprehensive, standards-aligned, hands-on and easy to follow.",
-    "url": "https://github.com/bpesquet/thejsway",
-    "cover": "img/cover_thejsway.png",
-    "tags": [
-      "core",
-      "es6",
-      "es2015"
-    ]
-  }]
 }
