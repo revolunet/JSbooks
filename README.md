@@ -1,3 +1,5 @@
+<p align="center"><img src="img/1024x341.png" alt="JSbooks" height="300px"></p>
+
 # JSbooks
 
 JSbooks is a showcase of the bests free ebooks about Javascript.
