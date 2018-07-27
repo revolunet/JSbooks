@@ -872,6 +872,19 @@
             "url": "https://github.com/bpesquet/thejsway",
             "cover": "img/cover_thejsway.png",
             "tags": ["core", "es6", "es2015"]
-        }
+        },
+        {
+            "title": "Learning ECMAScript 6",
+            "author": "Narayan Prusty",
+            "authorUrl":
+                "https://www.packtpub.com/free-ebook/learning-ecmascript",
+            "level": "Beginner",
+            "info":
+                "[registration] Rethink the way you develop with JavaScript by learning the ECMA standardized scripting language that lies at its foundations – ECMAScript 6!",
+            "url":
+                "https://www.packtpub.com/free-ebook/learning-ecmascript",
+            "cover": "img/Learning-ECMAScript-6.jpg",
+            "tags": ["javascript", "ecmascript6"]
+        }        
     ]
 }
