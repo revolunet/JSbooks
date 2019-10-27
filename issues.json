@@ -31,6 +31,16 @@
       "tags": ["core"]
     },
     {
+      "title": "React Design Patterns and Best Practices",
+      "author": "Michele Bertoli",
+      "authorUrl": "https://twitter.com/michelebertoli",
+      "level": "Advanced",
+      "info": "Build modular React web apps that are scalable, maintainable and powerful using design patterns and insightful practices.",
+      "url": "https://anonfiles.com/R1Rfpe93n3/9781786464538-REACT_DESIGN_PATTERNS_AND_BEST_PRACTICES_pdf",
+      "cover": "img/cover_react_design.jpg",
+      "tags": ["core"]
+    },
+    {
       "title": "Eloquent Javascript",
       "author": "Marijn Haverbeke",
       "authorUrl": "http://eloquentjavascript.net",
